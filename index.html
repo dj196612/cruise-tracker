@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Cruise Price Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Inter:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="styles.css?v=20261018-beauty1">
+</head>
+<body>
+<header class="top">
+  <div class="top-inner">
+    <div class="brand">
+      <div class="eyebrow">
+        <svg class="mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17c2 1.6 4 1.6 6 0s4-1.6 6 0 4 1.6 6 0M5 13l1.5-5h11L19 13M9 8V5h6v3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Australian departures
+      </div>
+      <h1>Cruise Price Tracker</h1>
+      <p class="sub">Princess · Royal Caribbean · Celebrity · Norwegian · Carnival <span class="dot">•</span> Sydney · Brisbane · Melbourne</p>
+    </div>
+    <div class="headline">
+      <span id="resultCount">0 cruises</span>
+      <small id="updated">No data loaded</small>
+    </div>
+  </div>
+  <svg class="wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 34c120 18 240 22 360 10S600 6 720 10s240 30 360 34 240-6 360-20v36H0z"/></svg>
+</header>
+
+<main>
+  <section class="summary" id="summary" aria-live="polite"></section>
+
+  <section class="filters" aria-label="Cruise filters">
+    <div class="filter-group group-who">
+      <div class="group-title">Lines &amp; ports</div>
+      <div class="filter line-filter">
+        <label>Cruise line</label>
+        <div id="cruiseLines" class="checks">
+          <label class="chip" data-line="princess"><input type="checkbox" value="Princess" checked><i></i> Princess</label>
+          <label class="chip" data-line="royal"><input type="checkbox" value="Royal Caribbean" checked><i></i> Royal Caribbean</label>
+          <label class="chip" data-line="celebrity"><input type="checkbox" value="Celebrity Cruises" checked><i></i> Celebrity</label>
+          <label class="chip" data-line="ncl"><input type="checkbox" value="Norwegian Cruise Line" checked><i></i> NCL</label>
+          <label class="chip" data-line="carnival"><input type="checkbox" value="Carnival Cruise Line" checked><i></i> Carnival</label>
+        </div>
+      </div>
+      <div class="filter port-filter">
+        <label>Departure port</label>
+        <div id="ports" class="checks">
+          <label class="chip"><input type="checkbox" value="Sydney" checked><i></i> Sydney</label>
+          <label class="chip"><input type="checkbox" value="Brisbane" checked><i></i> Brisbane</label>
+          <label class="chip"><input type="checkbox" value="Melbourne" checked><i></i> Melbourne</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="filter-group group-cabin">
+      <div class="group-title">Guests &amp; cabin</div>
+      <div class="filter">
+        <label for="passengers">Passengers</label>
+        <select id="passengers">
+          <option value="1" selected>1 person</option>
+          <option value="2">2 people</option>
+        </select>
+      </div>
+      <div class="filter">
+        <label for="cabin">Cabin</label>
+        <select id="cabin">
+          <option value="interior" selected>Interior</option>
+          <option value="oceanview">Oceanview</option>
+          <option value="balcony">Balcony</option>
+          <option value="mini_suite">Mini-Suite</option>
+          <option value="suite">Suite</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="filter-group group-when">
+      <div class="group-title">Dates &amp; length</div>
+      <div class="filter">
+        <label for="dateFrom">Depart from</label>
+        <input id="dateFrom" type="date">
+      </div>
+      <div class="filter">
+        <label for="dateTo">Depart to</label>
+        <input id="dateTo" type="date">
+      </div>
+      <div class="filter">
+        <label for="minNights">Min nights</label>
+        <input id="minNights" type="number" min="1" value="1">
+      </div>
+      <div class="filter">
+        <label for="maxNights">Max nights</label>
+        <input id="maxNights" type="number" min="1" placeholder="Any">
+      </div>
+    </div>
+
+    <div class="filter-group group-refine">
+      <div class="group-title">Refine</div>
+      <div class="filter">
+        <label for="sort">Sort by</label>
+        <select id="sort">
+          <option value="dayprice">Best price per night</option>
+          <option value="price">Lowest fare</option>
+          <option value="date">Departure date</option>
+          <option value="lengthDesc">Longest cruise</option>
+          <option value="lengthAsc">Shortest cruise</option>
+          <option value="solo">Lowest solo premium</option>
+        </select>
+      </div>
+      <div class="filter toggles">
+        <label class="switch"><input id="available" type="checkbox"><i></i> Available only</label>
+        <label class="switch disabled" title="Price-history filtering will be enabled when historical snapshots are added."><input id="dropped" type="checkbox" disabled><i></i> Price drops only</label>
+      </div>
+    </div>
+
+    <div class="filter-foot">
+      <button id="reset" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7M4 4v4h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Reset filters
+      </button>
+    </div>
+  </section>
+
+  <section id="results" class="results" aria-live="polite"></section>
+</main>
+
+<footer class="foot">Fares in AUD per person unless shown as a total. Always confirm the final price on the cruise line's checkout.</footer>
+
+<dialog id="historyDialog">
+  <button class="close" id="closeHistory" type="button" aria-label="Close">×</button>
+  <h2 id="historyTitle">Price history</h2>
+  <div id="historyBody"></div>
+</dialog>
+
+<script src="data/data.js?v=1"></script>
+<script src="app.js?v=20261018-beauty1"></script>
+</body>
+</html>
