@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T06:12:40.420574+11:00",
+  "generated_at": "2026-10-19T12:07:43.109154+11:00",
   "currency": "AUD",
   "source": "Combined live cruise tracker data",
   "cruises": [
@@ -22,32 +22,32 @@
       },
       "prices": {
         "one_guest": {
-          "interior": 1827.58,
-          "oceanview": 2127.58,
-          "balcony": 3127.58,
+          "interior": 2362.58,
+          "oceanview": null,
+          "balcony": 3167.58,
           "mini_suite": null,
-          "suite": 5927.58
+          "suite": 6028.58
         },
         "two_guests": {
           "interior": {
-            "pp": 1048.58,
-            "total": 2097.16
+            "pp": null,
+            "total": null
           },
           "oceanview": {
-            "pp": 1198.58,
-            "total": 2397.16
+            "pp": null,
+            "total": null
           },
           "balcony": {
-            "pp": 1698.58,
-            "total": 3397.16
+            "pp": 1718.58,
+            "total": 3437.16
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 2998.58,
-            "total": 5997.16
+            "pp": 3098.58,
+            "total": 6197.16
           }
         }
       }
@@ -164,37 +164,37 @@
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-south-pacific-cruise-from-sydney-on-anthem-AN09K157?sailDate=2026-11-02&packageCode=AN09K157&groupId=AN09SYD-3268217720&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-south-pacific-cruise-from-sydney-on-anthem-AN09K157?sailDate=2026-11-02&packageCode=AN09K157&groupId=AN09SYD-3268217720&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-3268217720&sailDate=2026-11-02&shipCode=AN&packageCode=AN09K157&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
+        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-3268217720&sailDate=2026-11-02&shipCode=AN&packageCode=AN09K157&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
+        "2": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-south-pacific-cruise-from-sydney-on-anthem-AN09K157?sailDate=2026-11-02&packageCode=AN09K157&groupId=AN09SYD-3268217720&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": null,
-          "oceanview": null,
-          "balcony": null,
+          "interior": 2873.87,
+          "oceanview": 2934.87,
+          "balcony": 3094.87,
           "mini_suite": null,
-          "suite": null
+          "suite": 7453.87
         },
         "two_guests": {
           "interior": {
-            "pp": 1578.37,
-            "total": 3156.74
+            "pp": null,
+            "total": null
           },
           "oceanview": {
-            "pp": 1598.37,
-            "total": 3196.74
+            "pp": null,
+            "total": null
           },
           "balcony": {
-            "pp": 1688.87,
-            "total": 3377.74
+            "pp": null,
+            "total": null
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 3868.37,
-            "total": 7736.74
+            "pp": null,
+            "total": null
           }
         }
       }
@@ -549,37 +549,37 @@
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K176?sailDate=2026-11-11&packageCode=AN09K176&groupId=AN09SYD-998728121&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K176?sailDate=2026-11-11&packageCode=AN09K176&groupId=AN09SYD-998728121&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-998728121&sailDate=2026-11-11&shipCode=AN&packageCode=AN09K158&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS"
+        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-998728121&sailDate=2026-11-11&shipCode=AN&packageCode=AN09K158&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS",
+        "2": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K176?sailDate=2026-11-11&packageCode=AN09K176&groupId=AN09SYD-998728121&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": null,
-          "oceanview": null,
-          "balcony": null,
+          "interior": 3404.83,
+          "oceanview": 4205.83,
+          "balcony": 4745.83,
           "mini_suite": null,
-          "suite": null
+          "suite": 13224.83
         },
         "two_guests": {
           "interior": {
-            "pp": 1898.33,
-            "total": 3796.66
+            "pp": null,
+            "total": null
           },
           "oceanview": {
-            "pp": 2148.33,
-            "total": 4296.66
+            "pp": null,
+            "total": null
           },
           "balcony": {
-            "pp": 2568.83,
-            "total": 5137.66
+            "pp": null,
+            "total": null
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 6808.33,
-            "total": 13616.66
+            "pp": null,
+            "total": null
           }
         }
       }
@@ -603,24 +603,24 @@
       },
       "prices": {
         "one_guest": {
-          "interior": 2486.77,
-          "oceanview": 2886.77,
-          "balcony": 2968.77,
+          "interior": 2785.77,
+          "oceanview": 3206.77,
+          "balcony": 3006.77,
           "mini_suite": null,
           "suite": 6806.77
         },
         "two_guests": {
           "interior": {
-            "pp": 1198.77,
-            "total": 2397.54
+            "pp": 1348.27,
+            "total": 2696.54
           },
           "oceanview": {
-            "pp": 1558.77,
-            "total": 3117.54
+            "pp": 1718.77,
+            "total": 3437.54
           },
           "balcony": {
-            "pp": 1599.77,
-            "total": 3199.54
+            "pp": 1618.77,
+            "total": 3237.54
           },
           "mini_suite": {
             "pp": null,
@@ -843,32 +843,32 @@
       },
       "prices": {
         "one_guest": {
-          "interior": 1834.14,
-          "oceanview": 2013.14,
-          "balcony": 2193.14,
+          "interior": 1573.14,
+          "oceanview": 1893.14,
+          "balcony": 2394.14,
           "mini_suite": null,
-          "suite": 6914.14
+          "suite": 3433.14
         },
         "two_guests": {
           "interior": {
-            "pp": 948.64,
-            "total": 1897.28
+            "pp": 848.64,
+            "total": 1697.28
           },
           "oceanview": {
-            "pp": 1078.14,
-            "total": 2156.28
+            "pp": 1018.14,
+            "total": 2036.28
           },
           "balcony": {
-            "pp": 1078.64,
-            "total": 2157.28
+            "pp": 1178.64,
+            "total": 2357.28
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 3528.64,
-            "total": 7057.28
+            "pp": 1788.14,
+            "total": 3576.28
           }
         }
       }
@@ -892,16 +892,16 @@
       },
       "prices": {
         "one_guest": {
-          "interior": 2664.33,
+          "interior": 2864.33,
           "oceanview": 2904.33,
-          "balcony": 2905.33,
+          "balcony": 2985.33,
           "mini_suite": null,
           "suite": 7705.33
         },
         "two_guests": {
           "interior": {
-            "pp": 1418.33,
-            "total": 2836.66
+            "pp": 1518.33,
+            "total": 3036.66
           },
           "oceanview": {
             "pp": 1348.83,
@@ -1128,37 +1128,37 @@
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-south-pacific-cruise-from-sydney-on-anthem-AN09K157?sailDate=2026-11-02&packageCode=AN09K157&groupId=AN09SYD-3268217720&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-south-pacific-cruise-from-sydney-on-anthem-AN09K157?sailDate=2026-11-02&packageCode=AN09K157&groupId=AN09SYD-3268217720&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-3268217720&sailDate=2026-11-23&shipCode=AN&packageCode=AN09K159&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
+        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-3268217720&sailDate=2026-11-23&shipCode=AN&packageCode=AN09K159&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
+        "2": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-south-pacific-cruise-from-sydney-on-anthem-AN09K157?sailDate=2026-11-02&packageCode=AN09K157&groupId=AN09SYD-3268217720&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": null,
-          "oceanview": null,
-          "balcony": null,
+          "interior": 3002.11,
+          "oceanview": 3042.11,
+          "balcony": 3282.11,
           "mini_suite": null,
-          "suite": null
+          "suite": 6803.11
         },
         "two_guests": {
           "interior": {
-            "pp": 1598.61,
-            "total": 3197.22
+            "pp": null,
+            "total": null
           },
           "oceanview": {
-            "pp": 1648.11,
-            "total": 3296.22
+            "pp": null,
+            "total": null
           },
           "balcony": {
-            "pp": 1698.61,
-            "total": 3397.22
+            "pp": null,
+            "total": null
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 3468.61,
-            "total": 6937.22
+            "pp": null,
+            "total": null
           }
         }
       }
@@ -1665,7 +1665,7 @@
         "one_guest": {
           "interior": 3533.11,
           "oceanview": 3573.11,
-          "balcony": 3893.11,
+          "balcony": 4053.11,
           "mini_suite": null,
           "suite": 8472.11
         },
@@ -3148,37 +3148,37 @@
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K176?sailDate=2026-11-11&packageCode=AN09K176&groupId=AN09SYD-998728121&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K176?sailDate=2026-11-11&packageCode=AN09K176&groupId=AN09SYD-998728121&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-998728121&sailDate=2026-12-28&shipCode=AN&packageCode=AN09K162&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS"
+        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-998728121&sailDate=2026-12-28&shipCode=AN&packageCode=AN09K162&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS",
+        "2": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K176?sailDate=2026-11-11&packageCode=AN09K176&groupId=AN09SYD-998728121&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": null,
+          "interior": 7977.41,
           "oceanview": null,
-          "balcony": null,
+          "balcony": 8436.41,
           "mini_suite": null,
-          "suite": null
+          "suite": 18156.41
         },
         "two_guests": {
           "interior": {
-            "pp": 3698.41,
-            "total": 7396.82
+            "pp": null,
+            "total": null
           },
           "oceanview": {
-            "pp": 4097.91,
-            "total": 8195.82
+            "pp": null,
+            "total": null
           },
           "balcony": {
-            "pp": 4198.41,
-            "total": 8396.82
+            "pp": null,
+            "total": null
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 9267.91,
-            "total": 18535.82
+            "pp": null,
+            "total": null
           }
         }
       }
@@ -3204,7 +3204,7 @@
         "one_guest": {
           "interior": 6040.25,
           "oceanview": 6220.25,
-          "balcony": 6360.25,
+          "balcony": 6440.25,
           "mini_suite": null,
           "suite": 12240.25
         },
@@ -3451,8 +3451,8 @@
         },
         "two_guests": {
           "interior": {
-            "pp": 2935.05,
-            "total": 5870.1
+            "pp": 2994.05,
+            "total": 5988.1
           },
           "oceanview": {
             "pp": 3568.05,
@@ -3637,7 +3637,7 @@
         "one_guest": {
           "interior": 1881.94,
           "oceanview": 2251.94,
-          "balcony": 2321.94,
+          "balcony": 2121.94,
           "mini_suite": null,
           "suite": 3561.94
         },
@@ -3727,37 +3727,37 @@
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-south-pacific-cruise-from-sydney-on-anthem-AN09K157?sailDate=2026-11-02&packageCode=AN09K157&groupId=AN09SYD-3268217720&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-south-pacific-cruise-from-sydney-on-anthem-AN09K157?sailDate=2026-11-02&packageCode=AN09K157&groupId=AN09SYD-3268217720&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-3268217720&sailDate=2027-01-06&shipCode=AN&packageCode=AN09K163&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
+        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-3268217720&sailDate=2027-01-06&shipCode=AN&packageCode=AN09K163&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
+        "2": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-south-pacific-cruise-from-sydney-on-anthem-AN09K157?sailDate=2026-11-02&packageCode=AN09K157&groupId=AN09SYD-3268217720&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": null,
-          "oceanview": null,
-          "balcony": null,
+          "interior": 4962.83,
+          "oceanview": 5601.83,
+          "balcony": 5662.83,
           "mini_suite": null,
-          "suite": null
+          "suite": 9101.83
         },
         "two_guests": {
           "interior": {
-            "pp": 2378.33,
-            "total": 4756.66
+            "pp": null,
+            "total": null
           },
           "oceanview": {
-            "pp": 2668.83,
-            "total": 5337.66
+            "pp": null,
+            "total": null
           },
           "balcony": {
-            "pp": 2778.33,
-            "total": 5556.66
+            "pp": null,
+            "total": null
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 4558.83,
-            "total": 9117.66
+            "pp": null,
+            "total": null
           }
         }
       }
@@ -4162,37 +4162,37 @@
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-south-pacific-cruise-from-sydney-on-anthem-AN09K157?sailDate=2026-11-02&packageCode=AN09K157&groupId=AN09SYD-3268217720&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-south-pacific-cruise-from-sydney-on-anthem-AN09K157?sailDate=2026-11-02&packageCode=AN09K157&groupId=AN09SYD-3268217720&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-3268217720&sailDate=2027-01-15&shipCode=AN&packageCode=AN09K164&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
+        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-3268217720&sailDate=2027-01-15&shipCode=AN&packageCode=AN09K164&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
+        "2": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-south-pacific-cruise-from-sydney-on-anthem-AN09K157?sailDate=2026-11-02&packageCode=AN09K157&groupId=AN09SYD-3268217720&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": null,
-          "oceanview": null,
-          "balcony": null,
+          "interior": 4428.77,
+          "oceanview": 4869.77,
+          "balcony": 4989.77,
           "mini_suite": null,
-          "suite": null
+          "suite": 8128.77
         },
         "two_guests": {
           "interior": {
-            "pp": 2148.27,
-            "total": 4296.54
+            "pp": null,
+            "total": null
           },
           "oceanview": {
-            "pp": 2348.27,
-            "total": 4696.54
+            "pp": null,
+            "total": null
           },
           "balcony": {
-            "pp": 2448.77,
-            "total": 4897.54
+            "pp": null,
+            "total": null
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 4048.77,
-            "total": 8097.54
+            "pp": null,
+            "total": null
           }
         }
       }
@@ -4760,8 +4760,8 @@
             "total": 3597.22
           },
           "balcony": {
-            "pp": 2088.61,
-            "total": 4177.22
+            "pp": 1849.11,
+            "total": 3698.22
           },
           "mini_suite": {
             "pp": null,
@@ -4939,7 +4939,7 @@
         "one_guest": {
           "interior": 2648.18,
           "oceanview": 2788.18,
-          "balcony": 3028.18,
+          "balcony": 2969.18,
           "mini_suite": null,
           "suite": 5708.18
         },
@@ -5512,37 +5512,37 @@
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K165?sailDate=2027-02-12&packageCode=AN09K165&groupId=AN09SYD-737192014&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K165?sailDate=2027-02-12&packageCode=AN09K165&groupId=AN09SYD-737192014&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-737192014&sailDate=2027-02-12&shipCode=AN&packageCode=AN09K165&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS"
+        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-737192014&sailDate=2027-02-12&shipCode=AN&packageCode=AN09K165&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS",
+        "2": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K165?sailDate=2027-02-12&packageCode=AN09K165&groupId=AN09SYD-737192014&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": null,
-          "oceanview": null,
-          "balcony": null,
+          "interior": 4232.5,
+          "oceanview": 4632.5,
+          "balcony": 5112.5,
           "mini_suite": null,
-          "suite": null
+          "suite": 13291.5
         },
         "two_guests": {
           "interior": {
-            "pp": 2098.0,
-            "total": 4196.0
+            "pp": null,
+            "total": null
           },
           "oceanview": {
-            "pp": 2298.0,
-            "total": 4596.0
+            "pp": null,
+            "total": null
           },
           "balcony": {
-            "pp": 2398.5,
-            "total": 4797.0
+            "pp": null,
+            "total": null
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 6758.0,
-            "total": 13516.0
+            "pp": null,
+            "total": null
           }
         }
       }
@@ -6475,37 +6475,37 @@
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/4-night-hobart-getaway-from-sydney-on-anthem-AN04K056?sailDate=2027-03-01&packageCode=AN04K056&groupId=AN04SYD-1808717509&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/itinerary/4-night-hobart-getaway-from-sydney-on-anthem-AN04K056?sailDate=2027-03-01&packageCode=AN04K056&groupId=AN04SYD-1808717509&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN04SYD-1808717509&sailDate=2027-03-01&shipCode=AN&packageCode=AN04K056&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS"
+        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN04SYD-1808717509&sailDate=2027-03-01&shipCode=AN&packageCode=AN04K056&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS",
+        "2": "https://www.royalcaribbean.com/aus/en/itinerary/4-night-hobart-getaway-from-sydney-on-anthem-AN04K056?sailDate=2027-03-01&packageCode=AN04K056&groupId=AN04SYD-1808717509&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": null,
-          "oceanview": null,
-          "balcony": null,
+          "interior": 2017.36,
+          "oceanview": 3222.36,
+          "balcony": 3282.36,
           "mini_suite": null,
-          "suite": null
+          "suite": 5822.36
         },
         "two_guests": {
           "interior": {
-            "pp": 1348.36,
-            "total": 2696.72
+            "pp": null,
+            "total": null
           },
           "oceanview": {
-            "pp": 1688.86,
-            "total": 3377.72
+            "pp": null,
+            "total": null
           },
           "balcony": {
-            "pp": 1498.36,
-            "total": 2996.72
+            "pp": null,
+            "total": null
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 2988.86,
-            "total": 5977.72
+            "pp": null,
+            "total": null
           }
         }
       }
@@ -6621,37 +6621,37 @@
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-south-pacific-cruise-from-sydney-on-anthem-AN09K157?sailDate=2026-11-02&packageCode=AN09K157&groupId=AN09SYD-3268217720&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-south-pacific-cruise-from-sydney-on-anthem-AN09K157?sailDate=2026-11-02&packageCode=AN09K157&groupId=AN09SYD-3268217720&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-3268217720&sailDate=2027-03-05&shipCode=AN&packageCode=AN09K166&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
+        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-3268217720&sailDate=2027-03-05&shipCode=AN&packageCode=AN09K166&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
+        "2": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-south-pacific-cruise-from-sydney-on-anthem-AN09K157?sailDate=2026-11-02&packageCode=AN09K157&groupId=AN09SYD-3268217720&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": null,
-          "oceanview": null,
-          "balcony": null,
+          "interior": 3653.02,
+          "oceanview": 3696.02,
+          "balcony": 3741.02,
           "mini_suite": null,
-          "suite": null
+          "suite": 9052.02
         },
         "two_guests": {
           "interior": {
-            "pp": 1688.52,
-            "total": 3377.04
+            "pp": null,
+            "total": null
           },
           "oceanview": {
-            "pp": 1823.52,
-            "total": 3647.04
+            "pp": null,
+            "total": null
           },
           "balcony": {
-            "pp": 1848.02,
-            "total": 3696.04
+            "pp": null,
+            "total": null
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 4223.52,
-            "total": 8447.04
+            "pp": null,
+            "total": null
           }
         }
       }
@@ -7198,37 +7198,37 @@
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-south-pacific-cruise-from-sydney-on-anthem-AN09K157?sailDate=2026-11-02&packageCode=AN09K157&groupId=AN09SYD-3268217720&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-south-pacific-cruise-from-sydney-on-anthem-AN09K157?sailDate=2026-11-02&packageCode=AN09K157&groupId=AN09SYD-3268217720&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-3268217720&sailDate=2027-03-14&shipCode=AN&packageCode=AN09K167&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
+        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-3268217720&sailDate=2027-03-14&shipCode=AN&packageCode=AN09K167&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
+        "2": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-south-pacific-cruise-from-sydney-on-anthem-AN09K157?sailDate=2026-11-02&packageCode=AN09K157&groupId=AN09SYD-3268217720&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": null,
-          "oceanview": null,
-          "balcony": null,
+          "interior": 3620.02,
+          "oceanview": 3730.02,
+          "balcony": 3719.02,
           "mini_suite": null,
-          "suite": null
+          "suite": 8051.02
         },
         "two_guests": {
           "interior": {
-            "pp": 1773.52,
-            "total": 3547.04
+            "pp": null,
+            "total": null
           },
           "oceanview": {
-            "pp": 1823.52,
-            "total": 3647.04
+            "pp": null,
+            "total": null
           },
           "balcony": {
-            "pp": 1848.02,
-            "total": 3696.04
+            "pp": null,
+            "total": null
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 3763.52,
-            "total": 7527.04
+            "pp": null,
+            "total": null
           }
         }
       }
@@ -7254,7 +7254,7 @@
         "one_guest": {
           "interior": 2007.22,
           "oceanview": 2481.22,
-          "balcony": 2488.22,
+          "balcony": 2348.22,
           "mini_suite": null,
           "suite": 4601.22
         },
@@ -7396,7 +7396,7 @@
         "one_guest": {
           "interior": 2654.0,
           "oceanview": null,
-          "balcony": 2854.0,
+          "balcony": 2994.0,
           "mini_suite": 4454.0,
           "suite": null
         },
@@ -7410,8 +7410,8 @@
             "total": null
           },
           "balcony": {
-            "pp": 1455.0,
-            "total": 2910.0
+            "pp": 1525.0,
+            "total": 3050.0
           },
           "mini_suite": {
             "pp": 2255.0,
@@ -7726,37 +7726,37 @@
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/4-night-hobart-getaway-from-sydney-on-anthem-AN04K056?sailDate=2027-03-01&packageCode=AN04K056&groupId=AN04SYD-1808717509&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/itinerary/4-night-hobart-getaway-from-sydney-on-anthem-AN04K056?sailDate=2027-03-01&packageCode=AN04K056&groupId=AN04SYD-1808717509&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN04SYD-1808717509&sailDate=2027-03-23&shipCode=AN&packageCode=AN04K057&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS"
+        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN04SYD-1808717509&sailDate=2027-03-23&shipCode=AN&packageCode=AN04K057&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS",
+        "2": "https://www.royalcaribbean.com/aus/en/itinerary/4-night-hobart-getaway-from-sydney-on-anthem-AN04K056?sailDate=2027-03-01&packageCode=AN04K056&groupId=AN04SYD-1808717509&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": null,
-          "oceanview": null,
-          "balcony": null,
+          "interior": 2821.36,
+          "oceanview": 3121.36,
+          "balcony": 3122.36,
           "mini_suite": null,
-          "suite": null
+          "suite": 5621.36
         },
         "two_guests": {
           "interior": {
-            "pp": 1348.36,
-            "total": 2696.72
+            "pp": null,
+            "total": null
           },
           "oceanview": {
-            "pp": 1638.36,
-            "total": 3276.72
+            "pp": null,
+            "total": null
           },
           "balcony": {
-            "pp": 1498.36,
-            "total": 2996.72
+            "pp": null,
+            "total": null
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 2698.36,
-            "total": 5396.72
+            "pp": null,
+            "total": null
           }
         }
       }
@@ -7775,7 +7775,7 @@
       "fare_basis": "Celebrity search fare, taxes & fees included",
       "url": "https://www.celebritycruises.com/au/itinerary/14-night-fiji-vanuatu-cruise-from-sydney-on-celebrity-EG14K117?sailDate=2027-03-24&packageCode=EG14K117&groupId=EG14SYD-596676643&country=AUS",
       "links": {
-        "1": "https://www.celebritycruises.com/booking-cruise/selectRoom/stateroomQuantity?groupId=EG14SYD-596676643&pID=EG14K117&sDT=2027-03-24&sCD=EG&sCT=CO&country=AUS",
+        "1": "https://www.celebritycruises.com/au/itinerary/14-night-fiji-vanuatu-cruise-from-sydney-on-celebrity-EG14K117?sailDate=2027-03-24&packageCode=EG14K117&groupId=EG14SYD-596676643&country=AUS",
         "2": "https://www.celebritycruises.com/booking-cruise/selectRoom/stateroomQuantity?groupId=EG14SYD-596676643&pID=EG14K117&sDT=2027-03-24&sCD=EG&sCT=CO&country=AUS"
       },
       "prices": {
@@ -7784,7 +7784,7 @@
           "oceanview": null,
           "balcony": null,
           "mini_suite": null,
-          "suite": 25231.91
+          "suite": null
         },
         "two_guests": {
           "interior": {
@@ -7804,8 +7804,8 @@
             "total": null
           },
           "suite": {
-            "pp": 12828.91,
-            "total": 25657.82
+            "pp": null,
+            "total": null
           }
         }
       }
@@ -8017,37 +8017,37 @@
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K176?sailDate=2026-11-11&packageCode=AN09K176&groupId=AN09SYD-998728121&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K176?sailDate=2026-11-11&packageCode=AN09K176&groupId=AN09SYD-998728121&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-998728121&sailDate=2027-03-27&shipCode=AN&packageCode=AN09K172&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS"
+        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-998728121&sailDate=2027-03-27&shipCode=AN&packageCode=AN09K172&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS",
+        "2": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K176?sailDate=2026-11-11&packageCode=AN09K176&groupId=AN09SYD-998728121&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": null,
-          "oceanview": null,
-          "balcony": null,
+          "interior": 6784.46,
+          "oceanview": 7855.46,
+          "balcony": 7616.46,
           "mini_suite": null,
-          "suite": null
+          "suite": 13237.46
         },
         "two_guests": {
           "interior": {
-            "pp": 3547.96,
-            "total": 7095.92
+            "pp": null,
+            "total": null
           },
           "oceanview": {
-            "pp": 3598.46,
-            "total": 7196.92
+            "pp": null,
+            "total": null
           },
           "balcony": {
-            "pp": 3648.46,
-            "total": 7296.92
+            "pp": null,
+            "total": null
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 6788.96,
-            "total": 13577.92
+            "pp": null,
+            "total": null
           }
         }
       }
@@ -8826,37 +8826,37 @@
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-south-pacific-cruise-from-sydney-on-anthem-AN09K157?sailDate=2026-11-02&packageCode=AN09K157&groupId=AN09SYD-3268217720&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-south-pacific-cruise-from-sydney-on-anthem-AN09K157?sailDate=2026-11-02&packageCode=AN09K157&groupId=AN09SYD-3268217720&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-3268217720&sailDate=2027-04-05&shipCode=AN&packageCode=AN09K169&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
+        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-3268217720&sailDate=2027-04-05&shipCode=AN&packageCode=AN09K169&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
+        "2": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-south-pacific-cruise-from-sydney-on-anthem-AN09K157?sailDate=2026-11-02&packageCode=AN09K157&groupId=AN09SYD-3268217720&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": null,
-          "oceanview": null,
-          "balcony": null,
+          "interior": 3969.32,
+          "oceanview": 4469.32,
+          "balcony": 4808.32,
           "mini_suite": null,
-          "suite": null
+          "suite": 10649.32
         },
         "two_guests": {
           "interior": {
-            "pp": 1948.82,
-            "total": 3897.64
+            "pp": null,
+            "total": null
           },
           "oceanview": {
-            "pp": 2198.32,
-            "total": 4396.64
+            "pp": null,
+            "total": null
           },
           "balcony": {
-            "pp": 2278.82,
-            "total": 4557.64
+            "pp": null,
+            "total": null
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 5138.82,
-            "total": 10277.64
+            "pp": null,
+            "total": null
           }
         }
       }
@@ -14150,28 +14150,28 @@
       },
       "prices": {
         "one_guest": {
-          "interior": 16039.0,
-          "oceanview": 24139.0,
-          "balcony": 32265.0,
-          "mini_suite": 33339.0,
+          "interior": null,
+          "oceanview": null,
+          "balcony": null,
+          "mini_suite": null,
           "suite": null
         },
         "two_guests": {
           "interior": {
-            "pp": 8090.0,
-            "total": 16180.0
+            "pp": null,
+            "total": null
           },
           "oceanview": {
-            "pp": 8655.0,
-            "total": 17310.0
+            "pp": null,
+            "total": null
           },
           "balcony": {
-            "pp": 14740.0,
-            "total": 29480.0
+            "pp": null,
+            "total": null
           },
           "mini_suite": {
-            "pp": 16740.0,
-            "total": 33480.0
+            "pp": null,
+            "total": null
           },
           "suite": {
             "pp": null,
@@ -16170,37 +16170,37 @@
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/6-night-queensland-cruise-from-brisbane-on-voyager-VY06K034?sailDate=2027-11-19&packageCode=VY06K034&groupId=VY06BNE-2584015613&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/itinerary/6-night-queensland-cruise-from-brisbane-on-voyager-VY06K034?sailDate=2027-11-19&packageCode=VY06K034&groupId=VY06BNE-2584015613&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=VY06BNE-2584015613&sailDate=2027-11-19&shipCode=VY&packageCode=VY06K034&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS"
+        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=VY06BNE-2584015613&sailDate=2027-11-19&shipCode=VY&packageCode=VY06K034&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS",
+        "2": "https://www.royalcaribbean.com/aus/en/itinerary/6-night-queensland-cruise-from-brisbane-on-voyager-VY06K034?sailDate=2027-11-19&packageCode=VY06K034&groupId=VY06BNE-2584015613&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": null,
-          "oceanview": null,
-          "balcony": null,
+          "interior": 3048.22,
+          "oceanview": 3168.22,
+          "balcony": 3609.22,
           "mini_suite": null,
-          "suite": null
+          "suite": 6118.22
         },
         "two_guests": {
           "interior": {
-            "pp": 1478.22,
-            "total": 2956.44
+            "pp": null,
+            "total": null
           },
           "oceanview": {
-            "pp": 1588.72,
-            "total": 3177.44
+            "pp": null,
+            "total": null
           },
           "balcony": {
-            "pp": 1758.72,
-            "total": 3517.44
+            "pp": null,
+            "total": null
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 3013.22,
-            "total": 6026.44
+            "pp": null,
+            "total": null
           }
         }
       }
@@ -16890,37 +16890,37 @@
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K176?sailDate=2026-11-11&packageCode=AN09K176&groupId=AN09SYD-998728121&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K176?sailDate=2026-11-11&packageCode=AN09K176&groupId=AN09SYD-998728121&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-998728121&sailDate=2027-11-29&shipCode=AN&packageCode=AN09K176&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS"
+        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-998728121&sailDate=2027-11-29&shipCode=AN&packageCode=AN09K176&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS",
+        "2": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K176?sailDate=2026-11-11&packageCode=AN09K176&groupId=AN09SYD-998728121&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": null,
-          "oceanview": null,
-          "balcony": null,
+          "interior": 5051.13,
+          "oceanview": 5862.13,
+          "balcony": 6695.13,
           "mini_suite": null,
-          "suite": null
+          "suite": 10580.13
         },
         "two_guests": {
           "interior": {
-            "pp": 2487.63,
-            "total": 4975.26
+            "pp": null,
+            "total": null
           },
           "oceanview": {
-            "pp": 2824.63,
-            "total": 5649.26
+            "pp": null,
+            "total": null
           },
           "balcony": {
-            "pp": 3438.13,
-            "total": 6876.26
+            "pp": null,
+            "total": null
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 5178.63,
-            "total": 10357.26
+            "pp": null,
+            "total": null
           }
         }
       }
@@ -16995,7 +16995,7 @@
           "oceanview": 1505.0,
           "balcony": 1705.0,
           "mini_suite": 2205.0,
-          "suite": 2407.0
+          "suite": 3805.0
         },
         "two_guests": {
           "interior": {
@@ -17015,8 +17015,8 @@
             "total": 2212.0
           },
           "suite": {
-            "pp": 1207.0,
-            "total": 2414.0
+            "pp": 1906.0,
+            "total": 3812.0
           }
         }
       }
