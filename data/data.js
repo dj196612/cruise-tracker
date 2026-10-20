@@ -1,5 +1,5 @@
 window.CRUISE_DATA = {
-  "generated_at": "2026-10-20T12:08:17.980973+11:00",
+  "generated_at": "2026-10-20T17:09:19.161769+11:00",
   "currency": "AUD",
   "source": "Combined live cruise tracker data",
   "cruises": [
@@ -83,8 +83,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "oceanview": {
-            "pp": null,
-            "total": null
+            "pp": 2900.21,
+            "total": 5800.42
           },
           "balcony": {
             "pp": 2909.71,
@@ -120,9 +120,9 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 1678.49,
+          "interior": 1398.49,
           "oceanview": 1838.49,
-          "balcony": 1957.49,
+          "balcony": 2018.49,
           "mini_suite": null,
           "suite": 4937.49
         },
@@ -170,8 +170,8 @@ window.CRUISE_DATA = {
       "prices": {
         "one_guest": {
           "interior": 1843.76,
-          "oceanview": 2186.76,
-          "balcony": 2526.76,
+          "oceanview": 2306.76,
+          "balcony": 2625.76,
           "mini_suite": null,
           "suite": 6165.76
         },
@@ -181,12 +181,12 @@ window.CRUISE_DATA = {
             "total": 2097.52
           },
           "oceanview": {
-            "pp": 1198.76,
-            "total": 2397.52
+            "pp": 1248.76,
+            "total": 2497.52
           },
           "balcony": {
-            "pp": 1378.76,
-            "total": 2757.52
+            "pp": 1428.26,
+            "total": 2856.52
           },
           "mini_suite": {
             "pp": null,
@@ -317,7 +317,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 2472.87,
           "oceanview": 2934.87,
-          "balcony": 3073.87,
+          "balcony": 3113.87,
           "mini_suite": null,
           "suite": 7453.87
         },
@@ -331,8 +331,8 @@ window.CRUISE_DATA = {
             "total": 3196.74
           },
           "balcony": {
-            "pp": 1678.37,
-            "total": 3356.74
+            "pp": 1698.37,
+            "total": 3396.74
           },
           "mini_suite": {
             "pp": null,
@@ -553,24 +553,24 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 1337.39,
-          "oceanview": 1557.39,
-          "balcony": 1497.39,
+          "interior": 937.39,
+          "oceanview": 1097.39,
+          "balcony": 1137.39,
           "mini_suite": null,
           "suite": 3198.39
         },
         "two_guests": {
           "interior": {
-            "pp": 698.39,
-            "total": 1396.78
+            "pp": 498.39,
+            "total": 996.78
           },
           "oceanview": {
-            "pp": 748.39,
-            "total": 1496.78
+            "pp": 548.89,
+            "total": 1097.78
           },
           "balcony": {
-            "pp": 778.39,
-            "total": 1556.78
+            "pp": 597.89,
+            "total": 1195.78
           },
           "mini_suite": {
             "pp": null,
@@ -659,8 +659,8 @@ window.CRUISE_DATA = {
         },
         "two_guests": {
           "interior": {
-            "pp": null,
-            "total": null
+            "pp": 1973.97,
+            "total": 3947.94
           },
           "oceanview": {
             "pp": 2964.97,
@@ -675,8 +675,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 6383.47,
-            "total": 12766.94
+            "pp": null,
+            "total": null
           }
         }
       }
@@ -751,7 +751,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 2785.77,
           "oceanview": 3086.77,
-          "balcony": 2926.77,
+          "balcony": 2846.77,
           "mini_suite": null,
           "suite": 6806.77
         },
@@ -765,8 +765,8 @@ window.CRUISE_DATA = {
             "total": 3317.54
           },
           "balcony": {
-            "pp": 1578.77,
-            "total": 3157.54
+            "pp": 1538.77,
+            "total": 3077.54
           },
           "mini_suite": {
             "pp": null,
@@ -892,73 +892,24 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 1112.0,
-          "oceanview": 1212.0,
-          "balcony": 1452.0,
+          "interior": 1072.0,
+          "oceanview": 1172.0,
+          "balcony": 1412.0,
           "mini_suite": null,
           "suite": null
         },
         "two_guests": {
           "interior": {
-            "pp": 556.0,
-            "total": 1112.0
+            "pp": 536.0,
+            "total": 1072.0
           },
           "oceanview": {
-            "pp": 606.0,
-            "total": 1212.0
+            "pp": 586.0,
+            "total": 1172.0
           },
           "balcony": {
-            "pp": 726.0,
-            "total": 1452.0
-          },
-          "mini_suite": {
-            "pp": null,
-            "total": null
-          },
-          "suite": {
-            "pp": null,
-            "total": null
-          }
-        }
-      }
-    },
-    {
-      "line": "Celebrity Cruises",
-      "name": "12-Night New Zealand Cruise",
-      "ship": "Celebrity Edge",
-      "departure_port": "Sydney",
-      "departure_date": "2026-11-19",
-      "nights": 12,
-      "voyage_code": "EG12K183",
-      "sailing_id": "EG12K183_2026-11-19",
-      "group_id": "EG12SYD-3474786043",
-      "currency": "AUD",
-      "fare_basis": "Celebrity search fare, taxes & fees included",
-      "url": "https://www.celebritycruises.com/au/itinerary/12-night-best-of-new-zealand-from-sydney-on-celebrity-EG12K197?sailDate=2029-02-25&packageCode=EG12K197&groupId=EG12SYD-3474786043&country=AUS",
-      "links": {
-        "1": "https://www.celebritycruises.com/au/itinerary/12-night-best-of-new-zealand-from-sydney-on-celebrity-EG12K197?sailDate=2029-02-25&packageCode=EG12K197&groupId=EG12SYD-3474786043&country=AUS",
-        "2": "https://www.celebritycruises.com/booking-cruise/selectRoom/stateroomQuantity?groupId=EG12SYD-3474786043&pID=EG12K183&sDT=2026-11-19&sCD=EG&sCT=CO&country=AUS"
-      },
-      "prices": {
-        "one_guest": {
-          "interior": null,
-          "oceanview": null,
-          "balcony": null,
-          "mini_suite": null,
-          "suite": null
-        },
-        "two_guests": {
-          "interior": {
-            "pp": 3260.21,
-            "total": 6520.42
-          },
-          "oceanview": {
-            "pp": null,
-            "total": null
-          },
-          "balcony": {
-            "pp": 3576.71,
-            "total": 7153.42
+            "pp": 706.0,
+            "total": 1412.0
           },
           "mini_suite": {
             "pp": null,
@@ -1087,24 +1038,24 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 1195.0,
+          "interior": 1235.0,
           "oceanview": 1375.0,
-          "balcony": 1545.0,
+          "balcony": 1625.0,
           "mini_suite": null,
           "suite": 1745.0
         },
         "two_guests": {
           "interior": {
-            "pp": 620.0,
-            "total": 1240.0
+            "pp": 640.0,
+            "total": 1280.0
           },
           "oceanview": {
             "pp": 710.0,
             "total": 1420.0
           },
           "balcony": {
-            "pp": 795.0,
-            "total": 1590.0
+            "pp": 835.0,
+            "total": 1670.0
           },
           "mini_suite": {
             "pp": null,
@@ -1282,7 +1233,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 2603.11,
           "oceanview": 2643.11,
-          "balcony": 2882.11,
+          "balcony": 2842.11,
           "mini_suite": null,
           "suite": 6803.11
         },
@@ -1472,24 +1423,24 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 1398.21,
-          "oceanview": 1579.21,
-          "balcony": 1878.21,
+          "interior": 1299.21,
+          "oceanview": 1478.21,
+          "balcony": 1779.21,
           "mini_suite": null,
           "suite": 3598.21
         },
         "two_guests": {
           "interior": {
-            "pp": 698.71,
-            "total": 1397.42
+            "pp": 648.21,
+            "total": 1296.42
           },
           "oceanview": {
-            "pp": 838.71,
-            "total": 1677.42
+            "pp": 788.21,
+            "total": 1576.42
           },
           "balcony": {
-            "pp": 848.21,
-            "total": 1696.42
+            "pp": 798.21,
+            "total": 1596.42
           },
           "mini_suite": {
             "pp": null,
@@ -1764,7 +1715,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 3123.89,
           "oceanview": 3342.89,
-          "balcony": 4141.89,
+          "balcony": 3197.89,
           "mini_suite": null,
           "suite": 10041.89
         },
@@ -1810,7 +1761,7 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 1087.0,
+          "interior": 1127.0,
           "oceanview": 1287.0,
           "balcony": 1497.0,
           "mini_suite": null,
@@ -1818,8 +1769,8 @@ window.CRUISE_DATA = {
         },
         "two_guests": {
           "interior": {
-            "pp": 566.0,
-            "total": 1132.0
+            "pp": 586.0,
+            "total": 1172.0
           },
           "oceanview": {
             "pp": 666.0,
@@ -1859,24 +1810,24 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 3533.11,
-          "oceanview": 3573.11,
-          "balcony": 4053.11,
+          "interior": 3232.11,
+          "oceanview": 3272.11,
+          "balcony": 3712.11,
           "mini_suite": null,
           "suite": 8472.11
         },
         "two_guests": {
           "interior": {
-            "pp": 1798.61,
-            "total": 3597.22
+            "pp": 1648.61,
+            "total": 3297.22
           },
           "oceanview": {
-            "pp": 1879.11,
-            "total": 3758.22
+            "pp": 1728.61,
+            "total": 3457.22
           },
           "balcony": {
-            "pp": 1968.61,
-            "total": 3937.22
+            "pp": 1799.11,
+            "total": 3598.22
           },
           "mini_suite": {
             "pp": null,
@@ -1958,7 +1909,7 @@ window.CRUISE_DATA = {
           "oceanview": 1682.0,
           "balcony": 2022.0,
           "mini_suite": null,
-          "suite": 2512.0
+          "suite": 2332.0
         },
         "two_guests": {
           "interior": {
@@ -1978,8 +1929,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 1260.0,
-            "total": 2520.0
+            "pp": 1170.0,
+            "total": 2340.0
           }
         }
       }
@@ -2002,24 +1953,24 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 1267.0,
-          "oceanview": 1347.0,
-          "balcony": 1697.0,
+          "interior": 1307.0,
+          "oceanview": 1387.0,
+          "balcony": 1737.0,
           "mini_suite": null,
           "suite": null
         },
         "two_guests": {
           "interior": {
-            "pp": 656.0,
-            "total": 1312.0
+            "pp": 676.0,
+            "total": 1352.0
           },
           "oceanview": {
-            "pp": 696.0,
-            "total": 1392.0
+            "pp": 716.0,
+            "total": 1432.0
           },
           "balcony": {
-            "pp": 871.0,
-            "total": 1742.0
+            "pp": 891.0,
+            "total": 1782.0
           },
           "mini_suite": {
             "pp": null,
@@ -2193,24 +2144,24 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 1067.0,
-          "oceanview": 1227.0,
-          "balcony": 1357.0,
+          "interior": 1087.0,
+          "oceanview": 1247.0,
+          "balcony": 1397.0,
           "mini_suite": null,
           "suite": null
         },
         "two_guests": {
           "interior": {
-            "pp": 556.0,
-            "total": 1112.0
+            "pp": 566.0,
+            "total": 1132.0
           },
           "oceanview": {
-            "pp": 636.0,
-            "total": 1272.0
+            "pp": 646.0,
+            "total": 1292.0
           },
           "balcony": {
-            "pp": 701.0,
-            "total": 1402.0
+            "pp": 721.0,
+            "total": 1442.0
           },
           "mini_suite": {
             "pp": null,
@@ -2303,8 +2254,8 @@ window.CRUISE_DATA = {
             "total": 4259.08
           },
           "oceanview": {
-            "pp": 2163.04,
-            "total": 4326.08
+            "pp": null,
+            "total": null
           },
           "balcony": {
             "pp": null,
@@ -2388,24 +2339,24 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 2742.84,
-          "oceanview": 4231.84,
-          "balcony": 3991.84,
+          "interior": 2622.84,
+          "oceanview": 4031.84,
+          "balcony": 3911.84,
           "mini_suite": null,
           "suite": 6770.84
         },
         "two_guests": {
           "interior": {
-            "pp": 1798.84,
-            "total": 3597.68
+            "pp": 1678.84,
+            "total": 3357.68
           },
           "oceanview": {
-            "pp": 1878.84,
-            "total": 3757.68
+            "pp": 1778.84,
+            "total": 3557.68
           },
           "balcony": {
-            "pp": 1968.84,
-            "total": 3937.68
+            "pp": 1848.84,
+            "total": 3697.68
           },
           "mini_suite": {
             "pp": null,
@@ -2436,24 +2387,24 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 2085.0,
+          "interior": 2135.0,
           "oceanview": 2445.0,
-          "balcony": 2825.0,
+          "balcony": 2875.0,
           "mini_suite": null,
           "suite": 3565.0
         },
         "two_guests": {
           "interior": {
-            "pp": 1053.0,
-            "total": 2106.0
+            "pp": 1078.0,
+            "total": 2156.0
           },
           "oceanview": {
             "pp": 1233.0,
             "total": 2466.0
           },
           "balcony": {
-            "pp": 1423.0,
-            "total": 2846.0
+            "pp": 1448.0,
+            "total": 2896.0
           },
           "mini_suite": {
             "pp": null,
@@ -2484,24 +2435,24 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 1245.0,
+          "interior": 1285.0,
           "oceanview": 1595.0,
-          "balcony": 1995.0,
+          "balcony": 2035.0,
           "mini_suite": null,
           "suite": 3187.0
         },
         "two_guests": {
           "interior": {
-            "pp": 645.0,
-            "total": 1290.0
+            "pp": 665.0,
+            "total": 1330.0
           },
           "oceanview": {
             "pp": 820.0,
             "total": 1640.0
           },
           "balcony": {
-            "pp": 1020.0,
-            "total": 2040.0
+            "pp": 1040.0,
+            "total": 2080.0
           },
           "mini_suite": {
             "pp": null,
@@ -2532,20 +2483,20 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 1207.0,
-          "oceanview": 1337.0,
+          "interior": 1247.0,
+          "oceanview": 1377.0,
           "balcony": 1667.0,
           "mini_suite": null,
           "suite": 2287.0
         },
         "two_guests": {
           "interior": {
-            "pp": 626.0,
-            "total": 1252.0
+            "pp": 646.0,
+            "total": 1292.0
           },
           "oceanview": {
-            "pp": 691.0,
-            "total": 1382.0
+            "pp": 711.0,
+            "total": 1422.0
           },
           "balcony": {
             "pp": 856.0,
@@ -2584,7 +2535,7 @@ window.CRUISE_DATA = {
           "oceanview": 1654.0,
           "balcony": 1814.0,
           "mini_suite": null,
-          "suite": 2454.0
+          "suite": 2374.0
         },
         "two_guests": {
           "interior": {
@@ -2604,8 +2555,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 1231.0,
-            "total": 2462.0
+            "pp": 1191.0,
+            "total": 2382.0
           }
         }
       }
@@ -2724,7 +2675,7 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 3338.0,
+          "interior": 3388.0,
           "oceanview": 3388.0,
           "balcony": 4158.0,
           "mini_suite": null,
@@ -2732,8 +2683,8 @@ window.CRUISE_DATA = {
         },
         "two_guests": {
           "interior": {
-            "pp": 1704.0,
-            "total": 3408.0
+            "pp": 1729.0,
+            "total": 3458.0
           },
           "oceanview": {
             "pp": 1729.0,
@@ -2820,7 +2771,7 @@ window.CRUISE_DATA = {
       "prices": {
         "one_guest": {
           "interior": 3524.0,
-          "oceanview": 4044.0,
+          "oceanview": 4084.0,
           "balcony": 4414.0,
           "mini_suite": null,
           "suite": null
@@ -2831,8 +2782,8 @@ window.CRUISE_DATA = {
             "total": 3600.0
           },
           "oceanview": {
-            "pp": 2060.0,
-            "total": 4120.0
+            "pp": 2080.0,
+            "total": 4160.0
           },
           "balcony": {
             "pp": 2245.0,
@@ -2974,12 +2925,12 @@ window.CRUISE_DATA = {
         },
         "two_guests": {
           "interior": {
-            "pp": 3085.77,
-            "total": 6171.54
-          },
-          "oceanview": {
             "pp": null,
             "total": null
+          },
+          "oceanview": {
+            "pp": 3326.27,
+            "total": 6652.54
           },
           "balcony": {
             "pp": 6028.27,
@@ -3160,7 +3111,7 @@ window.CRUISE_DATA = {
           "oceanview": 1652.0,
           "balcony": 1762.0,
           "mini_suite": null,
-          "suite": 2676.0
+          "suite": 2576.0
         },
         "two_guests": {
           "interior": {
@@ -3180,8 +3131,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 1338.0,
-            "total": 2676.0
+            "pp": 1288.0,
+            "total": 2576.0
           }
         }
       }
@@ -3204,24 +3155,24 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 2245.0,
-          "oceanview": 2755.0,
-          "balcony": 3565.0,
+          "interior": 2295.0,
+          "oceanview": 2805.0,
+          "balcony": 3615.0,
           "mini_suite": null,
           "suite": 4297.0
         },
         "two_guests": {
           "interior": {
-            "pp": 1145.0,
-            "total": 2290.0
+            "pp": 1170.0,
+            "total": 2340.0
           },
           "oceanview": {
-            "pp": 1400.0,
-            "total": 2800.0
+            "pp": 1425.0,
+            "total": 2850.0
           },
           "balcony": {
-            "pp": 1805.0,
-            "total": 3610.0
+            "pp": 1830.0,
+            "total": 3660.0
           },
           "mini_suite": {
             "pp": null,
@@ -3252,7 +3203,7 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 1427.0,
+          "interior": 1467.0,
           "oceanview": 1597.0,
           "balcony": 1907.0,
           "mini_suite": null,
@@ -3260,8 +3211,8 @@ window.CRUISE_DATA = {
         },
         "two_guests": {
           "interior": {
-            "pp": 736.0,
-            "total": 1472.0
+            "pp": 756.0,
+            "total": 1512.0
           },
           "oceanview": {
             "pp": 821.0,
@@ -3450,7 +3401,7 @@ window.CRUISE_DATA = {
           "oceanview": null,
           "balcony": 3961.0,
           "mini_suite": null,
-          "suite": 4901.0
+          "suite": 5101.0
         },
         "two_guests": {
           "interior": {
@@ -3470,8 +3421,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 2461.0,
-            "total": 4922.0
+            "pp": 2561.0,
+            "total": 5122.0
           }
         }
       }
@@ -3590,16 +3541,16 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 2515.0,
+          "interior": 2555.0,
           "oceanview": null,
           "balcony": null,
           "mini_suite": null,
-          "suite": 4865.0
+          "suite": 4765.0
         },
         "two_guests": {
           "interior": {
-            "pp": 1280.0,
-            "total": 2560.0
+            "pp": 1300.0,
+            "total": 2600.0
           },
           "oceanview": {
             "pp": null,
@@ -3614,8 +3565,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 2455.0,
-            "total": 4910.0
+            "pp": 2405.0,
+            "total": 4810.0
           }
         }
       }
@@ -3691,7 +3642,7 @@ window.CRUISE_DATA = {
           "oceanview": 4699.0,
           "balcony": 6179.0,
           "mini_suite": null,
-          "suite": 8259.0
+          "suite": 8119.0
         },
         "two_guests": {
           "interior": {
@@ -3711,8 +3662,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 4208.0,
-            "total": 8416.0
+            "pp": 4138.0,
+            "total": 8276.0
           }
         }
       }
@@ -3737,9 +3688,9 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 2869.0,
           "oceanview": 2909.0,
-          "balcony": 3619.0,
+          "balcony": 3669.0,
           "mini_suite": null,
-          "suite": 4909.0
+          "suite": 4809.0
         },
         "two_guests": {
           "interior": {
@@ -3751,16 +3702,16 @@ window.CRUISE_DATA = {
             "total": 3002.0
           },
           "balcony": {
-            "pp": 1856.0,
-            "total": 3712.0
+            "pp": 1881.0,
+            "total": 3762.0
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 2501.0,
-            "total": 5002.0
+            "pp": 2451.0,
+            "total": 4902.0
           }
         }
       }
@@ -3883,7 +3834,7 @@ window.CRUISE_DATA = {
           "oceanview": 3374.0,
           "balcony": null,
           "mini_suite": null,
-          "suite": null
+          "suite": 7717.0
         },
         "two_guests": {
           "interior": {
@@ -3903,8 +3854,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": null,
-            "total": null
+            "pp": 4065.0,
+            "total": 8130.0
           }
         }
       }
@@ -4073,24 +4024,24 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 2563.0,
-          "oceanview": 2953.0,
-          "balcony": 3323.0,
+          "interior": 2523.0,
+          "oceanview": 2963.0,
+          "balcony": 3373.0,
           "mini_suite": null,
           "suite": null
         },
         "two_guests": {
           "interior": {
-            "pp": 1328.0,
-            "total": 2656.0
+            "pp": 1308.0,
+            "total": 2616.0
           },
           "oceanview": {
-            "pp": 1523.0,
-            "total": 3046.0
+            "pp": 1528.0,
+            "total": 3056.0
           },
           "balcony": {
-            "pp": 1708.0,
-            "total": 3416.0
+            "pp": 1733.0,
+            "total": 3466.0
           },
           "mini_suite": {
             "pp": null,
@@ -4219,7 +4170,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 1925.0,
           "oceanview": 2415.0,
-          "balcony": 3005.0,
+          "balcony": 3045.0,
           "mini_suite": null,
           "suite": 3747.0
         },
@@ -4233,8 +4184,8 @@ window.CRUISE_DATA = {
             "total": 2460.0
           },
           "balcony": {
-            "pp": 1525.0,
-            "total": 3050.0
+            "pp": 1545.0,
+            "total": 3090.0
           },
           "mini_suite": {
             "pp": null,
@@ -4314,20 +4265,20 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 1771.0,
-          "oceanview": 1881.0,
+          "interior": 1691.0,
+          "oceanview": 1931.0,
           "balcony": 1901.0,
           "mini_suite": null,
           "suite": 4879.0
         },
         "two_guests": {
           "interior": {
-            "pp": 896.0,
-            "total": 1792.0
+            "pp": 856.0,
+            "total": 1712.0
           },
           "oceanview": {
-            "pp": 951.0,
-            "total": 1902.0
+            "pp": 976.0,
+            "total": 1952.0
           },
           "balcony": {
             "pp": 961.0,
@@ -4508,7 +4459,7 @@ window.CRUISE_DATA = {
       "prices": {
         "one_guest": {
           "interior": 1515.0,
-          "oceanview": 1985.0,
+          "oceanview": 2025.0,
           "balcony": 2285.0,
           "mini_suite": null,
           "suite": null
@@ -4519,8 +4470,8 @@ window.CRUISE_DATA = {
             "total": 1536.0
           },
           "oceanview": {
-            "pp": 1003.0,
-            "total": 2006.0
+            "pp": 1023.0,
+            "total": 2046.0
           },
           "balcony": {
             "pp": 1153.0,
@@ -4555,24 +4506,24 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 1657.0,
-          "oceanview": 1757.0,
-          "balcony": 2267.0,
+          "interior": 1697.0,
+          "oceanview": 1797.0,
+          "balcony": 2307.0,
           "mini_suite": null,
           "suite": null
         },
         "two_guests": {
           "interior": {
-            "pp": 851.0,
-            "total": 1702.0
+            "pp": 871.0,
+            "total": 1742.0
           },
           "oceanview": {
-            "pp": 901.0,
-            "total": 1802.0
+            "pp": 921.0,
+            "total": 1842.0
           },
           "balcony": {
-            "pp": 1156.0,
-            "total": 2312.0
+            "pp": 1176.0,
+            "total": 2352.0
           },
           "mini_suite": {
             "pp": null,
@@ -4614,8 +4565,8 @@ window.CRUISE_DATA = {
             "total": 6682.0
           },
           "oceanview": {
-            "pp": 3628.0,
-            "total": 7256.0
+            "pp": null,
+            "total": null
           },
           "balcony": {
             "pp": null,
@@ -4702,7 +4653,7 @@ window.CRUISE_DATA = {
           "oceanview": 3075.0,
           "balcony": 4577.0,
           "mini_suite": null,
-          "suite": 8439.0
+          "suite": null
         },
         "two_guests": {
           "interior": {
@@ -4722,8 +4673,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 4426.0,
-            "total": 8852.0
+            "pp": null,
+            "total": null
           }
         }
       }
@@ -4891,32 +4842,32 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 1463.0,
+          "interior": 1383.0,
           "oceanview": 1503.0,
-          "balcony": 1623.0,
+          "balcony": 1663.0,
           "mini_suite": null,
-          "suite": 2321.0
+          "suite": 3701.0
         },
         "two_guests": {
           "interior": {
-            "pp": 742.0,
-            "total": 1484.0
+            "pp": 702.0,
+            "total": 1404.0
           },
           "oceanview": {
             "pp": 762.0,
             "total": 1524.0
           },
           "balcony": {
-            "pp": 822.0,
-            "total": 1644.0
+            "pp": 842.0,
+            "total": 1684.0
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 1171.0,
-            "total": 2342.0
+            "pp": 1861.0,
+            "total": 3722.0
           }
         }
       }
@@ -5084,16 +5035,16 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 1325.0,
+          "interior": 1305.0,
           "oceanview": 1775.0,
           "balcony": 2265.0,
           "mini_suite": null,
-          "suite": 2435.0
+          "suite": 2535.0
         },
         "two_guests": {
           "interior": {
-            "pp": 685.0,
-            "total": 1370.0
+            "pp": 675.0,
+            "total": 1350.0
           },
           "oceanview": {
             "pp": 910.0,
@@ -5108,8 +5059,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 1240.0,
-            "total": 2480.0
+            "pp": 1290.0,
+            "total": 2580.0
           }
         }
       }
@@ -5181,32 +5132,32 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 1873.0,
-          "oceanview": 1833.0,
-          "balcony": 2303.0,
+          "interior": 1923.0,
+          "oceanview": 1883.0,
+          "balcony": 2353.0,
           "mini_suite": null,
-          "suite": 2903.0
+          "suite": 4071.0
         },
         "two_guests": {
           "interior": {
-            "pp": 983.0,
-            "total": 1966.0
+            "pp": 1008.0,
+            "total": 2016.0
           },
           "oceanview": {
-            "pp": 963.0,
-            "total": 1926.0
+            "pp": 988.0,
+            "total": 1976.0
           },
           "balcony": {
-            "pp": 1198.0,
-            "total": 2396.0
+            "pp": 1223.0,
+            "total": 2446.0
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 1498.0,
-            "total": 2996.0
+            "pp": 2082.0,
+            "total": 4164.0
           }
         }
       }
@@ -5231,7 +5182,7 @@ window.CRUISE_DATA = {
           "interior": 4493.0,
           "oceanview": 4994.0,
           "balcony": 4893.0,
-          "mini_suite": null,
+          "mini_suite": 7459.0,
           "suite": null
         },
         "two_guests": {
@@ -5248,8 +5199,8 @@ window.CRUISE_DATA = {
             "total": 4988.0
           },
           "mini_suite": {
-            "pp": null,
-            "total": null
+            "pp": 3777.0,
+            "total": 7554.0
           },
           "suite": {
             "pp": null,
@@ -5277,10 +5228,10 @@ window.CRUISE_DATA = {
       "prices": {
         "one_guest": {
           "interior": 1691.0,
-          "oceanview": 1751.0,
+          "oceanview": 1791.0,
           "balcony": 2231.0,
           "mini_suite": null,
-          "suite": 2511.0
+          "suite": 2611.0
         },
         "two_guests": {
           "interior": {
@@ -5288,8 +5239,8 @@ window.CRUISE_DATA = {
             "total": 1712.0
           },
           "oceanview": {
-            "pp": 886.0,
-            "total": 1772.0
+            "pp": 906.0,
+            "total": 1812.0
           },
           "balcony": {
             "pp": 1126.0,
@@ -5300,8 +5251,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 1266.0,
-            "total": 2532.0
+            "pp": 1316.0,
+            "total": 2632.0
           }
         }
       }
@@ -5325,8 +5276,8 @@ window.CRUISE_DATA = {
       "prices": {
         "one_guest": {
           "interior": 1225.0,
-          "oceanview": 1505.0,
-          "balcony": 2125.0,
+          "oceanview": 1545.0,
+          "balcony": 2165.0,
           "mini_suite": null,
           "suite": 2575.0
         },
@@ -5336,12 +5287,12 @@ window.CRUISE_DATA = {
             "total": 1270.0
           },
           "oceanview": {
-            "pp": 775.0,
-            "total": 1550.0
+            "pp": 795.0,
+            "total": 1590.0
           },
           "balcony": {
-            "pp": 1085.0,
-            "total": 2170.0
+            "pp": 1105.0,
+            "total": 2210.0
           },
           "mini_suite": {
             "pp": null,
@@ -5375,7 +5326,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 6167.03,
           "oceanview": 6666.03,
-          "balcony": 7466.03,
+          "balcony": 7106.03,
           "mini_suite": null,
           "suite": 17066.03
         },
@@ -5715,7 +5666,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 4232.5,
           "oceanview": 4632.5,
-          "balcony": 5112.5,
+          "balcony": 5012.5,
           "mini_suite": null,
           "suite": 13291.5
         },
@@ -5762,32 +5713,32 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 2721.17,
+          "interior": 2676.17,
           "oceanview": null,
-          "balcony": 3533.17,
+          "balcony": 3476.17,
           "mini_suite": null,
-          "suite": 8186.17
+          "suite": 8196.17
         },
         "two_guests": {
           "interior": {
-            "pp": 1423.67,
-            "total": 2847.34
+            "pp": 1398.67,
+            "total": 2797.34
           },
           "oceanview": {
-            "pp": 1523.67,
-            "total": 3047.34
+            "pp": 1498.67,
+            "total": 2997.34
           },
           "balcony": {
-            "pp": 1629.17,
-            "total": 3258.34
+            "pp": 1598.67,
+            "total": 3197.34
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 4103.67,
-            "total": 8207.34
+            "pp": 4108.67,
+            "total": 8217.34
           }
         }
       }
@@ -5858,24 +5809,24 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 715.0,
-          "oceanview": 875.0,
-          "balcony": 1195.0,
+          "interior": 735.0,
+          "oceanview": 895.0,
+          "balcony": 1155.0,
           "mini_suite": null,
           "suite": 2587.0
         },
         "two_guests": {
           "interior": {
-            "pp": 380.0,
-            "total": 760.0
+            "pp": 390.0,
+            "total": 780.0
           },
           "oceanview": {
-            "pp": 460.0,
-            "total": 920.0
+            "pp": 470.0,
+            "total": 940.0
           },
           "balcony": {
-            "pp": 620.0,
-            "total": 1240.0
+            "pp": 600.0,
+            "total": 1200.0
           },
           "mini_suite": {
             "pp": null,
@@ -5910,7 +5861,7 @@ window.CRUISE_DATA = {
           "oceanview": 3908.0,
           "balcony": 5548.0,
           "mini_suite": null,
-          "suite": 9392.0
+          "suite": 9612.0
         },
         "two_guests": {
           "interior": {
@@ -5930,8 +5881,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 4793.0,
-            "total": 9586.0
+            "pp": 4903.0,
+            "total": 9806.0
           }
         }
       }
@@ -6005,7 +5956,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": null,
           "oceanview": null,
-          "balcony": 8398.65,
+          "balcony": null,
           "mini_suite": null,
           "suite": 49392.65
         },
@@ -6019,8 +5970,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "balcony": {
-            "pp": 5383.15,
-            "total": 10766.3
+            "pp": 5670.65,
+            "total": 11341.3
           },
           "mini_suite": {
             "pp": null,
@@ -6052,7 +6003,7 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 3003.41,
+          "interior": 2923.41,
           "oceanview": 2704.41,
           "balcony": 3383.41,
           "mini_suite": null,
@@ -6195,32 +6146,32 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 1623.0,
+          "interior": 1583.0,
           "oceanview": 1903.0,
-          "balcony": 2053.0,
+          "balcony": 2013.0,
           "mini_suite": null,
-          "suite": 3299.0
+          "suite": 3099.0
         },
         "two_guests": {
           "interior": {
-            "pp": 858.0,
-            "total": 1716.0
+            "pp": 838.0,
+            "total": 1676.0
           },
           "oceanview": {
             "pp": 998.0,
             "total": 1996.0
           },
           "balcony": {
-            "pp": 1073.0,
-            "total": 2146.0
+            "pp": 1053.0,
+            "total": 2106.0
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 1696.0,
-            "total": 3392.0
+            "pp": 1596.0,
+            "total": 3192.0
           }
         }
       }
@@ -6340,24 +6291,24 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 1015.0,
-          "oceanview": 1375.0,
-          "balcony": 1735.0,
+          "interior": 1055.0,
+          "oceanview": 1415.0,
+          "balcony": 1775.0,
           "mini_suite": null,
           "suite": 2275.0
         },
         "two_guests": {
           "interior": {
-            "pp": 530.0,
-            "total": 1060.0
+            "pp": 550.0,
+            "total": 1100.0
           },
           "oceanview": {
-            "pp": 710.0,
-            "total": 1420.0
+            "pp": 730.0,
+            "total": 1460.0
           },
           "balcony": {
-            "pp": 890.0,
-            "total": 1780.0
+            "pp": 910.0,
+            "total": 1820.0
           },
           "mini_suite": {
             "pp": null,
@@ -6389,24 +6340,24 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 2103.05,
-          "oceanview": 2902.05,
-          "balcony": 3582.05,
+          "interior": 2083.05,
+          "oceanview": 2803.05,
+          "balcony": 3302.05,
           "mini_suite": null,
           "suite": 6282.05
         },
         "two_guests": {
           "interior": {
-            "pp": 1399.05,
-            "total": 2798.1
+            "pp": 1379.05,
+            "total": 2758.1
           },
           "oceanview": {
-            "pp": 1499.05,
-            "total": 2998.1
+            "pp": 1448.55,
+            "total": 2897.1
           },
           "balcony": {
-            "pp": 1628.55,
-            "total": 3257.1
+            "pp": 1599.05,
+            "total": 3198.1
           },
           "mini_suite": {
             "pp": null,
@@ -6437,32 +6388,32 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 1629.0,
-          "oceanview": 1809.0,
-          "balcony": 2409.0,
+          "interior": 1599.0,
+          "oceanview": 1829.0,
+          "balcony": 2379.0,
           "mini_suite": null,
-          "suite": 2849.0
+          "suite": 2769.0
         },
         "two_guests": {
           "interior": {
-            "pp": 861.0,
-            "total": 1722.0
+            "pp": 846.0,
+            "total": 1692.0
           },
           "oceanview": {
-            "pp": 951.0,
-            "total": 1902.0
+            "pp": 961.0,
+            "total": 1922.0
           },
           "balcony": {
-            "pp": 1251.0,
-            "total": 2502.0
+            "pp": 1236.0,
+            "total": 2472.0
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 1471.0,
-            "total": 2942.0
+            "pp": 1431.0,
+            "total": 2862.0
           }
         }
       }
@@ -7354,7 +7305,7 @@ window.CRUISE_DATA = {
           "oceanview": 1865.0,
           "balcony": 2145.0,
           "mini_suite": null,
-          "suite": 3305.0
+          "suite": 3105.0
         },
         "two_guests": {
           "interior": {
@@ -7374,8 +7325,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 1663.0,
-            "total": 3326.0
+            "pp": 1563.0,
+            "total": 3126.0
           }
         }
       }
@@ -7592,7 +7543,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 2654.0,
           "oceanview": null,
-          "balcony": 2854.0,
+          "balcony": 3246.0,
           "mini_suite": 4454.0,
           "suite": null
         },
@@ -7606,8 +7557,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "balcony": {
-            "pp": 1455.0,
-            "total": 2910.0
+            "pp": 1651.0,
+            "total": 3302.0
           },
           "mini_suite": {
             "pp": 2255.0,
@@ -8883,7 +8834,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 2078.0,
           "oceanview": 2178.0,
-          "balcony": 2418.0,
+          "balcony": 2408.0,
           "mini_suite": null,
           "suite": null
         },
@@ -8897,8 +8848,8 @@ window.CRUISE_DATA = {
             "total": 2212.0
           },
           "balcony": {
-            "pp": 1226.0,
-            "total": 2452.0
+            "pp": 1221.0,
+            "total": 2442.0
           },
           "mini_suite": {
             "pp": null,
@@ -8982,7 +8933,7 @@ window.CRUISE_DATA = {
           "oceanview": 595.0,
           "balcony": 625.0,
           "mini_suite": null,
-          "suite": 2053.0
+          "suite": 2033.0
         },
         "two_guests": {
           "interior": {
@@ -9002,8 +8953,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 1049.0,
-            "total": 2098.0
+            "pp": 1039.0,
+            "total": 2078.0
           }
         }
       }
@@ -9517,8 +9468,8 @@ window.CRUISE_DATA = {
         },
         "two_guests": {
           "interior": {
-            "pp": 4299.17,
-            "total": 8598.34
+            "pp": 4398.67,
+            "total": 8797.34
           },
           "oceanview": {
             "pp": 3798.67,
@@ -9610,7 +9561,7 @@ window.CRUISE_DATA = {
           "oceanview": 5265.77,
           "balcony": 5611.77,
           "mini_suite": null,
-          "suite": 25141.27
+          "suite": 11791.27
         },
         "two_guests": {
           "interior": {
@@ -9630,8 +9581,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 16848.27,
-            "total": 33696.54
+            "pp": 7948.77,
+            "total": 15897.54
           }
         }
       }
@@ -9803,7 +9754,7 @@ window.CRUISE_DATA = {
           "oceanview": 2799.0,
           "balcony": 3479.0,
           "mini_suite": null,
-          "suite": 4139.0
+          "suite": 4119.0
         },
         "two_guests": {
           "interior": {
@@ -9823,8 +9774,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 2103.0,
-            "total": 4206.0
+            "pp": 2093.0,
+            "total": 4186.0
           }
         }
       }
@@ -10092,7 +10043,7 @@ window.CRUISE_DATA = {
           "oceanview": 1405.0,
           "balcony": 1845.0,
           "mini_suite": null,
-          "suite": 2915.0
+          "suite": 2995.0
         },
         "two_guests": {
           "interior": {
@@ -10112,8 +10063,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 1480.0,
-            "total": 2960.0
+            "pp": 1520.0,
+            "total": 3040.0
           }
         }
       }
@@ -10283,7 +10234,7 @@ window.CRUISE_DATA = {
           "oceanview": 1395.0,
           "balcony": 1875.0,
           "mini_suite": null,
-          "suite": 2587.0
+          "suite": 2667.0
         },
         "two_guests": {
           "interior": {
@@ -10303,8 +10254,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 1316.0,
-            "total": 2632.0
+            "pp": 1356.0,
+            "total": 2712.0
           }
         }
       }
@@ -10426,7 +10377,7 @@ window.CRUISE_DATA = {
           "oceanview": 2685.0,
           "balcony": 3865.0,
           "mini_suite": null,
-          "suite": 6005.0
+          "suite": 6205.0
         },
         "two_guests": {
           "interior": {
@@ -10446,8 +10397,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 3072.0,
-            "total": 6144.0
+            "pp": 3172.0,
+            "total": 6344.0
           }
         }
       }
@@ -10522,7 +10473,7 @@ window.CRUISE_DATA = {
           "oceanview": 587.0,
           "balcony": 797.0,
           "mini_suite": null,
-          "suite": 1107.0
+          "suite": 1087.0
         },
         "two_guests": {
           "interior": {
@@ -10542,8 +10493,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 576.0,
-            "total": 1152.0
+            "pp": 566.0,
+            "total": 1132.0
           }
         }
       }
@@ -10570,7 +10521,7 @@ window.CRUISE_DATA = {
           "oceanview": 1237.0,
           "balcony": 1517.0,
           "mini_suite": null,
-          "suite": 1791.0
+          "suite": 1829.0
         },
         "two_guests": {
           "interior": {
@@ -10590,8 +10541,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 918.0,
-            "total": 1836.0
+            "pp": 937.0,
+            "total": 1874.0
           }
         }
       }
@@ -10666,7 +10617,7 @@ window.CRUISE_DATA = {
           "oceanview": 1405.0,
           "balcony": 1815.0,
           "mini_suite": null,
-          "suite": 2475.0
+          "suite": 2555.0
         },
         "two_guests": {
           "interior": {
@@ -10686,8 +10637,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 1260.0,
-            "total": 2520.0
+            "pp": 1300.0,
+            "total": 2600.0
           }
         }
       }
@@ -10762,7 +10713,7 @@ window.CRUISE_DATA = {
           "oceanview": 1157.0,
           "balcony": 1427.0,
           "mini_suite": null,
-          "suite": 1757.0
+          "suite": 1797.0
         },
         "two_guests": {
           "interior": {
@@ -10782,8 +10733,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 901.0,
-            "total": 1802.0
+            "pp": 921.0,
+            "total": 1842.0
           }
         }
       }
@@ -10906,7 +10857,7 @@ window.CRUISE_DATA = {
           "oceanview": 2068.0,
           "balcony": 2748.0,
           "mini_suite": null,
-          "suite": 3528.0
+          "suite": 3448.0
         },
         "two_guests": {
           "interior": {
@@ -10926,8 +10877,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 1807.0,
-            "total": 3614.0
+            "pp": 1767.0,
+            "total": 3534.0
           }
         }
       }
@@ -11002,7 +10953,7 @@ window.CRUISE_DATA = {
           "oceanview": 1848.0,
           "balcony": 2366.0,
           "mini_suite": null,
-          "suite": 2674.0
+          "suite": 2774.0
         },
         "two_guests": {
           "interior": {
@@ -11022,8 +10973,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 1348.0,
-            "total": 2696.0
+            "pp": 1398.0,
+            "total": 2796.0
           }
         }
       }
@@ -11288,7 +11239,7 @@ window.CRUISE_DATA = {
           "oceanview": 2338.0,
           "balcony": 2978.0,
           "mini_suite": null,
-          "suite": 4264.0
+          "suite": 4184.0
         },
         "two_guests": {
           "interior": {
@@ -11308,8 +11259,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 2175.0,
-            "total": 4350.0
+            "pp": 2135.0,
+            "total": 4270.0
           }
         }
       }
@@ -11811,7 +11762,7 @@ window.CRUISE_DATA = {
           "oceanview": 2325.0,
           "balcony": 3275.0,
           "mini_suite": null,
-          "suite": 3685.0
+          "suite": 3605.0
         },
         "two_guests": {
           "interior": {
@@ -11831,8 +11782,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 1889.0,
-            "total": 3778.0
+            "pp": 1849.0,
+            "total": 3698.0
           }
         }
       }
@@ -12000,7 +11951,7 @@ window.CRUISE_DATA = {
       "prices": {
         "one_guest": {
           "interior": 2503.0,
-          "oceanview": 3063.0,
+          "oceanview": 3103.0,
           "balcony": 4403.0,
           "mini_suite": null,
           "suite": 5443.0
@@ -12011,8 +11962,8 @@ window.CRUISE_DATA = {
             "total": 2596.0
           },
           "oceanview": {
-            "pp": 1578.0,
-            "total": 3156.0
+            "pp": 1598.0,
+            "total": 3196.0
           },
           "balcony": {
             "pp": 2248.0,
@@ -12047,32 +11998,32 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 1002.0,
-          "oceanview": 1102.0,
-          "balcony": 1262.0,
+          "interior": 1062.0,
+          "oceanview": 1142.0,
+          "balcony": 1382.0,
           "mini_suite": null,
-          "suite": 1552.0
+          "suite": 1592.0
         },
         "two_guests": {
           "interior": {
-            "pp": 501.0,
-            "total": 1002.0
+            "pp": 531.0,
+            "total": 1062.0
           },
           "oceanview": {
-            "pp": 551.0,
-            "total": 1102.0
+            "pp": 571.0,
+            "total": 1142.0
           },
           "balcony": {
-            "pp": 631.0,
-            "total": 1262.0
+            "pp": 691.0,
+            "total": 1382.0
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 776.0,
-            "total": 1552.0
+            "pp": 796.0,
+            "total": 1592.0
           }
         }
       }
@@ -12385,9 +12336,9 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 3148.0,
           "oceanview": 3788.0,
-          "balcony": 5288.0,
+          "balcony": 5328.0,
           "mini_suite": null,
-          "suite": 6458.0
+          "suite": 6678.0
         },
         "two_guests": {
           "interior": {
@@ -12399,16 +12350,16 @@ window.CRUISE_DATA = {
             "total": 3916.0
           },
           "balcony": {
-            "pp": 2708.0,
-            "total": 5416.0
+            "pp": 2728.0,
+            "total": 5456.0
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 3293.0,
-            "total": 6586.0
+            "pp": 3403.0,
+            "total": 6806.0
           }
         }
       }
@@ -12483,7 +12434,7 @@ window.CRUISE_DATA = {
           "oceanview": 924.0,
           "balcony": 1144.0,
           "mini_suite": null,
-          "suite": 1394.0
+          "suite": 1434.0
         },
         "two_guests": {
           "interior": {
@@ -12503,8 +12454,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 697.0,
-            "total": 1394.0
+            "pp": 717.0,
+            "total": 1434.0
           }
         }
       }
@@ -12579,7 +12530,7 @@ window.CRUISE_DATA = {
           "oceanview": 1132.0,
           "balcony": 1462.0,
           "mini_suite": null,
-          "suite": 1612.0
+          "suite": 1650.0
         },
         "two_guests": {
           "interior": {
@@ -12599,8 +12550,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 806.0,
-            "total": 1612.0
+            "pp": 825.0,
+            "total": 1650.0
           }
         }
       }
@@ -12625,7 +12576,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 2061.0,
           "oceanview": 2321.0,
-          "balcony": 3101.0,
+          "balcony": 3121.0,
           "mini_suite": null,
           "suite": null
         },
@@ -12639,8 +12590,8 @@ window.CRUISE_DATA = {
             "total": 2330.0
           },
           "balcony": {
-            "pp": 1555.0,
-            "total": 3110.0
+            "pp": 1565.0,
+            "total": 3130.0
           },
           "mini_suite": {
             "pp": null,
@@ -12719,24 +12670,24 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 2148.0,
-          "oceanview": 2608.0,
-          "balcony": 3348.0,
+          "interior": 2188.0,
+          "oceanview": 2668.0,
+          "balcony": 3428.0,
           "mini_suite": null,
           "suite": 4208.0
         },
         "two_guests": {
           "interior": {
-            "pp": 1117.0,
-            "total": 2234.0
+            "pp": 1137.0,
+            "total": 2274.0
           },
           "oceanview": {
-            "pp": 1347.0,
-            "total": 2694.0
+            "pp": 1377.0,
+            "total": 2754.0
           },
           "balcony": {
-            "pp": 1717.0,
-            "total": 3434.0
+            "pp": 1757.0,
+            "total": 3514.0
           },
           "mini_suite": {
             "pp": null,
@@ -13346,7 +13297,7 @@ window.CRUISE_DATA = {
           "oceanview": 1242.0,
           "balcony": 1632.0,
           "mini_suite": null,
-          "suite": 1770.0
+          "suite": 1810.0
         },
         "two_guests": {
           "interior": {
@@ -13366,8 +13317,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 885.0,
-            "total": 1770.0
+            "pp": 905.0,
+            "total": 1810.0
           }
         }
       }
@@ -13874,7 +13825,7 @@ window.CRUISE_DATA = {
           "oceanview": 1042.0,
           "balcony": 1312.0,
           "mini_suite": null,
-          "suite": 1742.0
+          "suite": 1782.0
         },
         "two_guests": {
           "interior": {
@@ -13894,8 +13845,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 871.0,
-            "total": 1742.0
+            "pp": 891.0,
+            "total": 1782.0
           }
         }
       }
@@ -14063,7 +14014,7 @@ window.CRUISE_DATA = {
           "oceanview": 1182.0,
           "balcony": 1452.0,
           "mini_suite": null,
-          "suite": 1872.0
+          "suite": 1912.0
         },
         "two_guests": {
           "interior": {
@@ -14083,8 +14034,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 936.0,
-            "total": 1872.0
+            "pp": 956.0,
+            "total": 1912.0
           }
         }
       }
@@ -14348,7 +14299,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 16039.0,
           "oceanview": 24139.0,
-          "balcony": 32265.0,
+          "balcony": 31087.0,
           "mini_suite": 33339.0,
           "suite": null
         },
@@ -14779,7 +14730,7 @@ window.CRUISE_DATA = {
           "oceanview": 1192.0,
           "balcony": 1522.0,
           "mini_suite": null,
-          "suite": 2010.0
+          "suite": 2050.0
         },
         "two_guests": {
           "interior": {
@@ -14799,8 +14750,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 1005.0,
-            "total": 2010.0
+            "pp": 1025.0,
+            "total": 2050.0
           }
         }
       }
@@ -14823,7 +14774,7 @@ window.CRUISE_DATA = {
       "prices": {
         "one_guest": {
           "interior": 6958.0,
-          "oceanview": 6988.0,
+          "oceanview": 7298.0,
           "balcony": 12738.0,
           "mini_suite": 12030.0,
           "suite": null
@@ -15167,7 +15118,7 @@ window.CRUISE_DATA = {
           "oceanview": 1032.0,
           "balcony": 1312.0,
           "mini_suite": null,
-          "suite": 1742.0
+          "suite": 1782.0
         },
         "two_guests": {
           "interior": {
@@ -15187,8 +15138,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 871.0,
-            "total": 1742.0
+            "pp": 891.0,
+            "total": 1782.0
           }
         }
       }
@@ -15263,7 +15214,7 @@ window.CRUISE_DATA = {
           "oceanview": 1361.0,
           "balcony": 1691.0,
           "mini_suite": null,
-          "suite": 2049.0
+          "suite": 2089.0
         },
         "two_guests": {
           "interior": {
@@ -15283,8 +15234,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 1029.0,
-            "total": 2058.0
+            "pp": 1049.0,
+            "total": 2098.0
           }
         }
       }
@@ -16279,7 +16230,7 @@ window.CRUISE_DATA = {
           "oceanview": 1082.0,
           "balcony": 1352.0,
           "mini_suite": null,
-          "suite": 1782.0
+          "suite": 1762.0
         },
         "two_guests": {
           "interior": {
@@ -16299,8 +16250,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 891.0,
-            "total": 1782.0
+            "pp": 881.0,
+            "total": 1762.0
           }
         }
       }
@@ -16662,7 +16613,7 @@ window.CRUISE_DATA = {
           "oceanview": 1164.0,
           "balcony": 1514.0,
           "mini_suite": null,
-          "suite": 1774.0
+          "suite": 1814.0
         },
         "two_guests": {
           "interior": {
@@ -16682,8 +16633,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 887.0,
-            "total": 1774.0
+            "pp": 907.0,
+            "total": 1814.0
           }
         }
       }
@@ -16903,7 +16854,7 @@ window.CRUISE_DATA = {
           "oceanview": 3321.0,
           "balcony": 4761.0,
           "mini_suite": null,
-          "suite": 6321.0
+          "suite": 6541.0
         },
         "two_guests": {
           "interior": {
@@ -16923,8 +16874,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 3235.0,
-            "total": 6470.0
+            "pp": 3345.0,
+            "total": 6690.0
           }
         }
       }
@@ -17336,7 +17287,7 @@ window.CRUISE_DATA = {
           "oceanview": 2209.0,
           "balcony": 2529.0,
           "mini_suite": null,
-          "suite": 3593.0
+          "suite": 3533.0
         },
         "two_guests": {
           "interior": {
@@ -17356,8 +17307,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 1843.0,
-            "total": 3686.0
+            "pp": 1813.0,
+            "total": 3626.0
           }
         }
       }
@@ -17530,7 +17481,7 @@ window.CRUISE_DATA = {
           "oceanview": 1162.0,
           "balcony": 1492.0,
           "mini_suite": null,
-          "suite": 1810.0
+          "suite": 1850.0
         },
         "two_guests": {
           "interior": {
@@ -17550,8 +17501,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 905.0,
-            "total": 1810.0
+            "pp": 925.0,
+            "total": 1850.0
           }
         }
       }
@@ -17625,7 +17576,7 @@ window.CRUISE_DATA = {
           "oceanview": 2267.0,
           "balcony": 2787.0,
           "mini_suite": null,
-          "suite": 3717.0
+          "suite": 3797.0
         },
         "two_guests": {
           "interior": {
@@ -17645,8 +17596,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 1877.0,
-            "total": 3754.0
+            "pp": 1917.0,
+            "total": 3834.0
           }
         }
       }
@@ -18059,7 +18010,7 @@ window.CRUISE_DATA = {
           "oceanview": 1188.0,
           "balcony": 1556.0,
           "mini_suite": null,
-          "suite": 1828.0
+          "suite": 1868.0
         },
         "two_guests": {
           "interior": {
@@ -18079,8 +18030,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 914.0,
-            "total": 1828.0
+            "pp": 934.0,
+            "total": 1868.0
           }
         }
       }
@@ -18829,7 +18780,7 @@ window.CRUISE_DATA = {
       "prices": {
         "one_guest": {
           "interior": 7563.0,
-          "oceanview": 10823.0,
+          "oceanview": null,
           "balcony": null,
           "mini_suite": 10263.0,
           "suite": 23483.0
@@ -19504,7 +19455,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 9305.0,
           "oceanview": 9953.0,
-          "balcony": 18117.0,
+          "balcony": 17938.0,
           "mini_suite": null,
           "suite": 42388.0
         },
@@ -23023,7 +22974,7 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 6717.0,
+          "interior": 6117.0,
           "oceanview": 7380.0,
           "balcony": 14086.0,
           "mini_suite": null,
@@ -23998,8 +23949,8 @@ window.CRUISE_DATA = {
             "total": 7055.16
           },
           "balcony": {
-            "pp": 4437.58,
-            "total": 8875.16
+            "pp": 4297.08,
+            "total": 8594.16
           },
           "mini_suite": {
             "pp": null,
@@ -25620,7 +25571,7 @@ window.CRUISE_DATA = {
       "prices": {
         "one_guest": {
           "interior": null,
-          "oceanview": 2463.18,
+          "oceanview": 2681.18,
           "balcony": 3476.18,
           "mini_suite": null,
           "suite": 6220.18
@@ -26435,32 +26386,32 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 1062.0,
-          "oceanview": 1172.0,
-          "balcony": 1382.0,
+          "interior": 1042.0,
+          "oceanview": 1142.0,
+          "balcony": 1372.0,
           "mini_suite": null,
-          "suite": 1602.0
+          "suite": 1582.0
         },
         "two_guests": {
           "interior": {
-            "pp": 531.0,
-            "total": 1062.0
+            "pp": 521.0,
+            "total": 1042.0
           },
           "oceanview": {
-            "pp": 586.0,
-            "total": 1172.0
+            "pp": 571.0,
+            "total": 1142.0
           },
           "balcony": {
-            "pp": 691.0,
-            "total": 1382.0
+            "pp": 686.0,
+            "total": 1372.0
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 801.0,
-            "total": 1602.0
+            "pp": 791.0,
+            "total": 1582.0
           }
         }
       }
@@ -28179,7 +28130,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 8222.78,
           "oceanview": 8905.78,
-          "balcony": 6760.78,
+          "balcony": 10422.78,
           "mini_suite": null,
           "suite": 21749.78
         },
