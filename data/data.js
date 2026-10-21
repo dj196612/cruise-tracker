@@ -1,5 +1,5 @@
 window.CRUISE_DATA = {
-  "generated_at": "2026-10-21T17:58:50.340941+11:00",
+  "generated_at": "2026-10-21T18:19:57.734332+11:00",
   "currency": "AUD",
   "source": "Combined live cruise tracker data",
   "cruises": [
@@ -1304,8 +1304,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 5949.18,
-            "total": 11898.36
+            "pp": 8487.68,
+            "total": 16975.36
           }
         }
       }
@@ -7792,8 +7792,8 @@ window.CRUISE_DATA = {
         },
         "two_guests": {
           "interior": {
-            "pp": null,
-            "total": null
+            "pp": 2693.0,
+            "total": 5386.0
           },
           "oceanview": {
             "pp": 3043.0,
@@ -9651,16 +9651,16 @@ window.CRUISE_DATA = {
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/16-night-transpacific-cruise-from-sydney-on-anthem-AN16T115?sailDate=2027-04-14&packageCode=AN16T115&groupId=AN16SYD-2971113566&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/itinerary/16-night-transpacific-cruise-from-sydney-on-anthem-AN16T115?sailDate=2027-04-14&packageCode=AN16T115&groupId=AN16SYD-2971113566&country=AUS",
+        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN16SYD-2971113566&sailDate=2027-04-14&shipCode=AN&packageCode=AN16T115&destinationCode=TPACI&selectedCurrencyCode=AUD&country=AUS",
         "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN16SYD-2971113566&sailDate=2027-04-14&shipCode=AN&packageCode=AN16T115&destinationCode=TPACI&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": null,
-          "oceanview": null,
-          "balcony": null,
+          "interior": 4876.27,
+          "oceanview": 5716.27,
+          "balcony": 5611.77,
           "mini_suite": null,
-          "suite": null
+          "suite": 11791.27
         },
         "two_guests": {
           "interior": {
@@ -17241,7 +17241,7 @@ window.CRUISE_DATA = {
           "oceanview": 1369.0,
           "balcony": 1605.0,
           "mini_suite": 2105.0,
-          "suite": 3805.0
+          "suite": 2209.0
         },
         "two_guests": {
           "interior": {
@@ -17261,8 +17261,8 @@ window.CRUISE_DATA = {
             "total": 2112.0
           },
           "suite": {
-            "pp": 1906.0,
-            "total": 3812.0
+            "pp": 1108.0,
+            "total": 2216.0
           }
         }
       }
@@ -25661,16 +25661,16 @@ window.CRUISE_DATA = {
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/25-night-transpacific-cruise-from-brisbane-on-ovation-OV25T005?sailDate=2028-04-14&packageCode=OV25T005&groupId=OV25BNE-4066027761&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/itinerary/25-night-transpacific-cruise-from-brisbane-on-ovation-OV25T005?sailDate=2028-04-14&packageCode=OV25T005&groupId=OV25BNE-4066027761&country=AUS",
+        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV25BNE-4066027761&sailDate=2028-04-14&shipCode=OV&packageCode=OV25T005&destinationCode=TPACI&selectedCurrencyCode=AUD&country=AUS",
         "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV25BNE-4066027761&sailDate=2028-04-14&shipCode=OV&packageCode=OV25T005&destinationCode=TPACI&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": null,
-          "oceanview": null,
-          "balcony": null,
+          "interior": 5929.29,
+          "oceanview": 6197.79,
+          "balcony": 6909.79,
           "mini_suite": null,
-          "suite": null
+          "suite": 13220.29
         },
         "two_guests": {
           "interior": {
@@ -25957,7 +25957,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": null,
           "oceanview": null,
-          "balcony": 8152.8,
+          "balcony": null,
           "mini_suite": null,
           "suite": 27585.8
         },
