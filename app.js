@@ -2,7 +2,7 @@
   "use strict";
 
   const PACKAGE_UPLIFT = { standard: 0, plus: 79, premier: 129 };
-  const CABIN_LABELS = { interior: "Interior", oceanview: "Oceanview", balcony: "Balcony", mini_suite: "Mini-Suite", suite: "Suite" };
+  const CABIN_LABELS = { cheapest: "Cheapest", interior: "Interior", oceanview: "Oceanview", balcony: "Balcony", mini_suite: "Mini-Suite", suite: "Suite" };
   const LINE_LABELS = { Princess: "Princess", "Royal Caribbean": "Royal Caribbean", "Celebrity Cruises": "Celebrity", "Norwegian Cruise Line": "NCL", "Carnival Cruise Line": "Carnival" };
 
   const data = window.CRUISE_DATA || { generated_at: null, cruises: [] };
@@ -43,22 +43,34 @@
   }
 
   function displayedPrice(cruise, passengers, cabin, farePackage) {
+    // Choose the lowest genuinely available fare for this guest count, rather
+    // than assuming Interior is always the cheapest cabin category.
+    if (cabin === "cheapest") {
+      const candidates = Object.keys(CABIN_LABELS)
+        .filter(category => category !== "cheapest")
+        .map(category => displayedPrice(cruise, passengers, category, farePackage))
+        .filter(price => price && Number.isFinite(price.pp) && Number.isFinite(price.total) && price.pp >= 0 && price.total >= 0);
+      if (!candidates.length) return null;
+      candidates.sort((a, b) => a.pp - b.pp || a.total - b.total);
+      return candidates[0];
+    }
     const base = basePrice(cruise, passengers, cabin);
-    if (!base) return null;
+    if (!base || !Number.isFinite(base.pp) || !Number.isFinite(base.total)) return null;
     const uplift = cruise.line === "Princess" ? (PACKAGE_UPLIFT[farePackage] || 0) : 0;
     const nights = Number(cruise.nights || 0);
     const upliftPerPerson = uplift * nights;
     return {
       pp: base.pp + upliftPerPerson,
       total: base.total + upliftPerPerson * passengers,
+      cabin,
       estimated: cruise.line === "Princess" && farePackage !== "standard",
       base
     };
   }
 
   function soloPremium(cruise, cabin) {
-    const one = basePrice(cruise, 1, cabin)?.pp;
-    const two = basePrice(cruise, 2, cabin)?.pp;
+    const one = cabin === "cheapest" ? displayedPrice(cruise, 1, cabin, "standard")?.pp : basePrice(cruise, 1, cabin)?.pp;
+    const two = cabin === "cheapest" ? displayedPrice(cruise, 2, cabin, "standard")?.pp : basePrice(cruise, 2, cabin)?.pp;
     if (one == null || two == null || two <= 0) return Number.POSITIVE_INFINITY;
     return one / two;
   }
@@ -182,7 +194,7 @@
         <div class="row-cell"><span>From</span><strong>${escapeHtml(cruise.departure_port || "—")}</strong></div>
         <div class="row-cell"><span>Nights</span><strong class="nights">${cruise.nights ?? "—"}</strong></div>
         <div class="row-fare">
-          <span>${CABIN_LABELS[f.cabin]} · ${packageName}</span>
+          <span>${p ? CABIN_LABELS[p.cabin] : CABIN_LABELS[f.cabin]}${f.cabin === "cheapest" && p ? " · Cheapest" : ""} · ${packageName}</span>
           <strong>${p ? money(p.pp) : "No fare"}${perNight}</strong>
           <small>${p ? fareNote : "No bookable fare"}</small>
         </div>
@@ -230,7 +242,7 @@
   function reset() {
     document.querySelectorAll("#cruiseLines input, #ports input").forEach(x => x.checked = true);
     els.passengers.value = "1";
-    els.cabin.value = "interior";
+    els.cabin.value = "cheapest";
     if (els.farePackage) els.farePackage.value = "standard";
     els.minNights.value = "1";
     els.maxNights.value = "";
