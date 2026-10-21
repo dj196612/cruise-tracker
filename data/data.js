@@ -1,5 +1,5 @@
 window.CRUISE_DATA = {
-  "generated_at": "2026-10-21T12:08:32.015027+11:00",
+  "generated_at": "2026-10-21T17:09:13.390938+11:00",
   "currency": "AUD",
   "source": "Combined live cruise tracker data",
   "cruises": [
@@ -73,7 +73,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 1398.49,
           "oceanview": 1838.49,
-          "balcony": 1978.49,
+          "balcony": 1898.49,
           "mini_suite": null,
           "suite": 4937.49
         },
@@ -121,7 +121,7 @@ window.CRUISE_DATA = {
       "prices": {
         "one_guest": {
           "interior": 1886.76,
-          "oceanview": 2306.76,
+          "oceanview": 2286.76,
           "balcony": null,
           "mini_suite": null,
           "suite": 6165.76
@@ -248,53 +248,6 @@ window.CRUISE_DATA = {
       }
     },
     {
-      "line": "Princess",
-      "name": "2-Day Australia Seacation",
-      "ship": "Crown Princess",
-      "departure_port": "Brisbane",
-      "departure_date": "2026-11-02",
-      "nights": 2,
-      "voyage_code": "3618I",
-      "currency": "AUD",
-      "fare_basis": "Princess Standard (BESTFARE)",
-      "url": "https://www.princess.com/itinerary-details?voyageCode=3618I&fareType=BESTFARE&guestCount=2",
-      "links": {
-        "1": "https://www.princess.com/itinerary-details?voyageCode=3618I&fareType=BESTFARE&guestCount=1",
-        "2": "https://www.princess.com/itinerary-details?voyageCode=3618I&fareType=BESTFARE&guestCount=2"
-      },
-      "prices": {
-        "one_guest": {
-          "interior": 610.0,
-          "oceanview": null,
-          "balcony": null,
-          "mini_suite": null,
-          "suite": null
-        },
-        "two_guests": {
-          "interior": {
-            "pp": 375.0,
-            "total": 750.0
-          },
-          "oceanview": {
-            "pp": 393.0,
-            "total": 786.0
-          },
-          "balcony": {
-            "pp": null,
-            "total": null
-          },
-          "mini_suite": {
-            "pp": null,
-            "total": null
-          },
-          "suite": {
-            "pp": null,
-            "total": null
-          }
-        }
-      }
-    },
-    {
       "line": "Royal Caribbean",
       "name": "9-Night South Pacific Cruise",
       "ship": "Anthem of the Seas",
@@ -315,22 +268,22 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 2873.87,
           "oceanview": 2934.87,
-          "balcony": null,
+          "balcony": 3073.87,
           "mini_suite": null,
           "suite": 7453.87
         },
         "two_guests": {
           "interior": {
-            "pp": 1578.37,
-            "total": 3156.74
+            "pp": 1498.87,
+            "total": 2997.74
           },
           "oceanview": {
             "pp": 1598.37,
             "total": 3196.74
           },
           "balcony": {
-            "pp": null,
-            "total": null
+            "pp": 1678.37,
+            "total": 3356.74
           },
           "mini_suite": {
             "pp": null,
@@ -533,6 +486,54 @@ window.CRUISE_DATA = {
       }
     },
     {
+      "line": "Carnival Cruise Line",
+      "name": "3-Day Getaway from Sydney, Australia",
+      "ship": "Carnival Adventure",
+      "departure_port": "Sydney",
+      "departure_date": "2026-11-06",
+      "nights": 3,
+      "voyage_code": "CR4",
+      "sailing_id": "22644",
+      "currency": "AUD",
+      "fare_basis": "Carnival AU VIFP promotional fare (AUD pp incl. taxes and fees; subject to account eligibility)",
+      "url": "https://www.carnival.com.au/booking?embkCode=SYD&itinCode=CR4&durDays=3&shipCode=AQ&subRegionCode=GE&sailingID=22644&sailDate=11062026&numGuests=2&isMilitary=N&isOver55=N&isPastGuest=Y&stateCode=&evsel=&locality=7&currency=AUD",
+      "links": {
+        "1": "https://www.carnival.com.au/booking?embkCode=SYD&itinCode=CR4&durDays=3&shipCode=AQ&subRegionCode=GE&sailingID=22644&sailDate=11062026&numGuests=1&isMilitary=N&isOver55=N&isPastGuest=Y&stateCode=&evsel=&locality=7&currency=AUD",
+        "2": "https://www.carnival.com.au/booking?embkCode=SYD&itinCode=CR4&durDays=3&shipCode=AQ&subRegionCode=GE&sailingID=22644&sailDate=11062026&numGuests=2&isMilitary=N&isOver55=N&isPastGuest=Y&stateCode=&evsel=&locality=7&currency=AUD"
+      },
+      "prices": {
+        "one_guest": {
+          "interior": 1207.0,
+          "oceanview": 1297.0,
+          "balcony": 1417.0,
+          "mini_suite": null,
+          "suite": null
+        },
+        "two_guests": {
+          "interior": {
+            "pp": 626.0,
+            "total": 1252.0
+          },
+          "oceanview": {
+            "pp": 671.0,
+            "total": 1342.0
+          },
+          "balcony": {
+            "pp": 731.0,
+            "total": 1462.0
+          },
+          "mini_suite": {
+            "pp": null,
+            "total": null
+          },
+          "suite": {
+            "pp": null,
+            "total": null
+          }
+        }
+      }
+    },
+    {
       "line": "Royal Caribbean",
       "name": "3-Night Brisbane Getaway",
       "ship": "Quantum of the Seas",
@@ -553,7 +554,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 937.39,
           "oceanview": 1097.39,
-          "balcony": 1137.39,
+          "balcony": 1117.39,
           "mini_suite": null,
           "suite": 3198.39
         },
@@ -577,6 +578,54 @@ window.CRUISE_DATA = {
           "suite": {
             "pp": 1518.39,
             "total": 3036.78
+          }
+        }
+      }
+    },
+    {
+      "line": "Carnival Cruise Line",
+      "name": "10-Day New Zealand from Sydney, Australia",
+      "ship": "Carnival Splendor",
+      "departure_port": "Sydney",
+      "departure_date": "2026-11-07",
+      "nights": 10,
+      "voyage_code": "JZL",
+      "sailing_id": "22342",
+      "currency": "AUD",
+      "fare_basis": "Carnival AU VIFP promotional fare (AUD pp incl. taxes and fees; subject to account eligibility)",
+      "url": "https://www.carnival.com.au/booking?embkCode=SYD&itinCode=JZL&durDays=10&shipCode=SL&subRegionCode=NZ&sailingID=22342&sailDate=11072026&numGuests=2&isMilitary=N&isOver55=N&isPastGuest=Y&stateCode=&evsel=J&locality=7&currency=AUD",
+      "links": {
+        "1": "https://www.carnival.com.au/booking?embkCode=SYD&itinCode=JZL&durDays=10&shipCode=SL&subRegionCode=NZ&sailingID=22342&sailDate=11072026&numGuests=1&isMilitary=N&isOver55=N&isPastGuest=Y&stateCode=&evsel=J&locality=7&currency=AUD",
+        "2": "https://www.carnival.com.au/booking?embkCode=SYD&itinCode=JZL&durDays=10&shipCode=SL&subRegionCode=NZ&sailingID=22342&sailDate=11072026&numGuests=2&isMilitary=N&isOver55=N&isPastGuest=Y&stateCode=&evsel=J&locality=7&currency=AUD"
+      },
+      "prices": {
+        "one_guest": {
+          "interior": 2808.0,
+          "oceanview": 3438.0,
+          "balcony": 4778.0,
+          "mini_suite": null,
+          "suite": 5678.0
+        },
+        "two_guests": {
+          "interior": {
+            "pp": 1496.0,
+            "total": 2992.0
+          },
+          "oceanview": {
+            "pp": 1811.0,
+            "total": 3622.0
+          },
+          "balcony": {
+            "pp": 2481.0,
+            "total": 4962.0
+          },
+          "mini_suite": {
+            "pp": null,
+            "total": null
+          },
+          "suite": {
+            "pp": 2931.0,
+            "total": 5862.0
           }
         }
       }
@@ -616,8 +665,8 @@ window.CRUISE_DATA = {
             "total": 4154.8
           },
           "balcony": {
-            "pp": 2439.4,
-            "total": 4878.8
+            "pp": null,
+            "total": null
           },
           "mini_suite": {
             "pp": null,
@@ -706,8 +755,8 @@ window.CRUISE_DATA = {
         },
         "two_guests": {
           "interior": {
-            "pp": null,
-            "total": null
+            "pp": 1973.97,
+            "total": 3947.94
           },
           "oceanview": {
             "pp": 2964.97,
@@ -743,7 +792,7 @@ window.CRUISE_DATA = {
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K176?sailDate=2026-11-11&packageCode=AN09K176&groupId=AN09SYD-998728121&country=AUS",
       "links": {
         "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-998728121&sailDate=2026-11-11&shipCode=AN&packageCode=AN09K158&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K176?sailDate=2026-11-11&packageCode=AN09K176&groupId=AN09SYD-998728121&country=AUS"
+        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-998728121&sailDate=2026-11-11&shipCode=AN&packageCode=AN09K158&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
@@ -755,24 +804,24 @@ window.CRUISE_DATA = {
         },
         "two_guests": {
           "interior": {
-            "pp": null,
-            "total": null
+            "pp": 1798.33,
+            "total": 3596.66
           },
           "oceanview": {
-            "pp": null,
-            "total": null
+            "pp": 2198.33,
+            "total": 4396.66
           },
           "balcony": {
-            "pp": null,
-            "total": null
+            "pp": 2668.83,
+            "total": 5337.66
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": null,
-            "total": null
+            "pp": 6128.33,
+            "total": 12256.66
           }
         }
       }
@@ -798,7 +847,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 2785.77,
           "oceanview": 3086.77,
-          "balcony": 2846.77,
+          "balcony": 2806.77,
           "mini_suite": null,
           "suite": 6806.77
         },
@@ -812,8 +861,8 @@ window.CRUISE_DATA = {
             "total": 3317.54
           },
           "balcony": {
-            "pp": 1538.77,
-            "total": 3077.54
+            "pp": 1518.77,
+            "total": 3037.54
           },
           "mini_suite": {
             "pp": null,
@@ -970,6 +1019,55 @@ window.CRUISE_DATA = {
       }
     },
     {
+      "line": "Celebrity Cruises",
+      "name": "12-Night New Zealand Cruise",
+      "ship": "Celebrity Edge",
+      "departure_port": "Sydney",
+      "departure_date": "2026-11-19",
+      "nights": 12,
+      "voyage_code": "EG12K183",
+      "sailing_id": "EG12K183_2026-11-19",
+      "group_id": "EG12SYD-3474786043",
+      "currency": "AUD",
+      "fare_basis": "Celebrity search fare, taxes & fees included",
+      "url": "https://www.celebritycruises.com/au/itinerary/12-night-best-of-new-zealand-from-sydney-on-celebrity-EG12K197?sailDate=2029-02-25&packageCode=EG12K197&groupId=EG12SYD-3474786043&country=AUS",
+      "links": {
+        "1": "https://www.celebritycruises.com/au/itinerary/12-night-best-of-new-zealand-from-sydney-on-celebrity-EG12K197?sailDate=2029-02-25&packageCode=EG12K197&groupId=EG12SYD-3474786043&country=AUS",
+        "2": "https://www.celebritycruises.com/booking-cruise/selectRoom/stateroomQuantity?groupId=EG12SYD-3474786043&pID=EG12K183&sDT=2026-11-19&sCD=EG&sCT=CO&country=AUS"
+      },
+      "prices": {
+        "one_guest": {
+          "interior": null,
+          "oceanview": null,
+          "balcony": null,
+          "mini_suite": null,
+          "suite": null
+        },
+        "two_guests": {
+          "interior": {
+            "pp": 3361.21,
+            "total": 6722.42
+          },
+          "oceanview": {
+            "pp": null,
+            "total": null
+          },
+          "balcony": {
+            "pp": null,
+            "total": null
+          },
+          "mini_suite": {
+            "pp": null,
+            "total": null
+          },
+          "suite": {
+            "pp": null,
+            "total": null
+          }
+        }
+      }
+    },
+    {
       "line": "Royal Caribbean",
       "name": "3-Night Sydney Getaway Cruise",
       "ship": "Anthem of the Seas",
@@ -990,7 +1088,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 1693.14,
           "oceanview": 1853.14,
-          "balcony": 1974.14,
+          "balcony": 1953.14,
           "mini_suite": null,
           "suite": 6914.14
         },
@@ -1186,12 +1284,12 @@ window.CRUISE_DATA = {
           "oceanview": null,
           "balcony": null,
           "mini_suite": null,
-          "suite": 16520.18
+          "suite": 11443.18
         },
         "two_guests": {
           "interior": {
-            "pp": null,
-            "total": null
+            "pp": 2251.68,
+            "total": 4503.36
           },
           "oceanview": {
             "pp": null,
@@ -1206,8 +1304,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 8487.68,
-            "total": 16975.36
+            "pp": 5949.18,
+            "total": 11898.36
           }
         }
       }
@@ -1280,7 +1378,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 2603.11,
           "oceanview": 2643.11,
-          "balcony": 2882.11,
+          "balcony": 2802.11,
           "mini_suite": null,
           "suite": 6803.11
         },
@@ -1471,7 +1569,7 @@ window.CRUISE_DATA = {
       "prices": {
         "one_guest": {
           "interior": 1299.21,
-          "oceanview": 1478.21,
+          "oceanview": 1678.21,
           "balcony": 1779.21,
           "mini_suite": null,
           "suite": 3598.21
@@ -1482,8 +1580,8 @@ window.CRUISE_DATA = {
             "total": 1296.42
           },
           "oceanview": {
-            "pp": 788.21,
-            "total": 1576.42
+            "pp": 888.21,
+            "total": 1776.42
           },
           "balcony": {
             "pp": 798.21,
@@ -1760,11 +1858,11 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 3123.89,
+          "interior": 2696.89,
           "oceanview": 3342.89,
           "balcony": 4141.89,
           "mini_suite": null,
-          "suite": 10041.89
+          "suite": 9881.89
         },
         "two_guests": {
           "interior": {
@@ -1784,8 +1882,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 5207.89,
-            "total": 10415.78
+            "pp": 5127.89,
+            "total": 10255.78
           }
         }
       }
@@ -1859,7 +1957,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 3232.11,
           "oceanview": 3272.11,
-          "balcony": 3712.11,
+          "balcony": 2878.11,
           "mini_suite": null,
           "suite": 8472.11
         },
@@ -2005,7 +2103,7 @@ window.CRUISE_DATA = {
           "oceanview": 2390.0,
           "balcony": 2820.0,
           "mini_suite": null,
-          "suite": 3820.0
+          "suite": 4270.0
         },
         "two_guests": {
           "interior": {
@@ -2025,8 +2123,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 1951.0,
-            "total": 3902.0
+            "pp": 2176.0,
+            "total": 4352.0
           }
         }
       }
@@ -2821,7 +2919,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 6082.77,
           "oceanview": 6502.77,
-          "balcony": 6862.77,
+          "balcony": 6763.77,
           "mini_suite": null,
           "suite": 12882.77
         },
@@ -2870,7 +2968,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 4743.55,
           "oceanview": 5563.55,
-          "balcony": 5523.55,
+          "balcony": 4963.55,
           "mini_suite": null,
           "suite": 10464.55
         },
@@ -2929,12 +3027,12 @@ window.CRUISE_DATA = {
             "total": null
           },
           "oceanview": {
-            "pp": null,
-            "total": null
+            "pp": 3326.27,
+            "total": 6652.54
           },
           "balcony": {
-            "pp": null,
-            "total": null
+            "pp": 3766.27,
+            "total": 7532.54
           },
           "mini_suite": {
             "pp": null,
@@ -2964,7 +3062,7 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 8943.0,
+          "interior": null,
           "oceanview": null,
           "balcony": null,
           "mini_suite": null,
@@ -3296,36 +3394,36 @@ window.CRUISE_DATA = {
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K176?sailDate=2026-11-11&packageCode=AN09K176&groupId=AN09SYD-998728121&country=AUS",
       "links": {
         "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-998728121&sailDate=2026-12-28&shipCode=AN&packageCode=AN09K162&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K176?sailDate=2026-11-11&packageCode=AN09K176&groupId=AN09SYD-998728121&country=AUS"
+        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-998728121&sailDate=2026-12-28&shipCode=AN&packageCode=AN09K162&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
           "interior": 7977.41,
           "oceanview": null,
-          "balcony": 8517.41,
+          "balcony": 8436.41,
           "mini_suite": null,
           "suite": 18156.41
         },
         "two_guests": {
           "interior": {
-            "pp": null,
-            "total": null
+            "pp": 3698.41,
+            "total": 7396.82
           },
           "oceanview": {
-            "pp": null,
-            "total": null
+            "pp": 4097.91,
+            "total": 8195.82
           },
           "balcony": {
-            "pp": null,
-            "total": null
+            "pp": 4198.41,
+            "total": 8396.82
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": null,
-            "total": null
+            "pp": 9267.91,
+            "total": 18535.82
           }
         }
       }
@@ -3736,7 +3834,7 @@ window.CRUISE_DATA = {
           "interior": null,
           "oceanview": null,
           "balcony": null,
-          "mini_suite": 8004.0,
+          "mini_suite": null,
           "suite": 21255.0
         },
         "two_guests": {
@@ -3749,12 +3847,12 @@ window.CRUISE_DATA = {
             "total": null
           },
           "balcony": {
-            "pp": 2521.0,
-            "total": 5042.0
+            "pp": 2912.0,
+            "total": 5824.0
           },
           "mini_suite": {
-            "pp": 3819.0,
-            "total": 7638.0
+            "pp": null,
+            "total": null
           },
           "suite": {
             "pp": 10696.0,
@@ -3881,7 +3979,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 4962.83,
           "oceanview": 5601.83,
-          "balcony": 5782.83,
+          "balcony": 5662.83,
           "mini_suite": null,
           "suite": 9101.83
         },
@@ -4124,7 +4222,7 @@ window.CRUISE_DATA = {
           "oceanview": 1814.0,
           "balcony": 1844.0,
           "mini_suite": null,
-          "suite": 3202.0
+          "suite": 2384.0
         },
         "two_guests": {
           "interior": {
@@ -4144,8 +4242,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 1605.0,
-            "total": 3210.0
+            "pp": 1196.0,
+            "total": 2392.0
           }
         }
       }
@@ -4506,7 +4604,7 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 6590.0,
+          "interior": null,
           "oceanview": null,
           "balcony": null,
           "mini_suite": null,
@@ -4653,7 +4751,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 2963.39,
           "oceanview": 3474.39,
-          "balcony": 3350.39,
+          "balcony": 3307.39,
           "mini_suite": null,
           "suite": 6183.39
         },
@@ -4799,7 +4897,7 @@ window.CRUISE_DATA = {
           "oceanview": 1503.0,
           "balcony": 1663.0,
           "mini_suite": null,
-          "suite": 3193.0
+          "suite": 2333.0
         },
         "two_guests": {
           "interior": {
@@ -4819,8 +4917,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 1607.0,
-            "total": 3214.0
+            "pp": 1177.0,
+            "total": 2354.0
           }
         }
       }
@@ -5183,7 +5281,7 @@ window.CRUISE_DATA = {
           "interior": 4493.0,
           "oceanview": 4994.0,
           "balcony": 6051.0,
-          "mini_suite": null,
+          "mini_suite": 7766.0,
           "suite": null
         },
         "two_guests": {
@@ -5200,8 +5298,8 @@ window.CRUISE_DATA = {
             "total": 6146.0
           },
           "mini_suite": {
-            "pp": null,
-            "total": null
+            "pp": 4162.0,
+            "total": 8324.0
           },
           "suite": {
             "pp": null,
@@ -5327,7 +5425,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 6167.03,
           "oceanview": 6666.03,
-          "balcony": 7466.03,
+          "balcony": 7106.03,
           "mini_suite": null,
           "suite": 17066.03
         },
@@ -5667,7 +5765,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 3147.5,
           "oceanview": 4632.5,
-          "balcony": 5112.5,
+          "balcony": 4911.5,
           "mini_suite": null,
           "suite": 13291.5
         },
@@ -5862,7 +5960,7 @@ window.CRUISE_DATA = {
           "oceanview": 3908.0,
           "balcony": 5548.0,
           "mini_suite": null,
-          "suite": 9612.0
+          "suite": 7138.0
         },
         "two_guests": {
           "interior": {
@@ -5882,8 +5980,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 4903.0,
-            "total": 9806.0
+            "pp": 3666.0,
+            "total": 7332.0
           }
         }
       }
@@ -5959,7 +6057,7 @@ window.CRUISE_DATA = {
           "oceanview": null,
           "balcony": 8398.65,
           "mini_suite": null,
-          "suite": 49392.65
+          "suite": 33286.65
         },
         "two_guests": {
           "interior": {
@@ -5979,8 +6077,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 24988.65,
-            "total": 49977.3
+            "pp": 16935.65,
+            "total": 33871.3
           }
         }
       }
@@ -6630,7 +6728,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 2017.36,
           "oceanview": 3222.36,
-          "balcony": 3282.36,
+          "balcony": 3061.36,
           "mini_suite": null,
           "suite": 5822.36
         },
@@ -6782,8 +6880,8 @@ window.CRUISE_DATA = {
         },
         "two_guests": {
           "interior": {
-            "pp": 1713.02,
-            "total": 3426.04
+            "pp": 1798.52,
+            "total": 3597.04
           },
           "oceanview": {
             "pp": 1849.02,
@@ -6823,7 +6921,7 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 3280.52,
+          "interior": 3360.52,
           "oceanview": 3499.52,
           "balcony": 3610.52,
           "mini_suite": null,
@@ -7016,7 +7114,7 @@ window.CRUISE_DATA = {
           "interior": 5070.0,
           "oceanview": 5844.0,
           "balcony": 8670.0,
-          "mini_suite": 12058.0,
+          "mini_suite": 11734.0,
           "suite": null
         },
         "two_guests": {
@@ -7400,7 +7498,7 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 2007.22,
+          "interior": 1457.22,
           "oceanview": 2481.22,
           "balcony": 2348.22,
           "mini_suite": null,
@@ -7599,16 +7697,16 @@ window.CRUISE_DATA = {
         },
         "two_guests": {
           "interior": {
-            "pp": 1329.44,
-            "total": 2658.88
+            "pp": 1398.94,
+            "total": 2797.88
           },
           "oceanview": {
-            "pp": 1424.44,
-            "total": 2848.88
+            "pp": 1498.94,
+            "total": 2997.88
           },
           "balcony": {
-            "pp": 1542.44,
-            "total": 3084.88
+            "pp": 1628.44,
+            "total": 3256.88
           },
           "mini_suite": {
             "pp": null,
@@ -7694,8 +7792,8 @@ window.CRUISE_DATA = {
         },
         "two_guests": {
           "interior": {
-            "pp": 2693.0,
-            "total": 5386.0
+            "pp": null,
+            "total": null
           },
           "oceanview": {
             "pp": 3043.0,
@@ -7879,7 +7977,7 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 2027.36,
+          "interior": 2821.36,
           "oceanview": 3121.36,
           "balcony": 3122.36,
           "mini_suite": null,
@@ -8069,7 +8167,7 @@ window.CRUISE_DATA = {
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/8-night-south-pacific-cruise-from-brisbane-on-quantum-QN08K130?sailDate=2027-03-26&packageCode=QN08K130&groupId=QN08BNE-2094299298&country=AUS",
       "links": {
         "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=QN08BNE-2094299298&sailDate=2027-03-26&shipCode=QN&packageCode=QN08K130&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=QN08BNE-2094299298&sailDate=2027-03-26&shipCode=QN&packageCode=QN08K130&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
+        "2": "https://www.royalcaribbean.com/aus/en/itinerary/8-night-south-pacific-cruise-from-brisbane-on-quantum-QN08K130?sailDate=2027-03-26&packageCode=QN08K130&groupId=QN08BNE-2094299298&country=AUS"
       },
       "prices": {
         "one_guest": {
@@ -8081,24 +8179,24 @@ window.CRUISE_DATA = {
         },
         "two_guests": {
           "interior": {
-            "pp": 1686.18,
-            "total": 3372.36
+            "pp": null,
+            "total": null
           },
           "oceanview": {
-            "pp": 1828.68,
-            "total": 3657.36
+            "pp": null,
+            "total": null
           },
           "balcony": {
-            "pp": 1847.68,
-            "total": 3695.36
+            "pp": null,
+            "total": null
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 3453.68,
-            "total": 6907.36
+            "pp": null,
+            "total": null
           }
         }
       }
@@ -8166,7 +8264,7 @@ window.CRUISE_DATA = {
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K176?sailDate=2026-11-11&packageCode=AN09K176&groupId=AN09SYD-998728121&country=AUS",
       "links": {
         "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-998728121&sailDate=2027-03-27&shipCode=AN&packageCode=AN09K172&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K176?sailDate=2026-11-11&packageCode=AN09K176&groupId=AN09SYD-998728121&country=AUS"
+        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-998728121&sailDate=2027-03-27&shipCode=AN&packageCode=AN09K172&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
@@ -8178,24 +8276,24 @@ window.CRUISE_DATA = {
         },
         "two_guests": {
           "interior": {
-            "pp": null,
-            "total": null
+            "pp": 3547.96,
+            "total": 7095.92
           },
           "oceanview": {
-            "pp": null,
-            "total": null
+            "pp": 3598.46,
+            "total": 7196.92
           },
           "balcony": {
-            "pp": null,
-            "total": null
+            "pp": 3648.46,
+            "total": 7296.92
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": null,
-            "total": null
+            "pp": 6578.46,
+            "total": 13156.92
           }
         }
       }
@@ -8264,16 +8362,16 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 10509.0,
+          "interior": 10897.0,
           "oceanview": null,
           "balcony": 11018.0,
-          "mini_suite": null,
+          "mini_suite": 23373.0,
           "suite": 39998.0
         },
         "two_guests": {
           "interior": {
-            "pp": 5434.0,
-            "total": 10868.0
+            "pp": 5628.0,
+            "total": 11256.0
           },
           "oceanview": {
             "pp": null,
@@ -8284,8 +8382,8 @@ window.CRUISE_DATA = {
             "total": 11378.0
           },
           "mini_suite": {
-            "pp": null,
-            "total": null
+            "pp": 11867.0,
+            "total": 23734.0
           },
           "suite": {
             "pp": 20179.0,
@@ -8361,7 +8459,7 @@ window.CRUISE_DATA = {
           "interior": 2151.0,
           "oceanview": null,
           "balcony": 3957.0,
-          "mini_suite": null,
+          "mini_suite": 4375.0,
           "suite": null
         },
         "two_guests": {
@@ -8378,8 +8476,8 @@ window.CRUISE_DATA = {
             "total": 4110.0
           },
           "mini_suite": {
-            "pp": null,
-            "total": null
+            "pp": 2264.0,
+            "total": 4528.0
           },
           "suite": {
             "pp": null,
@@ -8786,7 +8884,7 @@ window.CRUISE_DATA = {
       "prices": {
         "one_guest": {
           "interior": null,
-          "oceanview": null,
+          "oceanview": 3073.0,
           "balcony": null,
           "mini_suite": null,
           "suite": null
@@ -8797,8 +8895,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "oceanview": {
-            "pp": null,
-            "total": null
+            "pp": 1556.0,
+            "total": 3112.0
           },
           "balcony": {
             "pp": null,
@@ -8890,16 +8988,16 @@ window.CRUISE_DATA = {
         },
         "two_guests": {
           "interior": {
-            "pp": 1878.33,
-            "total": 3756.66
+            "pp": 1973.33,
+            "total": 3946.66
           },
           "oceanview": {
-            "pp": 2068.83,
-            "total": 4137.66
+            "pp": 2173.83,
+            "total": 4347.66
           },
           "balcony": {
-            "pp": 2086.83,
-            "total": 4173.66
+            "pp": 2198.33,
+            "total": 4396.66
           },
           "mini_suite": {
             "pp": null,
@@ -9079,7 +9177,7 @@ window.CRUISE_DATA = {
           "oceanview": 4846.0,
           "balcony": 4866.0,
           "mini_suite": null,
-          "suite": 10980.0
+          "suite": 11026.0
         },
         "two_guests": {
           "interior": {
@@ -9099,8 +9197,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 5597.0,
-            "total": 11194.0
+            "pp": 5620.0,
+            "total": 11240.0
           }
         }
       }
@@ -9380,16 +9478,16 @@ window.CRUISE_DATA = {
             "total": null
           },
           "balcony": {
-            "pp": 3991.2,
-            "total": 7982.4
+            "pp": 3944.7,
+            "total": 7889.4
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 10907.7,
-            "total": 21815.4
+            "pp": 10702.2,
+            "total": 21404.4
           }
         }
       }
@@ -9463,7 +9561,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 6228.17,
           "oceanview": 7092.67,
-          "balcony": 7827.67,
+          "balcony": 7317.67,
           "mini_suite": null,
           "suite": 37722.34
         },
@@ -9477,8 +9575,8 @@ window.CRUISE_DATA = {
             "total": 7597.34
           },
           "balcony": {
-            "pp": 5338.67,
-            "total": 10677.34
+            "pp": 4999.17,
+            "total": 9998.34
           },
           "mini_suite": {
             "pp": null,
@@ -9566,16 +9664,16 @@ window.CRUISE_DATA = {
         },
         "two_guests": {
           "interior": {
-            "pp": 2756.27,
-            "total": 5512.54
+            "pp": 2898.27,
+            "total": 5796.54
           },
           "oceanview": {
-            "pp": 2851.27,
-            "total": 5702.54
+            "pp": 2998.27,
+            "total": 5996.54
           },
           "balcony": {
-            "pp": 3037.77,
-            "total": 6075.54
+            "pp": 3198.27,
+            "total": 6396.54
           },
           "mini_suite": {
             "pp": null,
@@ -9755,7 +9853,7 @@ window.CRUISE_DATA = {
           "oceanview": 2799.0,
           "balcony": 3479.0,
           "mini_suite": null,
-          "suite": 4079.0
+          "suite": 3879.0
         },
         "two_guests": {
           "interior": {
@@ -9775,8 +9873,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 2073.0,
-            "total": 4146.0
+            "pp": 1973.0,
+            "total": 3946.0
           }
         }
       }
@@ -10110,6 +10208,53 @@ window.CRUISE_DATA = {
           "mini_suite": {
             "pp": null,
             "total": null
+          },
+          "suite": {
+            "pp": null,
+            "total": null
+          }
+        }
+      }
+    },
+    {
+      "line": "Princess",
+      "name": "2-Day Australia Seacation",
+      "ship": "Grand Princess",
+      "departure_port": "Brisbane",
+      "departure_date": "2027-04-28",
+      "nights": 2,
+      "voyage_code": "A710H",
+      "currency": "AUD",
+      "fare_basis": "Princess Standard (BESTFARE)",
+      "url": "https://www.princess.com/itinerary-details?voyageCode=A710H&fareType=BESTFARE&guestCount=2",
+      "links": {
+        "1": "https://www.princess.com/itinerary-details?voyageCode=A710H&fareType=BESTFARE&guestCount=1",
+        "2": "https://www.princess.com/itinerary-details?voyageCode=A710H&fareType=BESTFARE&guestCount=2"
+      },
+      "prices": {
+        "one_guest": {
+          "interior": 648.0,
+          "oceanview": 694.0,
+          "balcony": 828.0,
+          "mini_suite": 1128.0,
+          "suite": null
+        },
+        "two_guests": {
+          "interior": {
+            "pp": 349.0,
+            "total": 698.0
+          },
+          "oceanview": {
+            "pp": 372.0,
+            "total": 744.0
+          },
+          "balcony": {
+            "pp": 439.0,
+            "total": 878.0
+          },
+          "mini_suite": {
+            "pp": 589.0,
+            "total": 1178.0
           },
           "suite": {
             "pp": null,
@@ -14208,28 +14353,28 @@ window.CRUISE_DATA = {
           "oceanview": null,
           "balcony": null,
           "mini_suite": null,
-          "suite": 19406.45
+          "suite": 18985.45
         },
         "two_guests": {
           "interior": {
-            "pp": 3311.95,
-            "total": 6623.9
+            "pp": 3242.95,
+            "total": 6485.9
           },
           "oceanview": {
             "pp": 3862.95,
             "total": 7725.9
           },
           "balcony": {
-            "pp": 4147.45,
-            "total": 8294.9
+            "pp": 3921.95,
+            "total": 7843.9
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 9989.45,
-            "total": 19978.9
+            "pp": 9778.95,
+            "total": 19557.9
           }
         }
       }
@@ -14927,16 +15072,16 @@ window.CRUISE_DATA = {
           "oceanview": null,
           "balcony": null,
           "mini_suite": null,
-          "suite": 5101.41
+          "suite": 4995.41
         },
         "two_guests": {
           "interior": {
-            "pp": 1085.41,
-            "total": 2170.82
+            "pp": 1060.91,
+            "total": 2121.82
           },
           "oceanview": {
-            "pp": 1085.41,
-            "total": 2170.82
+            "pp": 1113.41,
+            "total": 2226.82
           },
           "balcony": {
             "pp": 1199.41,
@@ -14947,8 +15092,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 2642.91,
-            "total": 5285.82
+            "pp": 2589.91,
+            "total": 5179.82
           }
         }
       }
@@ -15506,7 +15651,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 2547.8,
           "oceanview": 2684.8,
-          "balcony": 2636.8,
+          "balcony": 3249.8,
           "mini_suite": null,
           "suite": 5912.8
         },
@@ -15650,7 +15795,7 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 7463.05,
+          "interior": 7487.05,
           "oceanview": null,
           "balcony": 8614.05,
           "mini_suite": null,
@@ -15658,8 +15803,8 @@ window.CRUISE_DATA = {
         },
         "two_guests": {
           "interior": {
-            "pp": 3809.05,
-            "total": 7618.1
+            "pp": 3821.05,
+            "total": 7642.1
           },
           "oceanview": {
             "pp": null,
@@ -15892,7 +16037,7 @@ window.CRUISE_DATA = {
       "prices": {
         "one_guest": {
           "interior": 7444.0,
-          "oceanview": null,
+          "oceanview": 8712.0,
           "balcony": 10302.0,
           "mini_suite": 11644.0,
           "suite": 18244.0
@@ -16517,7 +16662,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": 7957.0,
           "oceanview": 9877.0,
-          "balcony": 12691.0,
+          "balcony": 15213.0,
           "mini_suite": 14011.0,
           "suite": 25451.0
         },
@@ -16852,7 +16997,7 @@ window.CRUISE_DATA = {
       "prices": {
         "one_guest": {
           "interior": 2876.0,
-          "oceanview": null,
+          "oceanview": 2634.0,
           "balcony": 3076.0,
           "mini_suite": 4076.0,
           "suite": 8076.0
@@ -16992,7 +17137,7 @@ window.CRUISE_DATA = {
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K176?sailDate=2026-11-11&packageCode=AN09K176&groupId=AN09SYD-998728121&country=AUS",
       "links": {
         "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-998728121&sailDate=2027-11-29&shipCode=AN&packageCode=AN09K176&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/itinerary/9-night-new-zealand-cruise-from-sydney-on-anthem-AN09K176?sailDate=2026-11-11&packageCode=AN09K176&groupId=AN09SYD-998728121&country=AUS"
+        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN09SYD-998728121&sailDate=2027-11-29&shipCode=AN&packageCode=AN09K176&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
@@ -17004,24 +17149,24 @@ window.CRUISE_DATA = {
         },
         "two_guests": {
           "interior": {
-            "pp": null,
-            "total": null
+            "pp": 2487.63,
+            "total": 4975.26
           },
           "oceanview": {
-            "pp": null,
-            "total": null
+            "pp": 2824.63,
+            "total": 5649.26
           },
           "balcony": {
-            "pp": null,
-            "total": null
+            "pp": 3438.13,
+            "total": 6876.26
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": null,
-            "total": null
+            "pp": 5178.63,
+            "total": 10357.26
           }
         }
       }
@@ -17282,7 +17427,7 @@ window.CRUISE_DATA = {
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/6-night-queensland-cruise-from-brisbane-on-ovation-OV06K035?sailDate=2027-12-04&packageCode=OV06K035&groupId=OV06BNE-2584015243&country=AUS",
       "links": {
         "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV06BNE-2584015243&sailDate=2027-12-04&shipCode=OV&packageCode=OV06K035&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/itinerary/6-night-queensland-cruise-from-brisbane-on-ovation-OV06K035?sailDate=2027-12-04&packageCode=OV06K035&groupId=OV06BNE-2584015243&country=AUS"
+        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV06BNE-2584015243&sailDate=2027-12-04&shipCode=OV&packageCode=OV06K035&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
@@ -17294,24 +17439,24 @@ window.CRUISE_DATA = {
         },
         "two_guests": {
           "interior": {
-            "pp": null,
-            "total": null
+            "pp": 1168.9,
+            "total": 2337.8
           },
           "oceanview": {
-            "pp": null,
-            "total": null
+            "pp": 1398.4,
+            "total": 2796.8
           },
           "balcony": {
-            "pp": null,
-            "total": null
+            "pp": 1518.9,
+            "total": 3037.8
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": null,
-            "total": null
+            "pp": 2853.4,
+            "total": 5706.8
           }
         }
       }
@@ -17431,7 +17576,7 @@ window.CRUISE_DATA = {
       "prices": {
         "one_guest": {
           "interior": 5344.0,
-          "oceanview": null,
+          "oceanview": 5584.0,
           "balcony": 6444.0,
           "mini_suite": 8244.0,
           "suite": 16244.0
@@ -18101,7 +18246,7 @@ window.CRUISE_DATA = {
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/8-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-ovation-OV08K135?sailDate=2027-12-13&packageCode=OV08K135&groupId=OV08BNE-1784710085&country=AUS",
       "links": {
         "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV08BNE-1784710085&sailDate=2027-12-13&shipCode=OV&packageCode=OV08K135&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV08BNE-1784710085&sailDate=2027-12-13&shipCode=OV&packageCode=OV08K135&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
+        "2": "https://www.royalcaribbean.com/aus/en/itinerary/8-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-ovation-OV08K135?sailDate=2027-12-13&packageCode=OV08K135&groupId=OV08BNE-1784710085&country=AUS"
       },
       "prices": {
         "one_guest": {
@@ -18113,24 +18258,24 @@ window.CRUISE_DATA = {
         },
         "two_guests": {
           "interior": {
-            "pp": 1948.68,
-            "total": 3897.36
+            "pp": null,
+            "total": null
           },
           "oceanview": {
-            "pp": 2148.18,
-            "total": 4296.36
+            "pp": null,
+            "total": null
           },
           "balcony": {
-            "pp": 2348.18,
-            "total": 4696.36
+            "pp": null,
+            "total": null
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": 4458.68,
-            "total": 8917.36
+            "pp": null,
+            "total": null
           }
         }
       }
@@ -19359,7 +19504,7 @@ window.CRUISE_DATA = {
       "prices": {
         "one_guest": {
           "interior": 5431.0,
-          "oceanview": null,
+          "oceanview": 6036.0,
           "balcony": 6831.0,
           "mini_suite": 8531.0,
           "suite": 16231.0
@@ -21242,7 +21387,7 @@ window.CRUISE_DATA = {
       "prices": {
         "one_guest": {
           "interior": 5931.0,
-          "oceanview": null,
+          "oceanview": 6917.0,
           "balcony": 8363.0,
           "mini_suite": 9831.0,
           "suite": 16431.0
@@ -22061,7 +22206,7 @@ window.CRUISE_DATA = {
       "prices": {
         "one_guest": {
           "interior": 5985.0,
-          "oceanview": null,
+          "oceanview": 7339.0,
           "balcony": 8185.0,
           "mini_suite": 9685.0,
           "suite": null
@@ -23886,7 +24031,7 @@ window.CRUISE_DATA = {
       "prices": {
         "one_guest": {
           "interior": 1249.0,
-          "oceanview": null,
+          "oceanview": 1338.0,
           "balcony": 1549.0,
           "mini_suite": 1849.0,
           "suite": 3449.0
@@ -24031,7 +24176,7 @@ window.CRUISE_DATA = {
       "prices": {
         "one_guest": {
           "interior": 6030.0,
-          "oceanview": null,
+          "oceanview": 7045.0,
           "balcony": 8666.0,
           "mini_suite": 9230.0,
           "suite": 15230.0
@@ -24373,7 +24518,7 @@ window.CRUISE_DATA = {
           "oceanview": 6575.44,
           "balcony": 8040.44,
           "mini_suite": null,
-          "suite": 34643.44
+          "suite": 17496.44
         },
         "two_guests": {
           "interior": {
@@ -24393,8 +24538,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 17526.94,
-            "total": 35053.88
+            "pp": 8953.44,
+            "total": 17906.88
           }
         }
       }
@@ -24517,7 +24662,7 @@ window.CRUISE_DATA = {
           "oceanview": 10104.0,
           "balcony": 11564.0,
           "mini_suite": 13679.0,
-          "suite": 36639.0
+          "suite": 38035.0
         },
         "two_guests": {
           "interior": {
@@ -24537,8 +24682,8 @@ window.CRUISE_DATA = {
             "total": 14040.0
           },
           "suite": {
-            "pp": 18500.0,
-            "total": 37000.0
+            "pp": 19198.0,
+            "total": 38396.0
           }
         }
       }
@@ -25812,7 +25957,7 @@ window.CRUISE_DATA = {
         "one_guest": {
           "interior": null,
           "oceanview": null,
-          "balcony": null,
+          "balcony": 8152.8,
           "mini_suite": null,
           "suite": 27585.8
         },
