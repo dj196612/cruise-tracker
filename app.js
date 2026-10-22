@@ -7,6 +7,22 @@
 
   const data = window.CRUISE_DATA || { generated_at: null, cruises: [] };
   const allCruises = Array.isArray(data.cruises) ? data.cruises : [];
+  // Favourites are stored in this browser, not in the published price feed.
+  const FAVOURITES_KEY = "cruise-tracker-favourites-v1";
+  function cruiseKey(c) {
+    // Identify one dated sailing independently of changes to price or booking URL.
+    return JSON.stringify([c.line || "", c.ship || "", c.departure_date || "",
+      c.sailing_id || c.voyage_code || "", c.departure_port || "", Number(c.nights || 0)]);
+  }
+  let favourites;
+  try {
+    const stored = JSON.parse(localStorage.getItem(FAVOURITES_KEY) || "[]");
+    favourites = new Set(Array.isArray(stored) ? stored.filter(x => typeof x === "string") : []);
+  } catch (_) { favourites = new Set(); }
+  function saveFavourites() {
+    try { localStorage.setItem(FAVOURITES_KEY, JSON.stringify([...favourites])); }
+    catch (_) { console.warn("Favourites cannot be saved in this browser."); }
+  }
   let columnSort = null; // { key, direction }; null uses the Sort dropdown
   const headerColumns = [["cruise", "Cruise"], ["departure", "Departure"], ["port", "From"], ["nights", "Nights"], ["fare", "Fare pp"], ["total", "Total"]];
 
@@ -14,7 +30,7 @@
   const els = {
     resultCount: $("resultCount"), updated: $("updated"), passengers: $("passengers"), cabin: $("cabin"), farePackage: $("farePackage"),
     minNights: $("minNights"), maxNights: $("maxNights"), dateFrom: $("dateFrom"), dateTo: $("dateTo"), maxPrice: $("maxPrice"),
-    ship: $("ship"), sort: $("sort"), available: $("available"), reset: $("reset"), summary: $("summary"), results: $("results")
+    ship: $("ship"), sort: $("sort"), available: $("available"), favouritesOnly: $("favouritesOnly"), reset: $("reset"), summary: $("summary"), results: $("results")
   };
 
   const money = value => value == null || !Number.isFinite(Number(value))
@@ -80,13 +96,14 @@
       lines: checkedValues("cruiseLines"), ports: checkedValues("ports"), passengers: Number(els.passengers.value), cabin: els.cabin.value,
       farePackage: els.farePackage?.value || "standard", minNights: Number(els.minNights.value || 0), maxNights: els.maxNights.value ? Number(els.maxNights.value) : null,
       dateFrom: els.dateFrom.value || null, dateTo: els.dateTo.value || null, maxPrice: els.maxPrice?.value ? Number(els.maxPrice.value) : null,
-      ship: els.ship?.value || "", sort: els.sort.value, available: els.available.checked
+      ship: els.ship?.value || "", sort: els.sort.value, available: els.available.checked, favouritesOnly: els.favouritesOnly.checked
     };
   }
 
   function applyFilters() {
     const f = filters();
     const rows = allCruises.filter(c => {
+      if (f.favouritesOnly && !favourites.has(cruiseKey(c))) return false;
       if (!f.lines.includes(c.line)) return false;
       if (!f.ports.includes(c.departure_port)) return false;
       if (f.ship && c.ship !== f.ship) return false;
@@ -177,6 +194,7 @@
     const openLabel = cruise.line === "Royal Caribbean" ? "Open RC" : (cruise.line === "Celebrity Cruises" ? "Open Celebrity" : (cruise.line === "Carnival Cruise Line" ? "Open Carnival" : (cruise.line === "Norwegian Cruise Line" ? "Open NCL" : "Open Princess")));
     const slug = LINE_SLUGS[cruise.line] || "other";
     const dep = cruise.departure_date ? new Date(`${cruise.departure_date}T00:00:00`) : null;
+    const starred = favourites.has(cruiseKey(cruise));
     const dateTile = dep
       ? `<div class="date-tile"><b>${dep.getDate()}</b><div><span>${new Intl.DateTimeFormat("en-AU", { month: "short" }).format(dep)} ${dep.getFullYear()}</span><small>${new Intl.DateTimeFormat("en-AU", { weekday: "long" }).format(dep)}</small></div></div>`
       : `<div class="date-tile"><b>—</b></div>`;
@@ -184,6 +202,10 @@
     return `
       <article class="cruise-row line-${slug}${availableClass}">
         <div class="row-main">
+          <button class="favourite-star${starred ? " is-favourite" : ""}" type="button"
+            data-favourite="${escapeAttr(cruiseKey(cruise))}"
+            aria-pressed="${starred}" aria-label="${starred ? "Remove from favourites" : "Add to favourites"}"
+            title="${starred ? "Remove from favourites" : "Add to favourites"}">★</button>
           <div class="row-text">
             <div class="row-line"><i></i>${LINE_LABELS[cruise.line] || cruise.line}${cruise.voyage_code ? `<span class="row-code">${escapeHtml(cruise.voyage_code)}</span>` : ""}</div>
             <div class="row-title">${escapeHtml(cruise.name || "Cruise")}</div>
@@ -253,6 +275,7 @@
     els.sort.value = "dayprice";
     columnSort = null;
     els.available.checked = false;
+    els.favouritesOnly.checked = false;
     applyFilters();
   }
 
@@ -264,6 +287,15 @@
   els.reset.addEventListener("click", reset);
   els.sort.addEventListener("change", () => { columnSort = null; applyFilters(); });
   els.results.addEventListener("click", event => {
+    const star = event.target.closest("button[data-favourite]");
+    if (star && els.results.contains(star)) {
+      const key = star.dataset.favourite;
+      if (favourites.has(key)) favourites.delete(key);
+      else favourites.add(key);
+      saveFavourites();
+      applyFilters();
+      return;
+    }
     const heading = event.target.closest("button[data-sort-key]");
     if (!heading || !els.results.contains(heading)) return;
     const key = heading.dataset.sortKey;
