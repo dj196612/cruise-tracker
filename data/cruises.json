@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T12:08:35.734678+11:00",
+  "generated_at": "2026-10-24T17:08:49.954037+11:00",
   "currency": "AUD",
   "source": "Combined live cruise tracker data",
   "cruises": [
@@ -122,7 +122,7 @@
         "one_guest": {
           "interior": 1766.76,
           "oceanview": 2406.76,
-          "balcony": 2866.76,
+          "balcony": 2725.76,
           "mini_suite": null,
           "suite": 5665.76
         },
@@ -136,8 +136,8 @@
             "total": 2637.52
           },
           "balcony": {
-            "pp": 1548.76,
-            "total": 3097.52
+            "pp": 1478.26,
+            "total": 2956.52
           },
           "mini_suite": {
             "pp": null,
@@ -266,16 +266,16 @@
       },
       "prices": {
         "one_guest": {
-          "interior": 2833.87,
+          "interior": 2774.87,
           "oceanview": 3033.87,
           "balcony": null,
           "mini_suite": null,
-          "suite": 6313.87
+          "suite": 5913.87
         },
         "two_guests": {
           "interior": {
-            "pp": 1558.37,
-            "total": 3116.74
+            "pp": 1528.87,
+            "total": 3057.74
           },
           "oceanview": {
             "pp": 1658.37,
@@ -290,8 +290,8 @@
             "total": null
           },
           "suite": {
-            "pp": 3298.37,
-            "total": 6596.74
+            "pp": 3098.37,
+            "total": 6196.74
           }
         }
       }
@@ -1088,7 +1088,7 @@
         "one_guest": {
           "interior": 2078.33,
           "oceanview": 2904.33,
-          "balcony": 2725.33,
+          "balcony": 2665.33,
           "mini_suite": null,
           "suite": 7705.33
         },
@@ -1247,8 +1247,8 @@
             "total": null
           },
           "balcony": {
-            "pp": null,
-            "total": null
+            "pp": 2754.18,
+            "total": 5508.36
           },
           "mini_suite": {
             "pp": null,
@@ -1728,8 +1728,8 @@
             "total": 4780.04
           },
           "balcony": {
-            "pp": null,
-            "total": null
+            "pp": 2960.52,
+            "total": 5921.04
           },
           "mini_suite": {
             "pp": null,
@@ -1763,7 +1763,7 @@
         "one_guest": {
           "interior": 3222.89,
           "oceanview": 3601.89,
-          "balcony": 4042.89,
+          "balcony": 3941.89,
           "mini_suite": null,
           "suite": 10041.89
         },
@@ -2247,7 +2247,7 @@
           "oceanview": null,
           "balcony": null,
           "mini_suite": null,
-          "suite": 10048.04
+          "suite": 18586.04
         },
         "two_guests": {
           "interior": {
@@ -2267,8 +2267,8 @@
             "total": null
           },
           "suite": {
-            "pp": 5196.04,
-            "total": 10392.08
+            "pp": 9465.04,
+            "total": 18930.08
           }
         }
       }
@@ -2342,7 +2342,7 @@
         "one_guest": {
           "interior": 3331.84,
           "oceanview": 4090.84,
-          "balcony": 3911.84,
+          "balcony": 3851.84,
           "mini_suite": null,
           "suite": 6211.84
         },
@@ -2930,8 +2930,8 @@
             "total": null
           },
           "oceanview": {
-            "pp": null,
-            "total": null
+            "pp": 3450.27,
+            "total": 6900.54
           },
           "balcony": {
             "pp": 6028.27,
@@ -3352,7 +3352,7 @@
         "one_guest": {
           "interior": 6040.25,
           "oceanview": 6221.25,
-          "balcony": 6360.25,
+          "balcony": 7440.25,
           "mini_suite": null,
           "suite": 13660.25
         },
@@ -4222,7 +4222,7 @@
           "oceanview": null,
           "balcony": 7456.17,
           "mini_suite": null,
-          "suite": 51712.17
+          "suite": 22162.17
         },
         "two_guests": {
           "interior": {
@@ -4242,8 +4242,8 @@
             "total": null
           },
           "suite": {
-            "pp": 26155.17,
-            "total": 52310.34
+            "pp": 11380.17,
+            "total": 22760.34
           }
         }
       }
@@ -4364,7 +4364,7 @@
       },
       "prices": {
         "one_guest": {
-          "interior": 2428.01,
+          "interior": 3255.01,
           "oceanview": 3415.01,
           "balcony": 3675.01,
           "mini_suite": null,
@@ -4519,8 +4519,8 @@
             "total": 6682.0
           },
           "oceanview": {
-            "pp": 3628.0,
-            "total": 7256.0
+            "pp": null,
+            "total": null
           },
           "balcony": {
             "pp": null,
@@ -5524,7 +5524,7 @@
           "oceanview": null,
           "balcony": null,
           "mini_suite": null,
-          "suite": 67986.88
+          "suite": 23894.88
         },
         "two_guests": {
           "interior": {
@@ -5532,8 +5532,8 @@
             "total": 7199.76
           },
           "oceanview": {
-            "pp": 5337.88,
-            "total": 10675.76
+            "pp": 5325.38,
+            "total": 10650.76
           },
           "balcony": {
             "pp": 5098.88,
@@ -5544,8 +5544,8 @@
             "total": null
           },
           "suite": {
-            "pp": 34281.38,
-            "total": 68562.76
+            "pp": 12235.38,
+            "total": 24470.76
           }
         }
       }
@@ -6694,8 +6694,8 @@
             "total": 7078.22
           },
           "balcony": {
-            "pp": 3598.61,
-            "total": 7197.22
+            "pp": 3710.61,
+            "total": 7421.22
           },
           "mini_suite": {
             "pp": null,
@@ -6826,7 +6826,7 @@
         "one_guest": {
           "interior": 3310.52,
           "oceanview": 3450.52,
-          "balcony": 3509.52,
+          "balcony": 3410.52,
           "mini_suite": null,
           "suite": 7530.52
         },
@@ -8741,7 +8741,7 @@
         "one_guest": {
           "interior": 3225.0,
           "oceanview": null,
-          "balcony": 5157.0,
+          "balcony": null,
           "mini_suite": null,
           "suite": null
         },
@@ -8755,8 +8755,8 @@
             "total": null
           },
           "balcony": {
-            "pp": 2598.0,
-            "total": 5196.0
+            "pp": null,
+            "total": null
           },
           "mini_suite": {
             "pp": null,
@@ -15552,7 +15552,7 @@
       },
       "prices": {
         "one_guest": {
-          "interior": 2351.8,
+          "interior": 2349.8,
           "oceanview": 2351.8,
           "balcony": 2739.8,
           "mini_suite": null,
@@ -17093,7 +17093,7 @@
       },
       "prices": {
         "one_guest": {
-          "interior": 8178.74,
+          "interior": 8177.74,
           "oceanview": 8583.74,
           "balcony": 10456.74,
           "mini_suite": null,
@@ -24433,8 +24433,8 @@
             "total": 6541.88
           },
           "balcony": {
-            "pp": 4225.44,
-            "total": 8450.88
+            "pp": 4091.44,
+            "total": 8182.88
           },
           "mini_suite": {
             "pp": null,
@@ -25860,7 +25860,7 @@
         "one_guest": {
           "interior": null,
           "oceanview": null,
-          "balcony": null,
+          "balcony": 8152.8,
           "mini_suite": null,
           "suite": 78490.8
         },
@@ -28226,7 +28226,7 @@
         "one_guest": {
           "interior": 8222.78,
           "oceanview": 8905.78,
-          "balcony": 6760.78,
+          "balcony": 10422.78,
           "mini_suite": null,
           "suite": 23388.78
         },
