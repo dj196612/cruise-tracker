@@ -1,5 +1,5 @@
 window.CRUISE_DATA = {
-  "generated_at": "2026-10-25T12:30:44.195752+11:00",
+  "generated_at": "2026-10-25T12:40:20.126504+11:00",
   "currency": "AUD",
   "source": "Combined live cruise tracker data",
   "cruises": [
@@ -9458,16 +9458,16 @@ window.CRUISE_DATA = {
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/16-night-transpacific-cruise-from-sydney-on-anthem-AN16T115?sailDate=2027-04-14&packageCode=AN16T115&groupId=AN16SYD-2971113566&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN16SYD-2971113566&sailDate=2027-04-14&shipCode=AN&packageCode=AN16T115&destinationCode=TPACI&selectedCurrencyCode=AUD&country=AUS",
+        "1": "https://www.royalcaribbean.com/aus/en/itinerary/16-night-transpacific-cruise-from-sydney-on-anthem-AN16T115?sailDate=2027-04-14&packageCode=AN16T115&groupId=AN16SYD-2971113566&country=AUS",
         "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=AN16SYD-2971113566&sailDate=2027-04-14&shipCode=AN&packageCode=AN16T115&destinationCode=TPACI&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": 4876.27,
-          "oceanview": 5265.77,
-          "balcony": 6182.27,
+          "interior": null,
+          "oceanview": null,
+          "balcony": null,
           "mini_suite": null,
-          "suite": 11791.27
+          "suite": null
         },
         "two_guests": {
           "interior": {
@@ -16223,16 +16223,16 @@ window.CRUISE_DATA = {
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/6-night-queensland-cruise-from-brisbane-on-voyager-VY06K034?sailDate=2027-11-19&packageCode=VY06K034&groupId=VY06BNE-2584015613&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=VY06BNE-2584015613&sailDate=2027-11-19&shipCode=VY&packageCode=VY06K034&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS",
+        "1": "https://www.royalcaribbean.com/aus/en/itinerary/6-night-queensland-cruise-from-brisbane-on-voyager-VY06K034?sailDate=2027-11-19&packageCode=VY06K034&groupId=VY06BNE-2584015613&country=AUS",
         "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=VY06BNE-2584015613&sailDate=2027-11-19&shipCode=VY&packageCode=VY06K034&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": 3048.22,
-          "oceanview": 3168.22,
-          "balcony": 3609.22,
+          "interior": null,
+          "oceanview": null,
+          "balcony": null,
           "mini_suite": null,
-          "suite": 6118.22
+          "suite": null
         },
         "two_guests": {
           "interior": {
@@ -17233,16 +17233,16 @@ window.CRUISE_DATA = {
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/6-night-queensland-cruise-from-brisbane-on-ovation-OV06K035?sailDate=2027-12-04&packageCode=OV06K035&groupId=OV06BNE-2584015243&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV06BNE-2584015243&sailDate=2027-12-04&shipCode=OV&packageCode=OV06K035&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS",
+        "1": "https://www.royalcaribbean.com/aus/en/itinerary/6-night-queensland-cruise-from-brisbane-on-ovation-OV06K035?sailDate=2027-12-04&packageCode=OV06K035&groupId=OV06BNE-2584015243&country=AUS",
         "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV06BNE-2584015243&sailDate=2027-12-04&shipCode=OV&packageCode=OV06K035&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": 2383.9,
-          "oceanview": 3022.9,
-          "balcony": 3003.9,
+          "interior": null,
+          "oceanview": null,
+          "balcony": null,
           "mini_suite": null,
-          "suite": 5792.9
+          "suite": null
         },
         "two_guests": {
           "interior": {
@@ -18052,16 +18052,16 @@ window.CRUISE_DATA = {
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/8-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-ovation-OV08K135?sailDate=2027-12-13&packageCode=OV08K135&groupId=OV08BNE-1784710085&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV08BNE-1784710085&sailDate=2027-12-13&shipCode=OV&packageCode=OV08K135&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
+        "1": "https://www.royalcaribbean.com/aus/en/itinerary/8-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-ovation-OV08K135?sailDate=2027-12-13&packageCode=OV08K135&groupId=OV08BNE-1784710085&country=AUS",
         "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV08BNE-1784710085&sailDate=2027-12-13&shipCode=OV&packageCode=OV08K135&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": 4031.18,
-          "oceanview": 4651.18,
-          "balcony": 4711.18,
+          "interior": null,
+          "oceanview": null,
+          "balcony": null,
           "mini_suite": null,
-          "suite": 9152.18
+          "suite": null
         },
         "two_guests": {
           "interior": {
@@ -18631,16 +18631,16 @@ window.CRUISE_DATA = {
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/7-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-ovation-OV07K136?sailDate=2028-03-17&packageCode=OV07K136&groupId=OV07BNE-461620370&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV07BNE-461620370&sailDate=2027-12-21&shipCode=OV&packageCode=OV07K132&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
+        "1": "https://www.royalcaribbean.com/aus/en/itinerary/7-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-ovation-OV07K136?sailDate=2028-03-17&packageCode=OV07K136&groupId=OV07BNE-461620370&country=AUS",
         "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV07BNE-461620370&sailDate=2027-12-21&shipCode=OV&packageCode=OV07K132&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": 3982.83,
-          "oceanview": 4802.83,
-          "balcony": 5142.83,
+          "interior": null,
+          "oceanview": null,
+          "balcony": null,
           "mini_suite": null,
-          "suite": 9092.83
+          "suite": null
         },
         "two_guests": {
           "interior": {
@@ -21045,16 +21045,16 @@ window.CRUISE_DATA = {
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/7-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-ovation-OV07K136?sailDate=2028-03-17&packageCode=OV07K136&groupId=OV07BNE-461620370&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV07BNE-461620370&sailDate=2028-01-28&shipCode=OV&packageCode=OV07K136&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
+        "1": "https://www.royalcaribbean.com/aus/en/itinerary/7-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-ovation-OV07K136?sailDate=2028-03-17&packageCode=OV07K136&groupId=OV07BNE-461620370&country=AUS",
         "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV07BNE-461620370&sailDate=2028-01-28&shipCode=OV&packageCode=OV07K136&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": 2514.6,
-          "oceanview": 3034.6,
-          "balcony": 3134.6,
+          "interior": null,
+          "oceanview": null,
+          "balcony": null,
           "mini_suite": null,
-          "suite": 5515.6
+          "suite": null
         },
         "two_guests": {
           "interior": {
@@ -21573,16 +21573,16 @@ window.CRUISE_DATA = {
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/7-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-ovation-OV07K136?sailDate=2028-03-17&packageCode=OV07K136&groupId=OV07BNE-461620370&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV07BNE-461620370&sailDate=2028-02-04&shipCode=OV&packageCode=OV07K137&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
+        "1": "https://www.royalcaribbean.com/aus/en/itinerary/7-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-ovation-OV07K136?sailDate=2028-03-17&packageCode=OV07K136&groupId=OV07BNE-461620370&country=AUS",
         "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV07BNE-461620370&sailDate=2028-02-04&shipCode=OV&packageCode=OV07K137&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": 2500.98,
-          "oceanview": 3021.98,
-          "balcony": 3120.98,
+          "interior": null,
+          "oceanview": null,
+          "balcony": null,
           "mini_suite": null,
-          "suite": 5420.98
+          "suite": null
         },
         "two_guests": {
           "interior": {
@@ -22778,16 +22778,16 @@ window.CRUISE_DATA = {
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/7-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-ovation-OV07K136?sailDate=2028-03-17&packageCode=OV07K136&groupId=OV07BNE-461620370&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV07BNE-461620370&sailDate=2028-02-25&shipCode=OV&packageCode=OV07K140&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
+        "1": "https://www.royalcaribbean.com/aus/en/itinerary/7-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-ovation-OV07K136?sailDate=2028-03-17&packageCode=OV07K136&groupId=OV07BNE-461620370&country=AUS",
         "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV07BNE-461620370&sailDate=2028-02-25&shipCode=OV&packageCode=OV07K140&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": 2459.98,
-          "oceanview": 2960.98,
-          "balcony": 2919.98,
+          "interior": null,
+          "oceanview": null,
+          "balcony": null,
           "mini_suite": null,
-          "suite": 5370.98
+          "suite": null
         },
         "two_guests": {
           "interior": {
@@ -24074,16 +24074,16 @@ window.CRUISE_DATA = {
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/7-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-ovation-OV07K136?sailDate=2028-03-17&packageCode=OV07K136&groupId=OV07BNE-461620370&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV07BNE-461620370&sailDate=2028-03-17&shipCode=OV&packageCode=OV07K142&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
+        "1": "https://www.royalcaribbean.com/aus/en/itinerary/7-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-ovation-OV07K136?sailDate=2028-03-17&packageCode=OV07K136&groupId=OV07BNE-461620370&country=AUS",
         "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV07BNE-461620370&sailDate=2028-03-17&shipCode=OV&packageCode=OV07K142&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": 2426.0,
-          "oceanview": 3005.0,
-          "balcony": 2945.0,
+          "interior": null,
+          "oceanview": null,
+          "balcony": null,
           "mini_suite": null,
-          "suite": 6226.0
+          "suite": null
         },
         "two_guests": {
           "interior": {
@@ -24793,16 +24793,16 @@ window.CRUISE_DATA = {
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/7-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-ovation-OV07K136?sailDate=2028-03-17&packageCode=OV07K136&groupId=OV07BNE-461620370&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV07BNE-461620370&sailDate=2028-03-31&shipCode=OV&packageCode=OV07K144&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
+        "1": "https://www.royalcaribbean.com/aus/en/itinerary/7-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-ovation-OV07K136?sailDate=2028-03-17&packageCode=OV07K136&groupId=OV07BNE-461620370&country=AUS",
         "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV07BNE-461620370&sailDate=2028-03-31&shipCode=OV&packageCode=OV07K144&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": 2744.0,
-          "oceanview": 3105.0,
-          "balcony": 3145.0,
+          "interior": null,
+          "oceanview": null,
+          "balcony": null,
           "mini_suite": null,
-          "suite": 6155.0
+          "suite": null
         },
         "two_guests": {
           "interior": {
@@ -25084,16 +25084,16 @@ window.CRUISE_DATA = {
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/7-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-ovation-OV07K136?sailDate=2028-03-17&packageCode=OV07K136&groupId=OV07BNE-461620370&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV07BNE-461620370&sailDate=2028-04-07&shipCode=OV&packageCode=OV07K145&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
+        "1": "https://www.royalcaribbean.com/aus/en/itinerary/7-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-ovation-OV07K136?sailDate=2028-03-17&packageCode=OV07K136&groupId=OV07BNE-461620370&country=AUS",
         "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV07BNE-461620370&sailDate=2028-04-07&shipCode=OV&packageCode=OV07K145&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": 2643.98,
-          "oceanview": 3002.98,
-          "balcony": 3042.98,
+          "interior": null,
+          "oceanview": null,
+          "balcony": null,
           "mini_suite": null,
-          "suite": 6312.98
+          "suite": null
         },
         "two_guests": {
           "interior": {
@@ -25468,16 +25468,16 @@ window.CRUISE_DATA = {
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/25-night-transpacific-cruise-from-brisbane-on-ovation-OV25T005?sailDate=2028-04-14&packageCode=OV25T005&groupId=OV25BNE-4066027761&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/itinerary/25-night-transpacific-cruise-from-brisbane-on-ovation-OV25T005?sailDate=2028-04-14&packageCode=OV25T005&groupId=OV25BNE-4066027761&country=AUS",
+        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV25BNE-4066027761&sailDate=2028-04-14&shipCode=OV&packageCode=OV25T005&destinationCode=TPACI&selectedCurrencyCode=AUD&country=AUS",
         "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV25BNE-4066027761&sailDate=2028-04-14&shipCode=OV&packageCode=OV25T005&destinationCode=TPACI&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": null,
-          "oceanview": null,
-          "balcony": null,
+          "interior": 5929.29,
+          "oceanview": 6197.79,
+          "balcony": 6909.79,
           "mini_suite": null,
-          "suite": null
+          "suite": 13220.29
         },
         "two_guests": {
           "interior": {
