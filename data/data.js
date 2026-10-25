@@ -1,5 +1,5 @@
 window.CRUISE_DATA = {
-  "generated_at": "2026-10-25T12:10:43.570624+11:00",
+  "generated_at": "2026-10-25T12:30:44.195752+11:00",
   "currency": "AUD",
   "source": "Combined live cruise tracker data",
   "cruises": [
@@ -2532,24 +2532,24 @@ window.CRUISE_DATA = {
       },
       "prices": {
         "one_guest": {
-          "interior": 3565.0,
-          "oceanview": 3725.0,
-          "balcony": 4405.0,
+          "interior": 3805.0,
+          "oceanview": null,
+          "balcony": null,
           "mini_suite": null,
           "suite": null
         },
         "two_guests": {
           "interior": {
-            "pp": 1847.0,
-            "total": 3694.0
+            "pp": 1967.0,
+            "total": 3934.0
           },
           "oceanview": {
-            "pp": 1927.0,
-            "total": 3854.0
+            "pp": null,
+            "total": null
           },
           "balcony": {
-            "pp": 2267.0,
-            "total": 4534.0
+            "pp": null,
+            "total": null
           },
           "mini_suite": {
             "pp": null,
@@ -4174,7 +4174,7 @@ window.CRUISE_DATA = {
           "oceanview": 1891.0,
           "balcony": 1901.0,
           "mini_suite": null,
-          "suite": 3387.0
+          "suite": 3747.0
         },
         "two_guests": {
           "interior": {
@@ -4194,8 +4194,8 @@ window.CRUISE_DATA = {
             "total": null
           },
           "suite": {
-            "pp": 1704.0,
-            "total": 3408.0
+            "pp": 1884.0,
+            "total": 3768.0
           }
         }
       }
@@ -11286,7 +11286,7 @@ window.CRUISE_DATA = {
           "interior": 14081.0,
           "oceanview": null,
           "balcony": 20881.0,
-          "mini_suite": 29081.0,
+          "mini_suite": null,
           "suite": null
         },
         "two_guests": {
@@ -11303,8 +11303,8 @@ window.CRUISE_DATA = {
             "total": 21164.0
           },
           "mini_suite": {
-            "pp": 14682.0,
-            "total": 29364.0
+            "pp": null,
+            "total": null
           },
           "suite": {
             "pp": null,
