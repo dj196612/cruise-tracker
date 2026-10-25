@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T06:09:36.288398+11:00",
+  "generated_at": "2026-10-25T12:10:43.570624+11:00",
   "currency": "AUD",
   "source": "Combined live cruise tracker data",
   "cruises": [
@@ -610,8 +610,8 @@
         },
         "two_guests": {
           "interior": {
-            "pp": 2713.97,
-            "total": 5427.94
+            "pp": null,
+            "total": null
           },
           "oceanview": {
             "pp": null,
@@ -752,7 +752,7 @@
           "oceanview": 1824.0,
           "balcony": 2204.0,
           "mini_suite": null,
-          "suite": null
+          "suite": 2664.0
         },
         "two_guests": {
           "interior": {
@@ -772,8 +772,8 @@
             "total": null
           },
           "suite": {
-            "pp": null,
-            "total": null
+            "pp": 1336.0,
+            "total": 2672.0
           }
         }
       }
@@ -992,7 +992,7 @@
         "one_guest": {
           "interior": 2078.33,
           "oceanview": 2904.33,
-          "balcony": 2665.33,
+          "balcony": 2745.33,
           "mini_suite": null,
           "suite": 7705.33
         },
@@ -1632,8 +1632,8 @@
             "total": 4780.04
           },
           "balcony": {
-            "pp": 2960.52,
-            "total": 5921.04
+            "pp": null,
+            "total": null
           },
           "mini_suite": {
             "pp": null,
@@ -1667,7 +1667,7 @@
         "one_guest": {
           "interior": 3222.89,
           "oceanview": 3601.89,
-          "balcony": 3941.89,
+          "balcony": 4141.89,
           "mini_suite": null,
           "suite": 10041.89
         },
@@ -3503,8 +3503,8 @@
         },
         "two_guests": {
           "interior": {
-            "pp": 2893.55,
-            "total": 5787.1
+            "pp": 3192.55,
+            "total": 6385.1
           },
           "oceanview": {
             "pp": 3259.55,
@@ -3638,7 +3638,7 @@
       },
       "prices": {
         "one_guest": {
-          "interior": 3834.0,
+          "interior": null,
           "oceanview": null,
           "balcony": null,
           "mini_suite": null,
@@ -3646,8 +3646,8 @@
         },
         "two_guests": {
           "interior": {
-            "pp": 1985.0,
-            "total": 3970.0
+            "pp": null,
+            "total": null
           },
           "oceanview": {
             "pp": null,
@@ -4992,7 +4992,7 @@
         "one_guest": {
           "interior": 1958.18,
           "oceanview": 2788.18,
-          "balcony": 3029.18,
+          "balcony": 2968.18,
           "mini_suite": null,
           "suite": 5868.18
         },
@@ -5876,8 +5876,8 @@
             "total": null
           },
           "balcony": {
-            "pp": 4930.15,
-            "total": 9860.3
+            "pp": 5033.65,
+            "total": 10067.3
           },
           "mini_suite": {
             "pp": null,
@@ -6101,7 +6101,7 @@
       },
       "prices": {
         "one_guest": {
-          "interior": 2597.87,
+          "interior": 3503.87,
           "oceanview": 3562.87,
           "balcony": 3703.87,
           "mini_suite": null,
@@ -6342,7 +6342,7 @@
       "prices": {
         "one_guest": {
           "interior": 12427.0,
-          "oceanview": 12965.0,
+          "oceanview": 13290.0,
           "balcony": 15587.0,
           "mini_suite": 21667.0,
           "suite": null
@@ -6353,8 +6353,8 @@
             "total": 12756.0
           },
           "oceanview": {
-            "pp": 6647.0,
-            "total": 13294.0
+            "pp": 6809.0,
+            "total": 13618.0
           },
           "balcony": {
             "pp": 7958.0,
@@ -6730,7 +6730,7 @@
         "one_guest": {
           "interior": 3310.52,
           "oceanview": 3450.52,
-          "balcony": 3410.52,
+          "balcony": 3509.52,
           "mini_suite": null,
           "suite": 7530.52
         },
@@ -7256,7 +7256,7 @@
       },
       "prices": {
         "one_guest": {
-          "interior": 3661.02,
+          "interior": 2698.02,
           "oceanview": 3782.02,
           "balcony": 3821.02,
           "mini_suite": null,
@@ -9997,7 +9997,7 @@
           "oceanview": 3824.0,
           "balcony": 4484.0,
           "mini_suite": null,
-          "suite": null
+          "suite": 4904.0
         },
         "two_guests": {
           "interior": {
@@ -10017,8 +10017,8 @@
             "total": null
           },
           "suite": {
-            "pp": null,
-            "total": null
+            "pp": 2518.0,
+            "total": 5036.0
           }
         }
       }
@@ -12963,7 +12963,7 @@
           "oceanview": 5393.0,
           "balcony": 5813.0,
           "mini_suite": null,
-          "suite": 8573.0
+          "suite": 8933.0
         },
         "two_guests": {
           "interior": {
@@ -12983,8 +12983,8 @@
             "total": null
           },
           "suite": {
-            "pp": 4333.0,
-            "total": 8666.0
+            "pp": 4513.0,
+            "total": 9026.0
           }
         }
       }
@@ -14681,7 +14681,7 @@
         "one_guest": {
           "interior": 6958.0,
           "oceanview": 6988.0,
-          "balcony": 12738.0,
+          "balcony": 10830.0,
           "mini_suite": 12030.0,
           "suite": null
         },
@@ -21196,7 +21196,7 @@
           "interior": 5931.0,
           "oceanview": 8852.0,
           "balcony": 8363.0,
-          "mini_suite": 10311.0,
+          "mini_suite": 10791.0,
           "suite": 17452.0
         },
         "two_guests": {
@@ -21213,8 +21213,8 @@
             "total": 8064.0
           },
           "mini_suite": {
-            "pp": 5272.0,
-            "total": 10544.0
+            "pp": 5512.0,
+            "total": 11024.0
           },
           "suite": {
             "pp": 10267.0,
@@ -25468,16 +25468,16 @@
       "fare_basis": "Royal Caribbean search fare, taxes & fees included",
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/25-night-transpacific-cruise-from-brisbane-on-ovation-OV25T005?sailDate=2028-04-14&packageCode=OV25T005&groupId=OV25BNE-4066027761&country=AUS",
       "links": {
-        "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV25BNE-4066027761&sailDate=2028-04-14&shipCode=OV&packageCode=OV25T005&destinationCode=TPACI&selectedCurrencyCode=AUD&country=AUS",
+        "1": "https://www.royalcaribbean.com/aus/en/itinerary/25-night-transpacific-cruise-from-brisbane-on-ovation-OV25T005?sailDate=2028-04-14&packageCode=OV25T005&groupId=OV25BNE-4066027761&country=AUS",
         "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV25BNE-4066027761&sailDate=2028-04-14&shipCode=OV&packageCode=OV25T005&destinationCode=TPACI&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
-          "interior": 5929.29,
-          "oceanview": 6197.79,
-          "balcony": 6909.79,
+          "interior": null,
+          "oceanview": null,
+          "balcony": null,
           "mini_suite": null,
-          "suite": 13220.29
+          "suite": null
         },
         "two_guests": {
           "interior": {
@@ -28132,7 +28132,7 @@
           "oceanview": 8905.78,
           "balcony": 10422.78,
           "mini_suite": null,
-          "suite": 21749.78
+          "suite": 23388.78
         },
         "two_guests": {
           "interior": {
@@ -28152,8 +28152,8 @@
             "total": null
           },
           "suite": {
-            "pp": 11117.28,
-            "total": 22234.56
+            "pp": 11936.78,
+            "total": 23873.56
           }
         }
       }
