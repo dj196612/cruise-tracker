@@ -7,6 +7,16 @@
 
   const data = window.CRUISE_DATA || { generated_at: null, cruises: [] };
   const allCruises = Array.isArray(data.cruises) ? data.cruises : [];
+  const collectedByLine = data.lines || {};
+  function lineFreshness(c) {
+    const stamp = collectedByLine[c.line]?.collected_at;
+    if (!stamp) return "Collection time unavailable";
+    const age = Date.now() - Date.parse(stamp);
+    if (!Number.isFinite(age)) return "Collection time unavailable";
+    const hrs = Math.max(0, Math.floor(age / 3600000));
+    return hrs >= 24 ? `⚠ Stale prices (${hrs}h old)` : `Collected ${hrs}h ago`;
+  }
+
   // Favourites are stored in this browser, not in the published price feed.
   const FAVOURITES_KEY = "cruise-tracker-favourites-v1";
   function cruiseKey(c) {
@@ -210,6 +220,7 @@
             <div class="row-line"><i></i>${LINE_LABELS[cruise.line] || cruise.line}${cruise.voyage_code ? `<span class="row-code">${escapeHtml(cruise.voyage_code)}</span>` : ""}</div>
             <div class="row-title">${escapeHtml(cruise.name || "Cruise")}</div>
             <div class="row-ship">${escapeHtml(cruise.ship || "Ship TBA")}</div>
+            <small class="line-freshness" title="Last successful collection for this cruise line">${escapeHtml(lineFreshness(cruise))}</small>
           </div>
         </div>
         <div class="row-cell cell-date" title="${prettyDate(cruise.departure_date)}">${dateTile}</div>

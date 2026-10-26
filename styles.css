@@ -441,3 +441,5 @@ dialog::backdrop { background: rgba(4, 24, 46, .55); backdrop-filter: blur(3px);
 .favourite-star:hover { color: #d39718; background: #fff7e2; transform: scale(1.06); }
 .favourite-star.is-favourite { color: #d39a19; }
 .favourite-star:focus-visible { outline: 3px solid #1673b8; outline-offset: 2px; }
+
+.line-freshness{display:block;font-size:11px;opacity:.75;margin-top:2px}
