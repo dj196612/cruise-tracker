@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T08:56:48+11:00",
+  "generated_at": "2026-10-27T09:11:33+11:00",
   "currency": "AUD",
   "source": "Combined live cruise tracker data",
   "tracker_version": "6.8",
@@ -9,7 +9,7 @@
       "count": 93
     },
     "Royal Caribbean": {
-      "collected_at": "2026-10-27T06:10:19.071770+11:00",
+      "collected_at": "2026-10-27T09:11:33+11:00",
       "count": 109
     },
     "Celebrity Cruises": {
@@ -337,7 +337,7 @@
       },
       "prices": {
         "one_guest": {
-          "interior": 2114.87,
+          "interior": null,
           "oceanview": 2314.87,
           "balcony": null,
           "mini_suite": null,
@@ -345,8 +345,8 @@
         },
         "two_guests": {
           "interior": {
-            "pp": 1198.87,
-            "total": 2397.74
+            "pp": null,
+            "total": null
           },
           "oceanview": {
             "pp": 1298.87,
@@ -3953,7 +3953,7 @@
       "prices": {
         "one_guest": {
           "interior": 2917.94,
-          "oceanview": 4213.94,
+          "oceanview": 4634.94,
           "balcony": 4694.94,
           "mini_suite": null,
           "suite": 7694.94
@@ -5058,7 +5058,7 @@
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/7-night-south-pacific-cruise-from-brisbane-on-quantum-QN07K109?sailDate=2027-01-29&packageCode=QN07K109&groupId=QN07BNE-2324671153&country=AUS",
       "links": {
         "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=QN07BNE-2324671153&sailDate=2027-01-29&shipCode=QN&packageCode=QN07K108&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/itinerary/7-night-south-pacific-cruise-from-brisbane-on-quantum-QN07K109?sailDate=2027-01-29&packageCode=QN07K109&groupId=QN07BNE-2324671153&country=AUS"
+        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=QN07BNE-2324671153&sailDate=2027-01-29&shipCode=QN&packageCode=QN07K108&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
@@ -5070,24 +5070,24 @@
         },
         "two_guests": {
           "interior": {
-            "pp": null,
-            "total": null
+            "pp": 1349.18,
+            "total": 2698.36
           },
           "oceanview": {
-            "pp": null,
-            "total": null
+            "pp": 1448.18,
+            "total": 2896.36
           },
           "balcony": {
-            "pp": null,
-            "total": null
+            "pp": 1548.68,
+            "total": 3097.36
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": null,
-            "total": null
+            "pp": 2988.68,
+            "total": 5977.36
           }
         }
       }
@@ -5687,7 +5687,7 @@
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/7-night-south-pacific-cruise-from-brisbane-on-quantum-QN07K109?sailDate=2027-01-29&packageCode=QN07K109&groupId=QN07BNE-2324671153&country=AUS",
       "links": {
         "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=QN07BNE-2324671153&sailDate=2027-02-12&shipCode=QN&packageCode=QN07K109&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/itinerary/7-night-south-pacific-cruise-from-brisbane-on-quantum-QN07K109?sailDate=2027-01-29&packageCode=QN07K109&groupId=QN07BNE-2324671153&country=AUS"
+        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=QN07BNE-2324671153&sailDate=2027-02-12&shipCode=QN&packageCode=QN07K109&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
@@ -5699,24 +5699,24 @@
         },
         "two_guests": {
           "interior": {
-            "pp": null,
-            "total": null
+            "pp": 1398.67,
+            "total": 2797.34
           },
           "oceanview": {
             "pp": null,
             "total": null
           },
           "balcony": {
-            "pp": null,
-            "total": null
+            "pp": 1598.67,
+            "total": 3197.34
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": null,
-            "total": null
+            "pp": 4188.17,
+            "total": 8376.34
           }
         }
       }
@@ -6607,7 +6607,7 @@
         "one_guest": {
           "interior": 2017.36,
           "oceanview": 3222.36,
-          "balcony": 2247.36,
+          "balcony": 3282.36,
           "mini_suite": null,
           "suite": 6420.36
         },
@@ -9536,7 +9536,7 @@
       "prices": {
         "one_guest": {
           "interior": 4876.27,
-          "oceanview": 5265.77,
+          "oceanview": 5716.27,
           "balcony": 6182.27,
           "mini_suite": null,
           "suite": 11791.27
@@ -14845,7 +14845,7 @@
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/2-night-brisbane-getaway-cruise-from-brisbane-on-voyager-VY02K040?sailDate=2027-10-27&packageCode=VY02K040&groupId=VY02BNE-1002418284&country=AUS",
       "links": {
         "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=VY02BNE-1002418284&sailDate=2027-10-27&shipCode=VY&packageCode=VY02K040&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/itinerary/2-night-brisbane-getaway-cruise-from-brisbane-on-voyager-VY02K040?sailDate=2027-10-27&packageCode=VY02K040&groupId=VY02BNE-1002418284&country=AUS"
+        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=VY02BNE-1002418284&sailDate=2027-10-27&shipCode=VY&packageCode=VY02K040&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
@@ -14857,24 +14857,24 @@
         },
         "two_guests": {
           "interior": {
-            "pp": null,
-            "total": null
+            "pp": 398.73,
+            "total": 797.46
           },
           "oceanview": {
-            "pp": null,
-            "total": null
+            "pp": 548.23,
+            "total": 1096.46
           },
           "balcony": {
-            "pp": null,
-            "total": null
+            "pp": 688.23,
+            "total": 1376.46
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": null,
-            "total": null
+            "pp": 1108.73,
+            "total": 2217.46
           }
         }
       }
@@ -14992,7 +14992,7 @@
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/7-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-voyager-VY07K117?sailDate=2027-11-12&packageCode=VY07K117&groupId=VY07BNE-607260866&country=AUS",
       "links": {
         "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=VY07BNE-607260866&sailDate=2027-10-29&shipCode=VY&packageCode=VY07K115&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/itinerary/7-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-voyager-VY07K117?sailDate=2027-11-12&packageCode=VY07K117&groupId=VY07BNE-607260866&country=AUS"
+        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=VY07BNE-607260866&sailDate=2027-10-29&shipCode=VY&packageCode=VY07K115&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
@@ -15004,24 +15004,24 @@
         },
         "two_guests": {
           "interior": {
-            "pp": null,
-            "total": null
+            "pp": 1508.46,
+            "total": 3016.92
           },
           "oceanview": {
-            "pp": null,
-            "total": null
+            "pp": 1788.46,
+            "total": 3576.92
           },
           "balcony": {
-            "pp": null,
-            "total": null
+            "pp": 2288.46,
+            "total": 4576.92
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": null,
-            "total": null
+            "pp": 3673.46,
+            "total": 7346.92
           }
         }
       }
@@ -15379,7 +15379,7 @@
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/7-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-voyager-VY07K116?sailDate=2027-11-05&packageCode=VY07K116&groupId=VY07BNE-1664577360&country=AUS",
       "links": {
         "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=VY07BNE-1664577360&sailDate=2027-11-05&shipCode=VY&packageCode=VY07K116&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/itinerary/7-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-voyager-VY07K116?sailDate=2027-11-05&packageCode=VY07K116&groupId=VY07BNE-1664577360&country=AUS"
+        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=VY07BNE-1664577360&sailDate=2027-11-05&shipCode=VY&packageCode=VY07K116&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
@@ -15391,24 +15391,24 @@
         },
         "two_guests": {
           "interior": {
-            "pp": null,
-            "total": null
+            "pp": 1458.06,
+            "total": 2916.12
           },
           "oceanview": {
-            "pp": null,
-            "total": null
+            "pp": 1658.56,
+            "total": 3317.12
           },
           "balcony": {
-            "pp": null,
-            "total": null
+            "pp": 2018.06,
+            "total": 4036.12
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": null,
-            "total": null
+            "pp": 3543.06,
+            "total": 7086.12
           }
         }
       }
@@ -15816,7 +15816,7 @@
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/7-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-voyager-VY07K117?sailDate=2027-11-12&packageCode=VY07K117&groupId=VY07BNE-607260866&country=AUS",
       "links": {
         "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=VY07BNE-607260866&sailDate=2027-11-12&shipCode=VY&packageCode=VY07K117&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/itinerary/7-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-voyager-VY07K117?sailDate=2027-11-12&packageCode=VY07K117&groupId=VY07BNE-607260866&country=AUS"
+        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=VY07BNE-607260866&sailDate=2027-11-12&shipCode=VY&packageCode=VY07K117&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
@@ -15828,24 +15828,24 @@
         },
         "two_guests": {
           "interior": {
-            "pp": null,
-            "total": null
+            "pp": 1408.33,
+            "total": 2816.66
           },
           "oceanview": {
-            "pp": null,
-            "total": null
+            "pp": 1634.33,
+            "total": 3268.66
           },
           "balcony": {
-            "pp": null,
-            "total": null
+            "pp": 1958.83,
+            "total": 3917.66
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": null,
-            "total": null
+            "pp": 3453.33,
+            "total": 6906.66
           }
         }
       }
@@ -17787,7 +17787,7 @@
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/3-night-brisbane-getaway-cruise-from-brisbane-on-ovation-OV03K102?sailDate=2028-03-03&packageCode=OV03K102&groupId=OV03BNE-1451917728&country=AUS",
       "links": {
         "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV03BNE-1451917728&sailDate=2027-12-10&shipCode=OV&packageCode=OV03K102&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/itinerary/3-night-brisbane-getaway-cruise-from-brisbane-on-ovation-OV03K102?sailDate=2028-03-03&packageCode=OV03K102&groupId=OV03BNE-1451917728&country=AUS"
+        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV03BNE-1451917728&sailDate=2027-12-10&shipCode=OV&packageCode=OV03K102&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
@@ -17799,24 +17799,24 @@
         },
         "two_guests": {
           "interior": {
-            "pp": null,
-            "total": null
+            "pp": 748.68,
+            "total": 1497.36
           },
           "oceanview": {
-            "pp": null,
-            "total": null
+            "pp": 839.18,
+            "total": 1678.36
           },
           "balcony": {
-            "pp": null,
-            "total": null
+            "pp": 918.68,
+            "total": 1837.36
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": null,
-            "total": null
+            "pp": 1329.18,
+            "total": 2658.36
           }
         }
       }
@@ -18125,7 +18125,7 @@
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/8-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-ovation-OV08K135?sailDate=2027-12-13&packageCode=OV08K135&groupId=OV08BNE-1784710085&country=AUS",
       "links": {
         "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV08BNE-1784710085&sailDate=2027-12-13&shipCode=OV&packageCode=OV08K135&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/itinerary/8-nt-royal-beach-club-lelepa-south-pac-from-brisbane-on-ovation-OV08K135?sailDate=2027-12-13&packageCode=OV08K135&groupId=OV08BNE-1784710085&country=AUS"
+        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV08BNE-1784710085&sailDate=2027-12-13&shipCode=OV&packageCode=OV08K135&destinationCode=SOPAC&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
@@ -18137,24 +18137,24 @@
         },
         "two_guests": {
           "interior": {
-            "pp": null,
-            "total": null
+            "pp": 1948.68,
+            "total": 3897.36
           },
           "oceanview": {
-            "pp": null,
-            "total": null
+            "pp": 2148.18,
+            "total": 4296.36
           },
           "balcony": {
-            "pp": null,
-            "total": null
+            "pp": 2348.18,
+            "total": 4696.36
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": null,
-            "total": null
+            "pp": 4458.68,
+            "total": 8917.36
           }
         }
       }
@@ -19572,7 +19572,7 @@
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/3-night-brisbane-getaway-cruise-from-brisbane-on-ovation-OV03K102?sailDate=2028-03-03&packageCode=OV03K102&groupId=OV03BNE-1451917728&country=AUS",
       "links": {
         "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV03BNE-1451917728&sailDate=2028-01-04&shipCode=OV&packageCode=OV03K103&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/itinerary/3-night-brisbane-getaway-cruise-from-brisbane-on-ovation-OV03K102?sailDate=2028-03-03&packageCode=OV03K102&groupId=OV03BNE-1451917728&country=AUS"
+        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV03BNE-1451917728&sailDate=2028-01-04&shipCode=OV&packageCode=OV03K103&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
@@ -19584,24 +19584,24 @@
         },
         "two_guests": {
           "interior": {
-            "pp": null,
-            "total": null
+            "pp": 838.62,
+            "total": 1677.24
           },
           "oceanview": {
-            "pp": null,
-            "total": null
+            "pp": 948.62,
+            "total": 1897.24
           },
           "balcony": {
-            "pp": null,
-            "total": null
+            "pp": 1028.62,
+            "total": 2057.24
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": null,
-            "total": null
+            "pp": 1508.62,
+            "total": 3017.24
           }
         }
       }
@@ -20634,7 +20634,7 @@
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/3-night-brisbane-getaway-cruise-from-brisbane-on-ovation-OV03K102?sailDate=2028-03-03&packageCode=OV03K102&groupId=OV03BNE-1451917728&country=AUS",
       "links": {
         "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV03BNE-1451917728&sailDate=2028-01-21&shipCode=OV&packageCode=OV03K104&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/itinerary/3-night-brisbane-getaway-cruise-from-brisbane-on-ovation-OV03K102?sailDate=2028-03-03&packageCode=OV03K102&groupId=OV03BNE-1451917728&country=AUS"
+        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV03BNE-1451917728&sailDate=2028-01-21&shipCode=OV&packageCode=OV03K104&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
@@ -20646,24 +20646,24 @@
         },
         "two_guests": {
           "interior": {
-            "pp": null,
-            "total": null
+            "pp": 728.6,
+            "total": 1457.2
           },
           "oceanview": {
-            "pp": null,
-            "total": null
+            "pp": 868.6,
+            "total": 1737.2
           },
           "balcony": {
-            "pp": null,
-            "total": null
+            "pp": 919.1,
+            "total": 1838.2
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": null,
-            "total": null
+            "pp": 1378.6,
+            "total": 2757.2
           }
         }
       }
@@ -20779,7 +20779,7 @@
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/4-night-whitsundays-getaway-cruise-from-brisbane-on-ovation-OV04K067?sailDate=2028-03-06&packageCode=OV04K067&groupId=OV04BNE-3022768933&country=AUS",
       "links": {
         "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV04BNE-3022768933&sailDate=2028-01-24&shipCode=OV&packageCode=OV04K067&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/itinerary/4-night-whitsundays-getaway-cruise-from-brisbane-on-ovation-OV04K067?sailDate=2028-03-06&packageCode=OV04K067&groupId=OV04BNE-3022768933&country=AUS"
+        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV04BNE-3022768933&sailDate=2028-01-24&shipCode=OV&packageCode=OV04K067&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
@@ -20791,24 +20791,24 @@
         },
         "two_guests": {
           "interior": {
-            "pp": null,
-            "total": null
+            "pp": 778.6,
+            "total": 1557.2
           },
           "oceanview": {
-            "pp": null,
-            "total": null
+            "pp": 878.6,
+            "total": 1757.2
           },
           "balcony": {
-            "pp": null,
-            "total": null
+            "pp": 988.6,
+            "total": 1977.2
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": null,
-            "total": null
+            "pp": 1578.6,
+            "total": 3157.2
           }
         }
       }
@@ -23424,7 +23424,7 @@
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/3-night-brisbane-getaway-cruise-from-brisbane-on-ovation-OV03K102?sailDate=2028-03-03&packageCode=OV03K102&groupId=OV03BNE-1451917728&country=AUS",
       "links": {
         "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV03BNE-1451917728&sailDate=2028-03-03&shipCode=OV&packageCode=OV03K105&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/itinerary/3-night-brisbane-getaway-cruise-from-brisbane-on-ovation-OV03K102?sailDate=2028-03-03&packageCode=OV03K102&groupId=OV03BNE-1451917728&country=AUS"
+        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV03BNE-1451917728&sailDate=2028-03-03&shipCode=OV&packageCode=OV03K105&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
@@ -23436,24 +23436,24 @@
         },
         "two_guests": {
           "interior": {
-            "pp": null,
-            "total": null
+            "pp": 719.0,
+            "total": 1438.0
           },
           "oceanview": {
-            "pp": null,
-            "total": null
+            "pp": 748.5,
+            "total": 1497.0
           },
           "balcony": {
-            "pp": null,
-            "total": null
+            "pp": 809.0,
+            "total": 1618.0
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": null,
-            "total": null
+            "pp": 1249.0,
+            "total": 2498.0
           }
         }
       }
@@ -23616,7 +23616,7 @@
       "url": "https://www.royalcaribbean.com/aus/en/itinerary/4-night-whitsundays-getaway-cruise-from-brisbane-on-ovation-OV04K067?sailDate=2028-03-06&packageCode=OV04K067&groupId=OV04BNE-3022768933&country=AUS",
       "links": {
         "1": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV04BNE-3022768933&sailDate=2028-03-06&shipCode=OV&packageCode=OV04K068&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS",
-        "2": "https://www.royalcaribbean.com/aus/en/itinerary/4-night-whitsundays-getaway-cruise-from-brisbane-on-ovation-OV04K067?sailDate=2028-03-06&packageCode=OV04K067&groupId=OV04BNE-3022768933&country=AUS"
+        "2": "https://www.royalcaribbean.com/aus/en/booking/landing?groupId=OV04BNE-3022768933&sailDate=2028-03-06&shipCode=OV&packageCode=OV04K068&destinationCode=AUSTL&selectedCurrencyCode=AUD&country=AUS"
       },
       "prices": {
         "one_guest": {
@@ -23628,24 +23628,24 @@
         },
         "two_guests": {
           "interior": {
-            "pp": null,
-            "total": null
+            "pp": 759.0,
+            "total": 1518.0
           },
           "oceanview": {
-            "pp": null,
-            "total": null
+            "pp": 859.0,
+            "total": 1718.0
           },
           "balcony": {
-            "pp": null,
-            "total": null
+            "pp": 918.5,
+            "total": 1837.0
           },
           "mini_suite": {
             "pp": null,
             "total": null
           },
           "suite": {
-            "pp": null,
-            "total": null
+            "pp": 1518.5,
+            "total": 3037.0
           }
         }
       }
