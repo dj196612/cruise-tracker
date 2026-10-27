@@ -8,6 +8,14 @@
   const data = window.CRUISE_DATA || { generated_at: null, cruises: [] };
   const allCruises = Array.isArray(data.cruises) ? data.cruises : [];
   const collectedByLine = data.lines || {};
+  const priceHistory = data.history || {};
+  function historyKey(c, passengers, cabin) {
+    return JSON.stringify([c.line || null, String(c.sailing_id || c.voyage_code || ''),c.departure_date || null,c.ship || null,c.departure_port || null,c.nights ?? null]) + `|${passengers}|${cabin}`;
+  }
+  function historyFor(c, passengers, price) {
+    return price ? priceHistory[historyKey(c,passengers,price.cabin)] : null;
+  }
+
   function lineFreshness(c) {
     const stamp = collectedByLine[c.line]?.collected_at;
     if (!stamp) return "Collection time unavailable";
@@ -40,7 +48,7 @@
   const els = {
     resultCount: $("resultCount"), updated: $("updated"), passengers: $("passengers"), cabin: $("cabin"), farePackage: $("farePackage"),
     minNights: $("minNights"), maxNights: $("maxNights"), dateFrom: $("dateFrom"), dateTo: $("dateTo"), maxPrice: $("maxPrice"),
-    ship: $("ship"), sort: $("sort"), available: $("available"), favouritesOnly: $("favouritesOnly"), reset: $("reset"), summary: $("summary"), results: $("results")
+    ship: $("ship"), sort: $("sort"), available: $("available"), dropped: $("dropped"), favouritesOnly: $("favouritesOnly"), reset: $("reset"), summary: $("summary"), results: $("results")
   };
 
   const money = value => value == null || !Number.isFinite(Number(value))
@@ -106,7 +114,7 @@
       lines: checkedValues("cruiseLines"), ports: checkedValues("ports"), passengers: Number(els.passengers.value), cabin: els.cabin.value,
       farePackage: els.farePackage?.value || "standard", minNights: Number(els.minNights.value || 0), maxNights: els.maxNights.value ? Number(els.maxNights.value) : null,
       dateFrom: els.dateFrom.value || null, dateTo: els.dateTo.value || null, maxPrice: els.maxPrice?.value ? Number(els.maxPrice.value) : null,
-      ship: els.ship?.value || "", sort: els.sort.value, available: els.available.checked, favouritesOnly: els.favouritesOnly.checked
+      ship: els.ship?.value || "", sort: els.sort.value, available: els.available.checked, dropped: els.dropped?.checked || false, favouritesOnly: els.favouritesOnly.checked
     };
   }
 
@@ -123,6 +131,10 @@
       if (f.dateTo && c.departure_date > f.dateTo) return false;
       const price = displayedPrice(c, f.passengers, f.cabin, f.farePackage);
       if (f.available && !price) return false;
+      if (f.dropped) {
+        const h=historyFor(c,f.passengers,price);
+        if (!h || h.previous == null || !(Number(price.pp)<Number(h.previous))) return false;
+      }
       if (f.maxPrice != null && (!price || price.pp > f.maxPrice)) return false;
       return true;
     });
@@ -208,6 +220,12 @@
     const dateTile = dep
       ? `<div class="date-tile"><b>${dep.getDate()}</b><div><span>${new Intl.DateTimeFormat("en-AU", { month: "short" }).format(dep)} ${dep.getFullYear()}</span><small>${new Intl.DateTimeFormat("en-AU", { weekday: "long" }).format(dep)}</small></div></div>`
       : `<div class="date-tile"><b>—</b></div>`;
+    const h = historyFor(cruise,f.passengers,p);
+    const difference=h && h.previous!=null ? Number(p.pp)-Number(h.previous) : null;
+    const dropBadge=difference!==null && difference<0 ? `<small class="price-history-drop">↓ ${money(-difference)} since previous collection</small>` : '';
+    const riseBadge=difference!==null && difference>0 ? `<small class="price-history-rise">↑ ${money(difference)} since previous collection</small>` : '';
+    const lowBadge=h && h.observations>1 && Number(p.pp)<=Number(h.low) ? `<small class="price-history-low">★ Lowest recorded</small>` : '';
+    const dayBadge=h && h.day_ago!=null && Number(p.pp)<Number(h.day_ago) ? `<small class="price-history-day">↓ ${money(Number(h.day_ago)-Number(p.pp))} vs 24h+</small>` : '';
     const perNight = p && cruise.nights ? `<em class="per-night">${money(p.pp / Number(cruise.nights))}<small>/night</small></em>` : "";
     return `
       <article class="cruise-row line-${slug}${availableClass}">
@@ -229,7 +247,7 @@
         <div class="row-fare">
           <span>${p ? CABIN_LABELS[p.cabin] : CABIN_LABELS[f.cabin]}${f.cabin === "cheapest" && p ? " · Cheapest" : ""} · ${packageName}</span>
           <strong>${p ? money(p.pp) : "No fare"}${perNight}</strong>
-          <small>${p ? fareNote : "No bookable fare"}</small>
+          <small>${p ? fareNote : "No bookable fare"}</small>${dropBadge}${riseBadge}${lowBadge}${dayBadge}${h ? `<button class="history-action" type="button" data-history="${escapeAttr(historyKey(cruise,f.passengers,p.cabin))}">Price history (${h.observations})</button>` : ""}
         </div>
         <div class="row-total"><span>${totalLabel}</span><strong>${p ? money(p.total) : "—"}</strong></div>
         <div class="row-actions">
@@ -287,11 +305,12 @@
     columnSort = null;
     els.available.checked = false;
     els.favouritesOnly.checked = false;
+    if (els.dropped) els.dropped.checked = false;
     applyFilters();
   }
 
   document.querySelectorAll("input, select").forEach(el => {
-    if (el.id === "dropped") return;
+
     el.addEventListener("change", applyFilters);
     if (el.type === "number") el.addEventListener("input", applyFilters);
   });
@@ -307,6 +326,20 @@
       applyFilters();
       return;
     }
+    const historyButton = event.target.closest("button[data-history]");
+    if (historyButton) {
+      const h=priceHistory[historyButton.dataset.history];
+      const dialog=$("historyDialog"), title=$("historyTitle"), body=$("historyBody");
+      if (h && dialog && body) {
+        title.textContent="Recorded fare history (AUD per person)";
+        const points=(h.series || []).filter(x=>Array.isArray(x)&&Number.isFinite(Number(x[1])));
+        const lo=Math.min(...points.map(x=>Number(x[1]))), hi=Math.max(...points.map(x=>Number(x[1])));
+        const chart=points.length>1 ? `<svg class="history-chart" viewBox="0 0 520 145" role="img" aria-label="Recorded prices over time"><polyline fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" points="${points.map((x,i)=>`${25+i*470/(points.length-1)},${120-(Number(x[1])-lo)*90/(hi-lo||1)}`).join(" ")}"/></svg>` : "";
+        body.innerHTML=`<p>Current: <b>${money(h.current)}</b> · Lowest recorded: <b>${money(h.low)}</b></p><p>${h.observations} observations. Earlier values are available after future successful collections.</p>${chart}<div class="history-points">${points.map(x=>`<div><span>${escapeHtml(new Date(x[0]).toLocaleString("en-AU"))}</span><strong>${money(x[1])}</strong></div>`).join("")}</div>`;
+        if (typeof dialog.showModal==="function") dialog.showModal();
+      }
+      return;
+    }
     const heading = event.target.closest("button[data-sort-key]");
     if (!heading || !els.results.contains(heading)) return;
     const key = heading.dataset.sortKey;
@@ -316,6 +349,8 @@
     applyFilters();
   });
 
+  const closeHistory=$("closeHistory");
+  if (closeHistory) closeHistory.addEventListener("click",()=>$("historyDialog")?.close());
   populateShips();
   if (data.generated_at) {
     const d = new Date(data.generated_at);

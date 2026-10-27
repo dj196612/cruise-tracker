@@ -443,3 +443,12 @@ dialog::backdrop { background: rgba(4, 24, 46, .55); backdrop-filter: blur(3px);
 .favourite-star:focus-visible { outline: 3px solid #1673b8; outline-offset: 2px; }
 
 .line-freshness{display:block;font-size:11px;opacity:.75;margin-top:2px}
+
+/* v6.9: compact historical fare indicators */
+.price-history-drop,.price-history-day {display:block;color:#167548;font-weight:700;margin-top:3px}
+.price-history-rise {display:block;color:#a45c1e;font-weight:600;margin-top:3px}
+.price-history-low {display:block;color:#8c6500;font-weight:700;margin-top:3px}
+
+.history-action{display:block;border:0;background:none;padding:4px 0;color:inherit;text-decoration:underline;cursor:pointer;font-size:.76rem}
+.history-chart{display:block;width:100%;max-height:170px;color:#24739c;margin:16px 0}
+.history-points{max-height:240px;overflow:auto}.history-points>div{display:flex;justify-content:space-between;gap:14px;padding:6px 0;border-bottom:1px solid #ddd}

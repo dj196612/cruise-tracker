@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Inter:wght@400;500;600;700;800&display=swap">
-  <link rel="stylesheet" href="styles.css?v=20261022-favourites1">
+  <link rel="stylesheet" href="styles.css?v=20261027-history">
 </head>
 <body>
 <header class="top">
@@ -113,7 +113,7 @@
       <div class="filter toggles">
         <label class="switch"><input id="available" type="checkbox"><i></i> Available only</label>
         <label class="switch"><input id="favouritesOnly" type="checkbox"><i></i> ★ Favourites only</label>
-        <label class="switch disabled" title="Price-history filtering will be enabled when historical snapshots are added."><input id="dropped" type="checkbox" disabled><i></i> Price drops only</label>
+        <label class="switch" title="Show only cruises whose selected cabin fare fell since the previous successful collection."><input id="dropped" type="checkbox"><i></i> Price drops only</label>
       </div>
     </div>
 
@@ -136,7 +136,7 @@
   <div id="historyBody"></div>
 </dialog>
 
-<script src="data/data.js?v=1"></script>
-<script src="app.js?v=20261022-favourites1"></script>
+<script src="data/data.js?v=20261027-history"></script>
+<script src="app.js?v=20261027-history"></script>
 </body>
 </html>
