@@ -13,7 +13,15 @@
     return JSON.stringify([c.line || null, String(c.sailing_id || c.voyage_code || ''),c.departure_date || null,c.ship || null,c.departure_port || null,c.nights ?? null]) + `|${passengers}|${cabin}`;
   }
   function historyFor(c, passengers, price) {
-    return price ? priceHistory[historyKey(c,passengers,price.cabin)] : null;
+    // The historical series is for the live Standard fare. Princess Plus and
+    // Premier are estimates; never compare their uplifted price with Standard.
+    return price && !price.estimated ? priceHistory[historyKey(c,passengers,price.cabin)] : null;
+  }
+  function isLowestRecorded(c, passengers, price) {
+    const h = historyFor(c, passengers, price);
+    // One observation only proves the opening price, not an established low.
+    return Boolean(h && Number(h.observations) >= 2 && Number.isFinite(Number(h.low)) &&
+      price && Number.isFinite(Number(price.pp)) && Number(price.pp) <= Number(h.low) + 0.005);
   }
 
   function lineFreshness(c) {
@@ -48,7 +56,7 @@
   const els = {
     resultCount: $("resultCount"), updated: $("updated"), passengers: $("passengers"), cabin: $("cabin"), farePackage: $("farePackage"),
     minNights: $("minNights"), maxNights: $("maxNights"), dateFrom: $("dateFrom"), dateTo: $("dateTo"), maxPrice: $("maxPrice"),
-    ship: $("ship"), sort: $("sort"), available: $("available"), dropped: $("dropped"), favouritesOnly: $("favouritesOnly"), reset: $("reset"), summary: $("summary"), results: $("results")
+    ship: $("ship"), sort: $("sort"), available: $("available"), dropped: $("dropped"), lowestRecorded: $("lowestRecorded"), favouritesOnly: $("favouritesOnly"), reset: $("reset"), summary: $("summary"), results: $("results")
   };
 
   const money = value => value == null || !Number.isFinite(Number(value))
@@ -114,7 +122,7 @@
       lines: checkedValues("cruiseLines"), ports: checkedValues("ports"), passengers: Number(els.passengers.value), cabin: els.cabin.value,
       farePackage: els.farePackage?.value || "standard", minNights: Number(els.minNights.value || 0), maxNights: els.maxNights.value ? Number(els.maxNights.value) : null,
       dateFrom: els.dateFrom.value || null, dateTo: els.dateTo.value || null, maxPrice: els.maxPrice?.value ? Number(els.maxPrice.value) : null,
-      ship: els.ship?.value || "", sort: els.sort.value, available: els.available.checked, dropped: els.dropped?.checked || false, favouritesOnly: els.favouritesOnly.checked
+      ship: els.ship?.value || "", sort: els.sort.value, available: els.available.checked, dropped: els.dropped?.checked || false, lowestRecorded: els.lowestRecorded?.checked || false, favouritesOnly: els.favouritesOnly.checked
     };
   }
 
@@ -131,6 +139,7 @@
       if (f.dateTo && c.departure_date > f.dateTo) return false;
       const price = displayedPrice(c, f.passengers, f.cabin, f.farePackage);
       if (f.available && !price) return false;
+      if (f.lowestRecorded && !isLowestRecorded(c, f.passengers, price)) return false;
       if (f.dropped) {
         const h=historyFor(c,f.passengers,price);
         if (!h || h.previous == null || !(Number(price.pp)<Number(h.previous))) return false;
@@ -224,7 +233,7 @@
     const difference=h && h.previous!=null ? Number(p.pp)-Number(h.previous) : null;
     const dropBadge=difference!==null && difference<0 ? `<small class="price-history-drop">↓ ${money(-difference)} since previous collection</small>` : '';
     const riseBadge=difference!==null && difference>0 ? `<small class="price-history-rise">↑ ${money(difference)} since previous collection</small>` : '';
-    const lowBadge=h && h.observations>1 && Number(p.pp)<=Number(h.low) ? `<small class="price-history-low">★ Lowest recorded</small>` : '';
+    const lowBadge=isLowestRecorded(cruise,f.passengers,p) ? `<small class="price-history-low">★ Lowest recorded</small>` : '';
     const dayBadge=h && h.day_ago!=null && Number(p.pp)<Number(h.day_ago) ? `<small class="price-history-day">↓ ${money(Number(h.day_ago)-Number(p.pp))} vs 24h+</small>` : '';
     const perNight = p && cruise.nights ? `<em class="per-night">${money(p.pp / Number(cruise.nights))}<small>/night</small></em>` : "";
     return `
@@ -306,6 +315,7 @@
     els.available.checked = false;
     els.favouritesOnly.checked = false;
     if (els.dropped) els.dropped.checked = false;
+    if (els.lowestRecorded) els.lowestRecorded.checked = false;
     applyFilters();
   }
 
