@@ -17,11 +17,19 @@
     // Premier are estimates; never compare their uplifted price with Standard.
     return price && !price.estimated ? priceHistory[historyKey(c,passengers,price.cabin)] : null;
   }
-  function isLowestRecorded(c, passengers, price) {
+  function newRecordSaving(c, passengers, price) {
     const h = historyFor(c, passengers, price);
-    // One observation only proves the opening price, not an established low.
-    return Boolean(h && Number(h.observations) >= 2 && Number.isFinite(Number(h.low)) &&
-      price && Number.isFinite(Number(price.pp)) && Number(price.pp) <= Number(h.low) + 0.005);
+    if (!h || !price || Number(h.observations) < 2 || h.previous_low == null) return null;
+    const current = Number(price.pp);
+    const previousLow = Number(h.previous_low);
+    if (!Number.isFinite(current) || !Number.isFinite(previousLow) || previousLow <= 0) return null;
+    // Currency values are in AUD. A matching historical minimum is not a new record.
+    const saving = Math.round((previousLow - current) * 100) / 100;
+    if (saving <= 0.005) return null;
+    return { amount: saving, percent: (saving / previousLow) * 100 };
+  }
+  function isLowestRecorded(c, passengers, price) {
+    return newRecordSaving(c, passengers, price) !== null;
   }
 
   function lineFreshness(c) {
@@ -233,7 +241,8 @@
     const difference=h && h.previous!=null ? Number(p.pp)-Number(h.previous) : null;
     const dropBadge=difference!==null && difference<0 ? `<small class="price-history-drop">↓ ${money(-difference)} since previous collection</small>` : '';
     const riseBadge=difference!==null && difference>0 ? `<small class="price-history-rise">↑ ${money(difference)} since previous collection</small>` : '';
-    const lowBadge=isLowestRecorded(cruise,f.passengers,p) ? `<small class="price-history-low">★ Lowest recorded</small>` : '';
+    const newLow = newRecordSaving(cruise,f.passengers,p);
+    const lowBadge = newLow ? `<small class="price-history-low">★ Lowest recorded · ↓ ${money(newLow.amount)} (${newLow.percent.toFixed(1)}%)</small>` : '';
     const dayBadge=h && h.day_ago!=null && Number(p.pp)<Number(h.day_ago) ? `<small class="price-history-day">↓ ${money(Number(h.day_ago)-Number(p.pp))} vs 24h+</small>` : '';
     const perNight = p && cruise.nights ? `<em class="per-night">${money(p.pp / Number(cruise.nights))}<small>/night</small></em>` : "";
     return `
