@@ -17,23 +17,27 @@
     // Premier are estimates; never compare their uplifted price with Standard.
     return price && !price.estimated ? priceHistory[historyKey(c,passengers,price.cabin)] : null;
   }
-  function newRecordSaving(c, passengers, price) {
+  function lowestRecordedSaving(c, passengers, price) {
     const h = historyFor(c, passengers, price);
-    if (!h || !price || Number(h.observations) < 2 || h.previous_low == null || h.low == null) return null;
+    if (!h || !price || Number(h.observations) < 2 || h.low == null || h.high == null) return null;
     const current = Number(price.pp);
     const allTimeLow = Number(h.low);
-    const beatenRecord = Number(h.previous_low);
+    const allTimeHigh = Number(h.high);
+    const recentHigher = h.recent_higher == null ? null : Number(h.recent_higher);
     if (!Number.isFinite(current) || !Number.isFinite(allTimeLow) ||
-        !Number.isFinite(beatenRecord) || beatenRecord <= 0) return null;
-    // Compare the latest fare with the minimum across ALL earlier readings.
-    // Equality is not a new low, even if it follows a higher price.
-    if (Math.abs(current - allTimeLow) > 0.005) return null;
-    const saving = Math.round((beatenRecord - current) * 100) / 100;
-    if (saving <= 0.005) return null;
-    return { amount: saving, percent: (saving / beatenRecord) * 100 };
+        !Number.isFinite(allTimeHigh) || !Number.isFinite(recentHigher) || recentHigher <= 0) return null;
+    // Equal to the all-time low is allowed, including a return to that price.
+    // But a history with no higher observation must never be flagged.
+    if (Math.abs(current - allTimeLow) > 0.005 || allTimeHigh <= current + 0.005 ||
+        recentHigher <= current + 0.005) return null;
+    // Savings are measured against the most recent HIGHER observed fare;
+    // they are not the test for the historical minimum.
+    const saving = Math.round((recentHigher - current) * 100) / 100;
+    if (saving <= 0) return null;
+    return { amount: saving, percent: (saving / recentHigher) * 100 };
   }
   function isLowestRecorded(c, passengers, price) {
-    return newRecordSaving(c, passengers, price) !== null;
+    return lowestRecordedSaving(c, passengers, price) !== null;
   }
 
   function lineFreshness(c) {
@@ -245,7 +249,7 @@
     const difference=h && h.previous!=null ? Number(p.pp)-Number(h.previous) : null;
     const dropBadge=difference!==null && difference<0 ? `<small class="price-history-drop">↓ ${money(-difference)} since previous collection</small>` : '';
     const riseBadge=difference!==null && difference>0 ? `<small class="price-history-rise">↑ ${money(difference)} since previous collection</small>` : '';
-    const newLow = newRecordSaving(cruise,f.passengers,p);
+    const newLow = lowestRecordedSaving(cruise,f.passengers,p);
     const lowBadge = newLow ? `<small class="price-history-low">★ Lowest recorded · ↓ ${money(newLow.amount)} (${newLow.percent.toFixed(1)}%)</small>` : '';
     const dayBadge=h && h.day_ago!=null && Number(p.pp)<Number(h.day_ago) ? `<small class="price-history-day">↓ ${money(Number(h.day_ago)-Number(p.pp))} vs 24h+</small>` : '';
     const perNight = p && cruise.nights ? `<em class="per-night">${money(p.pp / Number(cruise.nights))}<small>/night</small></em>` : "";
