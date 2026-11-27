@@ -358,10 +358,25 @@
       const dialog=$("historyDialog"), title=$("historyTitle"), body=$("historyBody");
       if (h && dialog && body) {
         title.textContent="Recorded fare history (AUD per person)";
-        const points=(h.series || []).filter(x=>Array.isArray(x)&&Number.isFinite(Number(x[1])));
-        const lo=Math.min(...points.map(x=>Number(x[1]))), hi=Math.max(...points.map(x=>Number(x[1])));
-        const chart=points.length>1 ? `<svg class="history-chart" viewBox="0 0 520 145" role="img" aria-label="Recorded prices over time"><polyline fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" points="${points.map((x,i)=>`${25+i*470/(points.length-1)},${120-(Number(x[1])-lo)*90/(hi-lo||1)}`).join(" ")}"/></svg>` : "";
-        body.innerHTML=`<p>Current: <b>${money(h.current)}</b> · Lowest recorded: <b>${money(h.low)}</b></p><p>${h.observations} observations. Earlier values are available after future successful collections.</p>${chart}<div class="history-points">${points.map(x=>`<div><span>${escapeHtml(new Date(x[0]).toLocaleString("en-AU"))}</span><strong>${money(x[1])}</strong></div>`).join("")}</div>`;
+        // The public series now contains ALL observations for the chosen cabin,
+        // fare basis and guest count, not just the most recent 30 collections.
+        const points=(h.series || []).filter(x=>Array.isArray(x) && x.length>=2 && Number.isFinite(Number(x[1])));
+        const values=points.map(x=>Number(x[1]));
+        const low=values.length ? Math.min(...values) : null;
+        const high=values.length ? Math.max(...values) : null;
+        const times=points.map(x=>Date.parse(x[0]));
+        const dated=times.every(Number.isFinite);
+        const earliest=dated ? Math.min(...times) : 0;
+        const latest=dated ? Math.max(...times) : 0;
+        const chart=points.length>1 ? `<svg class="history-chart" viewBox="0 0 520 145" role="img" aria-label="Complete recorded fare history"><polyline fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" points="${points.map((x,i)=>{
+          const ratio=dated && latest>earliest ? (times[i]-earliest)/(latest-earliest) : i/(points.length-1);
+          const y=120-(Number(x[1])-low)*90/((high-low)||1);
+          return `${(25+ratio*470).toFixed(2)},${y.toFixed(2)}`;
+        }).join(" ")}"/></svg>` : "";
+        const shownPoints=points.slice(-30);
+        const period=points.length ? `${escapeHtml(new Date(points[0][0]).toLocaleDateString("en-AU"))} to ${escapeHtml(new Date(points[points.length-1][0]).toLocaleDateString("en-AU"))}` : "No recorded dates";
+        const highRecorded=h.high!=null && Number.isFinite(Number(h.high)) ? Number(h.high) : high;
+        body.innerHTML=`<p>Current: <b>${money(h.current)}</b> · Lowest recorded: <b>${money(h.low)}</b> · Highest recorded: <b>${money(highRecorded)}</b></p><p>${h.observations} observations · Chart covers entire recorded history (${period}).</p>${chart}<p>Latest ${shownPoints.length} observations listed below.</p><div class="history-points">${shownPoints.map(x=>`<div><span>${escapeHtml(new Date(x[0]).toLocaleString("en-AU"))}</span><strong>${money(x[1])}</strong></div>`).join("")}</div>`;
         if (typeof dialog.showModal==="function") dialog.showModal();
       }
       return;
