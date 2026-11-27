@@ -19,22 +19,21 @@
   }
   function lowestRecordedSaving(c, passengers, price) {
     const h = historyFor(c, passengers, price);
-    if (!h || !price || Number(h.observations) < 2 || h.low == null || h.high == null) return null;
+    if (!h || !price || Number(h.observations) < 2 ||
+        h.low == null || h.high == null || h.previous_low == null) return null;
     const current = Number(price.pp);
     const allTimeLow = Number(h.low);
     const allTimeHigh = Number(h.high);
-    const recentHigher = h.recent_higher == null ? null : Number(h.recent_higher);
-    if (!Number.isFinite(current) || !Number.isFinite(allTimeLow) ||
-        !Number.isFinite(allTimeHigh) || !Number.isFinite(recentHigher) || recentHigher <= 0) return null;
-    // Equal to the all-time low is allowed, including a return to that price.
-    // But a history with no higher observation must never be flagged.
+    const previousLow = Number(h.previous_low);
+    if (![current, allTimeLow, allTimeHigh, previousLow].every(Number.isFinite) ||
+        previousLow <= 0) return null;
+    // The current price must be at the full-history minimum, and there must
+    // have been a strictly higher fare at some point. Returning to an earlier
+    // minimum qualifies, even though the comparison saving then equals $0.
     if (Math.abs(current - allTimeLow) > 0.005 || allTimeHigh <= current + 0.005 ||
-        recentHigher <= current + 0.005) return null;
-    // Savings are measured against the most recent HIGHER observed fare;
-    // they are not the test for the historical minimum.
-    const saving = Math.round((recentHigher - current) * 100) / 100;
-    if (saving <= 0) return null;
-    return { amount: saving, percent: (saving / recentHigher) * 100 };
+        previousLow < current - 0.005) return null;
+    const saving = Math.max(0, Math.round((previousLow - current) * 100) / 100);
+    return { amount: saving, percent: (saving / previousLow) * 100 };
   }
   function isLowestRecorded(c, passengers, price) {
     return lowestRecordedSaving(c, passengers, price) !== null;
@@ -250,7 +249,7 @@
     const dropBadge=difference!==null && difference<0 ? `<small class="price-history-drop">↓ ${money(-difference)} since previous collection</small>` : '';
     const riseBadge=difference!==null && difference>0 ? `<small class="price-history-rise">↑ ${money(difference)} since previous collection</small>` : '';
     const newLow = lowestRecordedSaving(cruise,f.passengers,p);
-    const lowBadge = newLow ? `<small class="price-history-low">★ Lowest recorded · ↓ ${money(newLow.amount)} (${newLow.percent.toFixed(1)}%)</small>` : '';
+    const lowBadge = newLow ? `<small class="price-history-low">★ Lowest recorded · ${newLow.amount > 0 ? "↓ " : ""}${money(newLow.amount)} (${newLow.percent.toFixed(1)}%) vs previous low</small>` : '';
     const dayBadge=h && h.day_ago!=null && Number(p.pp)<Number(h.day_ago) ? `<small class="price-history-day">↓ ${money(Number(h.day_ago)-Number(p.pp))} vs 24h+</small>` : '';
     const perNight = p && cruise.nights ? `<em class="per-night">${money(p.pp / Number(cruise.nights))}<small>/night</small></em>` : "";
     return `
