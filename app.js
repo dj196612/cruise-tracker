@@ -19,14 +19,18 @@
   }
   function newRecordSaving(c, passengers, price) {
     const h = historyFor(c, passengers, price);
-    if (!h || !price || Number(h.observations) < 2 || h.previous_low == null) return null;
+    if (!h || !price || Number(h.observations) < 2 || h.previous_low == null || h.low == null) return null;
     const current = Number(price.pp);
-    const previousLow = Number(h.previous_low);
-    if (!Number.isFinite(current) || !Number.isFinite(previousLow) || previousLow <= 0) return null;
-    // Currency values are in AUD. A matching historical minimum is not a new record.
-    const saving = Math.round((previousLow - current) * 100) / 100;
+    const allTimeLow = Number(h.low);
+    const beatenRecord = Number(h.previous_low);
+    if (!Number.isFinite(current) || !Number.isFinite(allTimeLow) ||
+        !Number.isFinite(beatenRecord) || beatenRecord <= 0) return null;
+    // Compare the latest fare with the minimum across ALL earlier readings.
+    // Equality is not a new low, even if it follows a higher price.
+    if (Math.abs(current - allTimeLow) > 0.005) return null;
+    const saving = Math.round((beatenRecord - current) * 100) / 100;
     if (saving <= 0.005) return null;
-    return { amount: saving, percent: (saving / previousLow) * 100 };
+    return { amount: saving, percent: (saving / beatenRecord) * 100 };
   }
   function isLowestRecorded(c, passengers, price) {
     return newRecordSaving(c, passengers, price) !== null;

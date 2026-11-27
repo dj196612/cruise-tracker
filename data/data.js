@@ -1,5 +1,5 @@
 window.CRUISE_DATA = {
-  "generated_at": "2026-11-28T09:28:04+11:00",
+  "generated_at": "2026-11-28T10:06:23+11:00",
   "currency": "AUD",
   "source": "Combined live cruise tracker data",
   "tracker_version": "6.9",
