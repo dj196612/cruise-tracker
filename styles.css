@@ -463,3 +463,14 @@ dialog::backdrop { background: rgba(4, 24, 46, .55); backdrop-filter: blur(3px);
 .history-action{display:block;border:0;background:none;padding:4px 0;color:inherit;text-decoration:underline;cursor:pointer;font-size:.76rem}
 .history-chart{display:block;width:100%;max-height:170px;color:#24739c;margin:16px 0}
 .history-points{max-height:240px;overflow:auto}.history-points>div{display:flex;justify-content:space-between;gap:14px;padding:6px 0;border-bottom:1px solid #ddd}
+
+
+/* Desktop compact layout: approximately 80% of the former visual scale.
+   `zoom` is CSS page scaling, not a change to visitors' browser settings.
+   Compensate the layout width so the page still fills the viewport. */
+@media screen and (min-width: 1024px) {
+  body {
+    zoom: 80%;
+    width: 125%;
+  }
+}
