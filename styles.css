@@ -62,26 +62,26 @@ body {
   display: flex; align-items: flex-end; justify-content: space-between; gap: 24px;
   width: min(1700px, calc(100% - 32px));
   margin: 0 auto;
-  padding: 38px 0 84px;
+  padding: 20px 0 68px;
 }
 .eyebrow {
   display: inline-flex; align-items: center; gap: 8px;
-  margin-bottom: 12px; padding: 5px 12px 5px 9px;
+  margin-bottom: 6px; padding: 4px 10px 4px 8px;
   border: 1px solid rgba(255,255,255,.18); border-radius: 999px;
   background: rgba(255,255,255,.06);
   font-size: 11.5px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
   color: #cfe4f7;
 }
 .eyebrow .mark { width: 17px; height: 17px; color: var(--accent); }
-.top h1 {
+.top h2 {
   margin: 0;
   font-family: var(--display);
   font-weight: 650;
-  font-size: clamp(32px, 4vw, 56px);
+  font-size: clamp(24px, 2.5vw, 30px);
   line-height: 1;
   letter-spacing: -.02em;
 }
-.sub { margin: 12px 0 0; color: #b9cfe6; font-size: 14.5px; }
+.sub { margin: 6px 0 0; color: #b9cfe6; font-size: 14.5px; }
 .sub .dot { margin: 0 6px; color: var(--accent); }
 .headline {
   min-width: 190px; padding: 14px 18px;
@@ -398,7 +398,7 @@ dialog::backdrop { background: rgba(4, 24, 46, .55); backdrop-filter: blur(3px);
   .row-fare { grid-column: 5; grid-row: 1; }
 }
 @media (max-width: 760px) {
-  .top-inner { flex-direction: column; align-items: flex-start; padding: 28px 0 78px; width: calc(100% - 32px); }
+  .top-inner { flex-direction: column; align-items: flex-start; padding: 18px 0 68px; width: calc(100% - 32px); }
   .headline { text-align: left; }
   main, .foot { width: calc(100% - 32px); }
   .summary { gap: 10px; }
