@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Inter:wght@400;500;600;700;800&display=swap">
-  <link rel="stylesheet" href="styles.css?v=20261128-compact-layout">
+  <link rel="stylesheet" href="styles.css?v=20261128-compact-filters">
 </head>
 <body>
 <header class="top">
@@ -113,16 +113,17 @@
       <div class="filter toggles">
         <label class="switch"><input id="available" type="checkbox"><i></i> Available only</label>
         <label class="switch"><input id="favouritesOnly" type="checkbox"><i></i> ★ Favourites only</label>
-        <label class="switch" title="Show cruises where the current price for the selected cabin and guest count matches its lowest recorded fare. Requires at least two historical observations."><input id="lowestRecorded" type="checkbox"><i></i> Lowest recorded fare only</label>
+        <label class="switch" title="Show cruises where the current fare is the all-time recorded minimum for this cabin and guest count, and a higher historical fare has been observed."><input id="lowestRecorded" type="checkbox"><i></i> Lowest recorded fare only</label>
+      </div>
+      <div class="filter-reset">
+        <button id="reset" type="button">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7M4 4v4h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Reset filters
+        </button>
       </div>
     </div>
 
-    <div class="filter-foot">
-      <button id="reset" type="button">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7M4 4v4h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        Reset filters
-      </button>
-    </div>
+
   </section>
 
   <section id="results" class="results" aria-live="polite"></section>

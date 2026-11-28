@@ -500,3 +500,53 @@ dialog::backdrop { background: rgba(4, 24, 46, .55); backdrop-filter: blur(3px);
 @media screen and (max-width: 1180px) {
   .row-title { overflow-wrap: anywhere; }
 }
+
+/* v6.9.1 Compact filters: four across on desktop, no empty second row. */
+.filter-reset {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3px;
+}
+.filter-reset #reset { min-height: 31px; padding: 5px 10px; font-size: 12px; }
+@media screen and (min-width: 1024px) {
+  .filters {
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, .88fr) minmax(0, 1.13fr) minmax(0, 1.02fr);
+    align-items: stretch;
+  }
+  .filter-group {
+    min-width: 0;
+    padding: 12px 14px 13px;
+    gap: 7px 9px;
+    border-bottom: 0 !important;
+    border-right: 1px solid var(--line) !important;
+  }
+  .filter-group:nth-child(4) { border-right: 0 !important; }
+  .group-title { font-size: 15px; margin-bottom: 2px; gap: 7px; }
+  .filter > label:first-child:not(.switch) { margin-bottom: 4px; font-size: 10.5px; }
+  .filter-group select, .filter-group input[type="number"], .filter-group input[type="date"] {
+    min-height: 34px;
+    font-size: 13px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  .group-who .checks { gap: 5px; }
+  .group-who .chip { min-height: 28px; padding: 4px 8px 4px 7px; gap: 5px; font-size: 12px; }
+  .group-who .chip i { width: 15px; height: 15px; }
+  .group-refine .toggles { gap: 3px; }
+  .group-refine .switch { min-height: 25px; font-size: 12.5px; gap: 8px; }
+  .filter-reset { margin-top: 0; }
+}
+/* Tablets keep two columns; phones use one column. */
+@media screen and (min-width: 761px) and (max-width: 1023px) {
+  .filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .filter-group { padding: 13px 15px; }
+  .filter-group:nth-child(2) { border-right: 0; }
+  .filter-group:nth-child(3) { border-right: 1px solid var(--line); }
+  .filter-group:nth-child(1), .filter-group:nth-child(2) { border-bottom: 1px solid var(--line); }
+}
+@media screen and (max-width: 760px) {
+  .filters { grid-template-columns: 1fr; }
+  .filter-group { border-right: 0 !important; border-bottom: 1px solid var(--line); }
+  .filter-group:nth-child(4) { border-bottom: 0; }
+}
