@@ -471,6 +471,32 @@ dialog::backdrop { background: rgba(4, 24, 46, .55); backdrop-filter: blur(3px);
 @media screen and (min-width: 1024px) {
   body {
     zoom: 80%;
-    width: 125%;
+    width: auto;
   }
+}
+
+/* v6.9.1: fit the entire results grid without horizontal scrolling.
+   Keep the 80% desktop zoom but do NOT compensate with a 125% body width. */
+@media screen and (min-width: 1181px) {
+  .list-head, .cruise-row {
+    grid-template-columns:
+      minmax(0, 2.25fr) minmax(0, .83fr) minmax(0, .6fr)
+      minmax(0, .34fr) minmax(0, 1.08fr) minmax(0, .67fr)
+      minmax(0, .84fr);
+    gap: clamp(7px, .85vw, 16px);
+  }
+  .list-head { padding-left: 16px; padding-right: 16px; }
+  .cruise-row { padding-left: 16px; padding-right: 16px; }
+  .cruise-row > * { min-width: 0; }
+  .row-actions .primary { flex: 1 1 auto; min-width: 0; padding-inline: 7px; }
+  .row-title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+}
+/* At narrower viewports, allow a two-line title; never widen the grid. */
+@media screen and (max-width: 1180px) {
+  .row-title { overflow-wrap: anywhere; }
 }

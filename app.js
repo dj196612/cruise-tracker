@@ -71,7 +71,7 @@
   const els = {
     resultCount: $("resultCount"), updated: $("updated"), passengers: $("passengers"), cabin: $("cabin"), farePackage: $("farePackage"),
     minNights: $("minNights"), maxNights: $("maxNights"), dateFrom: $("dateFrom"), dateTo: $("dateTo"), maxPrice: $("maxPrice"),
-    ship: $("ship"), sort: $("sort"), available: $("available"), dropped: $("dropped"), lowestRecorded: $("lowestRecorded"), favouritesOnly: $("favouritesOnly"), reset: $("reset"), summary: $("summary"), results: $("results")
+    ship: $("ship"), sort: $("sort"), available: $("available"), lowestRecorded: $("lowestRecorded"), favouritesOnly: $("favouritesOnly"), reset: $("reset"), summary: $("summary"), results: $("results")
   };
 
   const money = value => value == null || !Number.isFinite(Number(value))
@@ -137,7 +137,7 @@
       lines: checkedValues("cruiseLines"), ports: checkedValues("ports"), passengers: Number(els.passengers.value), cabin: els.cabin.value,
       farePackage: els.farePackage?.value || "standard", minNights: Number(els.minNights.value || 0), maxNights: els.maxNights.value ? Number(els.maxNights.value) : null,
       dateFrom: els.dateFrom.value || null, dateTo: els.dateTo.value || null, maxPrice: els.maxPrice?.value ? Number(els.maxPrice.value) : null,
-      ship: els.ship?.value || "", sort: els.sort.value, available: els.available.checked, dropped: els.dropped?.checked || false, lowestRecorded: els.lowestRecorded?.checked || false, favouritesOnly: els.favouritesOnly.checked
+      ship: els.ship?.value || "", sort: els.sort.value, available: els.available.checked, lowestRecorded: els.lowestRecorded?.checked || false, favouritesOnly: els.favouritesOnly.checked
     };
   }
 
@@ -155,10 +155,6 @@
       const price = displayedPrice(c, f.passengers, f.cabin, f.farePackage);
       if (f.available && !price) return false;
       if (f.lowestRecorded && !isLowestRecorded(c, f.passengers, price)) return false;
-      if (f.dropped) {
-        const h=historyFor(c,f.passengers,price);
-        if (!h || h.previous == null || !(Number(price.pp)<Number(h.previous))) return false;
-      }
       if (f.maxPrice != null && (!price || price.pp > f.maxPrice)) return false;
       return true;
     });
@@ -231,7 +227,6 @@
     const p = displayedPrice(cruise, f.passengers, f.cabin, f.farePackage);
     const packageName = f.farePackage === "standard" ? "Standard" : f.farePackage === "plus" ? "Plus" : "Premier";
     const openUrl = cruise.links?.[String(f.passengers)] || cruise.url || "#";
-    const soloUrl = cruise.links?.["1"] || cruise.url || "#";
     const totalLabel = f.passengers === 1 ? "Solo total" : `${f.passengers}-guest total`;
     const availableClass = p ? "" : " unavailable";
     const fareNote = cruise.line === "Princess"
@@ -261,7 +256,7 @@
             title="${starred ? "Remove from favourites" : "Add to favourites"}">★</button>
           <div class="row-text">
             <div class="row-line"><i></i>${LINE_LABELS[cruise.line] || cruise.line}${cruise.voyage_code ? `<span class="row-code">${escapeHtml(cruise.voyage_code)}</span>` : ""}</div>
-            <div class="row-title">${escapeHtml(cruise.name || "Cruise")}</div>
+            <div class="row-title" title="${escapeAttr(cruise.name || "Cruise")}">${escapeHtml(cruise.name || "Cruise")}</div>
             <div class="row-ship">${escapeHtml(cruise.ship || "Ship TBA")}</div>
             <small class="line-freshness" title="Last successful collection for this cruise line">${escapeHtml(lineFreshness(cruise))}</small>
           </div>
@@ -277,7 +272,6 @@
         <div class="row-total"><span>${totalLabel}</span><strong>${p ? money(p.total) : "—"}</strong></div>
         <div class="row-actions">
           <a class="primary" href="${escapeAttr(openUrl)}" target="_blank" rel="noopener">${openLabel}</a>
-          <a class="secondary" href="${escapeAttr(soloUrl)}" target="_blank" rel="noopener">Solo</a>
         </div>
       </article>`;
   }
@@ -330,7 +324,6 @@
     columnSort = null;
     els.available.checked = false;
     els.favouritesOnly.checked = false;
-    if (els.dropped) els.dropped.checked = false;
     if (els.lowestRecorded) els.lowestRecorded.checked = false;
     applyFilters();
   }
